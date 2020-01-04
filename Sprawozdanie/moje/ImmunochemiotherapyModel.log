@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6500) (preloaded format=pdflatex 2017.12.11)  3 JAN 2020 21:57
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6500) (preloaded format=pdflatex 2017.12.11)  4 JAN 2020 16:03
 entering extended mode
 **./ImmunochemiotherapyModel.tex
 (ImmunochemiotherapyModel.tex
@@ -419,8 +419,7 @@ Package: `anysize' 1.0 <1994/08/13>
 \@Rightmargin=\dimen132
 \@Topmargin=\dimen133
 \@Bottommargin=\dimen134
-)
-No file ImmunochemiotherapyModel.aux.
+) (ImmunochemiotherapyModel.aux)
 \openout1 = `ImmunochemiotherapyModel.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 11.
@@ -439,6 +438,7 @@ LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 11.
 LaTeX Font Info:    ... okay on input line 11.
 LaTeX Font Info:    Checking defaults for OT4/cmr/m/n on input line 11.
 LaTeX Font Info:    Try loading font information for OT4+cmr on input line 11.
+
 (C:\Users\Ania\AppData\Roaming\MiKTeX\2.9\tex\latex\polski\ot4cmr.fd
 File: ot4cmr.fd 2008/02/24 v1.2.1 Font defs for fonts PL (MW)
 )
@@ -493,6 +493,8 @@ Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 LaTeX Info: Redefining \ref on input line 11.
 LaTeX Info: Redefining \pageref on input line 11.
 LaTeX Info: Redefining \nameref on input line 11.
+
+(ImmunochemiotherapyModel.out) (ImmunochemiotherapyModel.out)
 \@outlinefile=\write3
 \openout3 = `ImmunochemiotherapyModel.out'.
 
@@ -502,67 +504,68 @@ Package caption Info: float package is loaded.
 Package caption Info: listings package is loaded.
 Package caption Info: End \AtBeginDocument code.
 \c@lstlisting=\count171
-
-[1
+ [1
 
 
 ] [2
 
 ]
+(ImmunochemiotherapyModel.toc
+LaTeX Font Info:    Try loading font information for OML+plm on input line 1.
+
+(C:\Users\Ania\AppData\Roaming\MiKTeX\2.9\tex\latex\polski\omlplm.fd
+File: omlplm.fd 2008/02/24 v1.2.1 Font defs for fonts PL (MW)
+)
+LaTeX Font Info:    Try loading font information for OMS+plsy on input line 1.
+
+(C:\Users\Ania\AppData\Roaming\MiKTeX\2.9\tex\latex\polski\omsplsy.fd
+File: omsplsy.fd 2008/02/24 v1.2.1 Font defs for fonts PL (MW)
+)
+LaTeX Font Info:    Try loading font information for OMX+plex on input line 1.
+
+(C:\Users\Ania\AppData\Roaming\MiKTeX\2.9\tex\latex\polski\omxplex.fd
+File: omxplex.fd 2008/02/24 v1.2.1 Font defs for fonts PL (MW)
+)
+LaTeX Font Info:    External font `plex10' loaded for size
+(Font)              <12> on input line 1.
+LaTeX Font Info:    External font `plex10' loaded for size
+(Font)              <8> on input line 1.
+LaTeX Font Info:    External font `plex10' loaded for size
+(Font)              <6> on input line 1.
+LaTeX Font Info:    Try loading font information for U+msa on input line 1.
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd"
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Try loading font information for U+msb on input line 1.
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+))
 \tf@toc=\write4
 \openout4 = `ImmunochemiotherapyModel.toc'.
 
  [1
 
 
-{C:/Users/Ania/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
-[2
+{C:/Users/Ania/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}] [2
 
 ]
+(ImmunochemiotherapyModel.lof)
 \tf@lof=\write5
 \openout5 = `ImmunochemiotherapyModel.lof'.
 
  [3] [4
 
-]
+] (ImmunochemiotherapyModel.lot)
 \tf@lot=\write6
 \openout6 = `ImmunochemiotherapyModel.lot'.
 
- [5] [6
+ [5]
+[6
 
-] (Rozdzialy.tex
-LaTeX Font Info:    Try loading font information for OML+plm on input line 3.
-
-(C:\Users\Ania\AppData\Roaming\MiKTeX\2.9\tex\latex\polski\omlplm.fd
-File: omlplm.fd 2008/02/24 v1.2.1 Font defs for fonts PL (MW)
-)
-LaTeX Font Info:    Try loading font information for OMS+plsy on input line 3.
-
-(C:\Users\Ania\AppData\Roaming\MiKTeX\2.9\tex\latex\polski\omsplsy.fd
-File: omsplsy.fd 2008/02/24 v1.2.1 Font defs for fonts PL (MW)
-)
-LaTeX Font Info:    Try loading font information for OMX+plex on input line 3.
-
-(C:\Users\Ania\AppData\Roaming\MiKTeX\2.9\tex\latex\polski\omxplex.fd
-File: omxplex.fd 2008/02/24 v1.2.1 Font defs for fonts PL (MW)
-)
-LaTeX Font Info:    External font `plex10' loaded for size
-(Font)              <12> on input line 3.
-LaTeX Font Info:    External font `plex10' loaded for size
-(Font)              <8> on input line 3.
-LaTeX Font Info:    External font `plex10' loaded for size
-(Font)              <6> on input line 3.
-LaTeX Font Info:    Try loading font information for U+msa on input line 3.
-
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd"
-File: umsa.fd 2013/01/14 v3.01 AMS symbols A
-)
-LaTeX Font Info:    Try loading font information for U+msb on input line 3.
-
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
-File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-)pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has
- been already used, duplicate ignored
+] (Rozdzialy.texpdfTeX warning (ext4): destination with the same identifier (na
+me{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.17 \chapter
@@ -594,25 +597,16 @@ LaTeX Warning: Citation `Gonzalez' on page 3 undefined on input line 26.
 
 [3] [4]
 Rozdzia\PlPrIeC {\l } 2.
-
-LaTeX Warning: Reference `f1' on page 5 undefined on input line 53.
-
-<./rysunki/logoPS.png, id=76, 354.6048pt x 354.8457pt>
+<./rysunki/logoPS.png, id=168, 354.6048pt x 354.8457pt>
 File: ./rysunki/logoPS.png Graphic file (type png)
 <use ./rysunki/logoPS.png>
 Package pdftex.def Info: ./rysunki/logoPS.png  used on input line 56.
 (pdftex.def)             Requested size: 198.45662pt x 198.59311pt.
-<./rysunki/logoRIB.png, id=77, 352.4367pt x 352.4367pt>
+<./rysunki/logoRIB.png, id=169, 352.4367pt x 352.4367pt>
 File: ./rysunki/logoRIB.png Graphic file (type png)
 <use ./rysunki/logoRIB.png>
 Package pdftex.def Info: ./rysunki/logoRIB.png  used on input line 57.
 (pdftex.def)             Requested size: 198.45662pt x 198.46027pt.
-
-LaTeX Warning: Reference `sub@f1:c1' on page 5 undefined on input line 58.
-
-
-LaTeX Warning: Reference `sub@f1:c1' on page 5 undefined on input line 58.
-
 [5
 
  <./rysunki/logoPS.png> <./rysunki/logoRIB.png>] [6
@@ -658,10 +652,6 @@ Rozdzia\PlPrIeC {\l } 6.
 
 ] [15] [16] (Dodatek_A.tex
 Rozdzia\PlPrIeC {\l } A.
-
-LaTeX Warning: Reference `Chapter_Metodologia' on page 17 undefined on input li
-ne 2.
-
 LaTeX Font Info:    Try loading font information for OT4+cmtt on input line 2.
 (C:\Users\Ania\AppData\Roaming\MiKTeX\2.9\tex\latex\polski\ot4cmtt.fd
 File: ot4cmtt.fd 2008/02/24 v1.2.1 Font defs for fonts PL (MW)
@@ -682,14 +672,6 @@ ine 2.
 
 ]
 Rozdzia\PlPrIeC {\l } B.
-
-LaTeX Warning: Reference `Wzor_Dodawanie' on page 19 undefined on input line 8.
-
-
-
-LaTeX Warning: Reference `Rysunek_LogoIB' on page 19 undefined on input line 33
-.
-
 File: ./rysunki/logoRIB.png Graphic file (type png)
 <use ./rysunki/logoRIB.png>
 Package pdftex.def Info: ./rysunki/logoRIB.png  used on input line 36.
@@ -700,10 +682,6 @@ Overfull \hbox (23.00061pt too wide) in paragraph at lines 33--39
 T4/cmr/m/n/12 , cen-tru-j¡c je w po-zio-mie ko-men-d¡ \OT4/cmtt/m/n/12 centerin
 g\OT4/cmr/m/n/12 .
  []
-
-
-LaTeX Warning: Reference `Tabelka_Tabela' on page 19 undefined on input line 43
-.
 
 [19] [20]
 Rozdzia\PlPrIeC {\l } C.
@@ -719,32 +697,23 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 41.
 (ImmunochemiotherapyModel.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 41.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 41.
+Package rerunfilecheck Info: File `ImmunochemiotherapyModel.out' has not change
+d.
+(rerunfilecheck)             Checksum: 48CEBA8E953AD584E1C2CA721B3045D4;1027.
 
-
-Package rerunfilecheck Warning: File `ImmunochemiotherapyModel.out' has changed
-.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `ImmunochemiotherapyModel.out':
-(rerunfilecheck)             Before: <no file>
-(rerunfilecheck)             After:  48CEBA8E953AD584E1C2CA721B3045D4;1027.
 
 LaTeX Warning: There were undefined references.
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 41.
  ) 
 Here is how much of TeX's memory you used:
- 9601 strings out of 493312
- 141845 string characters out of 3136354
+ 9630 strings out of 493312
+ 142976 string characters out of 3136354
  249698 words of memory out of 3000000
- 12903 multiletter control sequences out of 15000+200000
- 20812 words of font info for 60 fonts, out of 3000000 for 9000
+ 12920 multiletter control sequences out of 15000+200000
+ 20306 words of font info for 59 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 46i,12n,49p,644b,1416s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 46i,12n,49p,646b,1416s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Users/Ania/AppData/Roaming/MiKTeX/2.9/fonts/enc/dvips/pl/plms.enc}{C:/Use
 rs/Ania/AppData/Roaming/MiKTeX/2.9/fonts/enc/dvips/pl/plmi.enc}{C:/Users/Ania/A
 ppData/Roaming/MiKTeX/2.9/fonts/enc/dvips/pl/plme.enc}{C:/Users/Ania/AppData/Ro
@@ -767,9 +736,9 @@ MiKTeX/2.9/fonts/type1/public/pl/plsy10.pfb><C:/Users/Ania/AppData/Roaming/MiKT
 eX/2.9/fonts/type1/public/pl/plsy8.pfb><C:/Users/Ania/AppData/Roaming/MiKTeX/2.
 9/fonts/type1/public/pl/plti12.pfb><C:/Users/Ania/AppData/Roaming/MiKTeX/2.9/fo
 nts/type1/public/pl/pltt12.pfb>
-Output written on ImmunochemiotherapyModel.pdf (29 pages, 631818 bytes).
+Output written on ImmunochemiotherapyModel.pdf (29 pages, 648312 bytes).
 PDF statistics:
- 272 PDF objects out of 1000 (max. 8388607)
+ 352 PDF objects out of 1000 (max. 8388607)
  75 named destinations out of 1000 (max. 500000)
- 11 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 147 words of extra memory for PDF output out of 10000 (max. 10000000)
 
