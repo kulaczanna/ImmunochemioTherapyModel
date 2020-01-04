@@ -1,17 +1,38 @@
-\BOOKMARK [0][-]{chapter.1}{Wstep}{}% 1
-\BOOKMARK [1][-]{section.1.1}{Rozwiazania alternatywne}{chapter.1}% 2
-\BOOKMARK [1][-]{section.1.2}{Cel pracy}{chapter.1}% 3
-\BOOKMARK [1][-]{section.1.3}{Uk\233ad pracy}{chapter.1}% 4
-\BOOKMARK [0][-]{chapter.2}{Metodologia}{}% 5
-\BOOKMARK [1][-]{section.2.1}{Problem 1}{chapter.2}% 6
-\BOOKMARK [0][-]{chapter.3}{Czesc konstrukcyjna/Specyfikacja wewnetrzna}{}% 7
-\BOOKMARK [1][-]{section.3.1}{Specyfikacja interfejsu programistycznego}{chapter.3}% 8
-\BOOKMARK [0][-]{chapter.4}{Instrukcja obs\233ugi/Specyfikacja zewnetrzna}{}% 9
-\BOOKMARK [0][-]{chapter.5}{Rezultaty}{}% 10
-\BOOKMARK [0][-]{chapter.6}{Podsumowanie}{}% 11
-\BOOKMARK [-1][-]{part*.6}{Dodatek}{}% 12
-\BOOKMARK [0][-]{appendix.A}{Dodatek A}{part*.6}% 13
-\BOOKMARK [0][-]{appendix.B}{Dodatek B}{part*.6}% 14
-\BOOKMARK [1][-]{section.B.1}{Wstawianie rysunk\363w}{appendix.B}% 15
-\BOOKMARK [1][-]{section.B.2}{Wstawianie tabelek}{appendix.B}% 16
-\BOOKMARK [0][-]{appendix.C}{Kwestie edytorskie}{part*.6}% 17
+\BOOKMARK [0][-]{chapter.1}{Wprowadzenie}{}% 1
+\BOOKMARK [1][-]{section.1.1}{Streszczenie}{chapter.1}% 2
+\BOOKMARK [1][-]{section.1.2}{Abstract}{chapter.1}% 3
+\BOOKMARK [1][-]{section.1.3}{Cel pracy}{chapter.1}% 4
+\BOOKMARK [1][-]{section.1.4}{Uk\233ad pracy}{chapter.1}% 5
+\BOOKMARK [0][-]{chapter.2}{Wstep}{}% 6
+\BOOKMARK [1][-]{section.2.1}{Nowotwory}{chapter.2}% 7
+\BOOKMARK [2][-]{subsection.2.1.1}{Rozw\363j nowotwor\363w}{section.2.1}% 8
+\BOOKMARK [2][-]{subsection.2.1.2}{Rodzaje nowotwor\363w}{section.2.1}% 9
+\BOOKMARK [1][-]{section.2.2}{Sposoby leczenia nowotwor\363w}{chapter.2}% 10
+\BOOKMARK [2][-]{subsection.2.2.1}{Znaczenie uk\233adu immunologicznego}{section.2.2}% 11
+\BOOKMARK [2][-]{subsection.2.2.2}{Immunoterapia}{section.2.2}% 12
+\BOOKMARK [2][-]{subsection.2.2.3}{Chemioterapia}{section.2.2}% 13
+\BOOKMARK [2][-]{subsection.2.2.4}{Chemioimmunoterapia}{section.2.2}% 14
+\BOOKMARK [1][-]{section.2.3}{Odniesienie do literatury}{chapter.2}% 15
+\BOOKMARK [2][-]{subsection.2.3.1}{Alternatywne modele}{section.2.3}% 16
+\BOOKMARK [0][-]{chapter.3}{Model}{}% 17
+\BOOKMARK [1][-]{section.3.1}{Opis modelu}{chapter.3}% 18
+\BOOKMARK [1][-]{section.3.2}{Za\233ozenia modelu}{chapter.3}% 19
+\BOOKMARK [1][-]{section.3.3}{R\363wnania modelu}{chapter.3}% 20
+\BOOKMARK [1][-]{section.3.4}{Parametry modelu}{chapter.3}% 21
+\BOOKMARK [0][-]{chapter.4}{Specyfikacja wewnetrzna}{}% 22
+\BOOKMARK [0][-]{chapter.5}{Specyfikacja zewnetrzna}{}% 23
+\BOOKMARK [0][-]{chapter.6}{Symulacje}{}% 24
+\BOOKMARK [1][-]{section.6.1}{Scenariusz I}{chapter.6}% 25
+\BOOKMARK [1][-]{section.6.2}{Scenariusz II}{chapter.6}% 26
+\BOOKMARK [1][-]{section.6.3}{Scenariusz III}{chapter.6}% 27
+\BOOKMARK [1][-]{section.6.4}{Scenariusz IV}{chapter.6}% 28
+\BOOKMARK [1][-]{section.6.5}{Scenariusz V}{chapter.6}% 29
+\BOOKMARK [0][-]{chapter.7}{Rezultaty}{}% 30
+\BOOKMARK [0][-]{chapter.8}{Analiza wynik\363w}{}% 31
+\BOOKMARK [0][-]{chapter.9}{Podsumowanie}{}% 32
+\BOOKMARK [-1][-]{part*.9}{Dodatek}{}% 33
+\BOOKMARK [0][-]{appendix.A}{Dodatek A}{part*.9}% 34
+\BOOKMARK [0][-]{appendix.B}{Dodatek B}{part*.9}% 35
+\BOOKMARK [1][-]{section.B.1}{Wstawianie rysunk\363w}{appendix.B}% 36
+\BOOKMARK [1][-]{section.B.2}{Wstawianie tabelek}{appendix.B}% 37
+\BOOKMARK [0][-]{appendix.C}{Kwestie edytorskie}{part*.9}% 38
