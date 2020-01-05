@@ -3,11 +3,30 @@
 W pracy przedstawiono model opisuj¹cy leczenie nowotworu skojarzonymi metodami immunoterapii i chemioterapii. Model ten oparty jest na modelu de Pillis'a oraz modelu Isaeva i Osiopov'a \cite{1}. Uwzglêdnia on rozwój komórek nowotworowych w organizmie, odpowiedŸ uk³adu immunologicznego -- limfocytów naciekaj¹cych nowotwór (TIL), komórek naturalnie bójczych (limfocytów NK), limfocytów CD8+ -- na nowotwór oraz leczenie metod¹ chemioterapii i immunoterapii z u¿yciem cytokin: interleukin-2(IL-2) i interferonów alpha (INF-$\alpha$).
 \section{Abstract}
 \section{Cel pracy}
+Celem pracy by³o:
+\begin{itemize}
+\item utworzenie modelu rozwoju nowotworu w organizmie z uwzglêdnieniem leczenia skojarzonymi metodami chemioterapii i immunoterapii,
+\item przeprowadzenie symulacji leczenia nowotworu metod¹ chemioterapii, immunoterapii oraz skojarzonych metod chemioterapii i immunoterapii,
+\item analiza rozwi¹zañ modelu opisuj¹cego leczenie wy³¹cznie metod¹ chemioterapii,
+\item analiza rozwi¹zañ modelu opisuj¹cego leczenie wy³¹cznie metod¹ immunoterapii,
+\item analiza rozwi¹zañ modelu opisuj¹cego leczenie zarówno metod¹ chemioterapii, jak i immunoterapii.
+\end{itemize}
+
 \section{Uk³ad pracy}
+Praca sk³ada siê z nastêpuj¹cych czêœci:
+\begin{itemize}
+\item wstêpu teoretycznego zawieraj¹cego informacje na temat rodzajów i sposobów rozwoju nowotworów oraz niektórych metod ich leczenia, a tak¿e dotycz¹cych budowy i sposobu dzia³ania uk³adu immunologicznego,
+\item przedstawienia zaimplementowanego modelu, na którym przeprowadzano symulacje,
+\item opisu dokonanych symulacji i scenariuszy, wed³ug których zosta³y przeprowadzone,
+\item analizy wyników symulacji i wynikaj¹cych z nich wniosków,
+\item podsumowania.
+\end{itemize}
 
 \chapter{Wstêp}
 \section{Nowotwory}
 \subsection{Rozwój nowotworów}
+
+
 \subsection{Rodzaje nowotworów}
 
 \section{Sposoby leczenia nowotworów}
@@ -31,6 +50,20 @@ W pracy przedstawiono model opisuj¹cy leczenie nowotworu skojarzonymi metodami i
 \chapter{Model}
 \section{Opis modelu}
 \section{Za³o¿enia modelu}
+\begin{enumerate}
+\item W przypadku braku odpowiedzi uk³adu immunologicznego liczba komórek nowotworowych wzrasta logistycznie.
+\item Limfocyty NK i T CD8+ s¹ zdolne zniszczyæ komórki nowotworu.
+\item Pod wp³ywem komórek nowotworowych limfocyty NK i T CD8+ ulegaj¹ rozszerzeniu siê oraz wzrasta ich aktywnoœæ cytolityczna.
+\item Limfocyty NK s¹ zawsze obecne w organizmie, tak¿e w przypadku braku wystêpowania komórek nowotworowych.
+\item Jako czêœæ specyficznej odpowiedzi immunologicznej aktywne limfocyty T CD8+ s¹ obecne w du¿ej liczbie tylko w przypadku obecnoœci komórek nowotworowych.
+\item Limfocyty NK i T CD8+ ulegaj¹ ca³kowitej dezaktywacji po pewnej iloœci interakcji z komórkami nowotworowymi.
+\item Komórki nowotworowe dezaktywuj¹ siê pod wp³ywem interferonów $\alpha$.
+\item Poziom kr¹¿¹cych limfocytów mo¿e s³u¿yæ do oceny zdrowia pacjenta.
+\item Odsetek komórek nowotworowych zabitych w wyniku chemioterapii zale¿y od iloœci leku obecnego w organizmie. Maksymalny odsetek zabitych komórek wynosi mniej ni¿ 1 -- pokonanie komórek nowotworowych wskutek chemioterapii jest mo¿liwe tylko na niektórych etapach ich rozwoju.
+\item Czêœæ limfocytów NK, T CD8+ i kr¹¿¹cych jest równie¿ zabijana podczas chemioterapii, zgodnie z krzyw¹ zabijania.
+\item Limfocyty NK i T CD8+ uczestnicz¹ w procesie stymulacji i eliminacji aktywowanych komórek (efektorów); uproszczony model ma odzwierciedlaæ samoreguluj¹cy charakter uk³adu immunologicznego.
+\end{enumerate}
+
 \section{Równania modelu}
 
 \begin{equation}\label{r_tumor}
@@ -91,7 +124,8 @@ c'=c_{CTL}(2-e^{\frac{I_{\alpha}}{I_{\alpha 0}}})
 
 \begin{thebibliography}{9}
 \bibitem{1} "Mathematical Model of Cancer Treatments Using Immunotherapy, Chemotherapy and Biochemotherapy", Mustafa Mamat, Subiyanto i Agus Kartono
-\bibitem{2} 
+\bibitem{2} R. Tadeusiewicz, ,,Biocybernetyka. Metodologiczne podstawy dla in¿ynierii biomedycznej.”,
+PWN 2013
 \bibitem{3} 
 \bibitem{4} 
 \bibitem{5} 
