@@ -3,41 +3,42 @@
 \contentsline {section}{\numberline {1.2}Abstract}{1}{section.1.2}
 \contentsline {section}{\numberline {1.3}Cel pracy}{1}{section.1.3}
 \contentsline {section}{\numberline {1.4}Uk\IeC {\l }ad pracy}{1}{section.1.4}
-\contentsline {chapter}{\numberline {2.}Wst\k ep}{3}{chapter.2}
-\contentsline {section}{\numberline {2.1}Nowotwory}{3}{section.2.1}
-\contentsline {subsection}{\numberline {2.1.1}Rozw\'oj nowotwor\'ow}{3}{subsection.2.1.1}
-\contentsline {subsection}{\numberline {2.1.2}Rodzaje nowotwor\'ow}{3}{subsection.2.1.2}
-\contentsline {section}{\numberline {2.2}Sposoby leczenia nowotwor\'ow}{3}{section.2.2}
-\contentsline {subsection}{\numberline {2.2.1}Znaczenie uk\IeC {\l }adu immunologicznego}{3}{subsection.2.2.1}
-\contentsline {subsubsection}{T-Cells CD8+}{3}{section*.4}
-\contentsline {subsubsection}{NK}{3}{section*.5}
-\contentsline {subsubsection}{tumor infiltrating lymphocytes (TIL)}{3}{section*.6}
-\contentsline {subsection}{\numberline {2.2.2}Immunoterapia}{3}{subsection.2.2.2}
-\contentsline {subsubsection}{interleukins-2 (IL-2)}{3}{section*.7}
-\contentsline {subsubsection}{interferon alpha (INF-$\alpha $)}{3}{section*.8}
-\contentsline {subsection}{\numberline {2.2.3}Chemioterapia}{3}{subsection.2.2.3}
-\contentsline {subsection}{\numberline {2.2.4}Chemioimmunoterapia}{3}{subsection.2.2.4}
-\contentsline {section}{\numberline {2.3}Odniesienie do literatury}{3}{section.2.3}
-\contentsline {subsection}{\numberline {2.3.1}Alternatywne modele}{3}{subsection.2.3.1}
-\contentsline {chapter}{\numberline {3.}Model}{5}{chapter.3}
-\contentsline {section}{\numberline {3.1}Opis modelu}{5}{section.3.1}
-\contentsline {section}{\numberline {3.2}Za\IeC {\l }o\.zenia modelu}{5}{section.3.2}
-\contentsline {section}{\numberline {3.3}R\'ownania modelu}{5}{section.3.3}
-\contentsline {section}{\numberline {3.4}Parametry modelu}{5}{section.3.4}
-\contentsline {chapter}{\numberline {4.}Specyfikacja wewn\k etrzna}{7}{chapter.4}
-\contentsline {chapter}{\numberline {5.}Specyfikacja zewn\k etrzna}{9}{chapter.5}
-\contentsline {chapter}{\numberline {6.}Symulacje}{11}{chapter.6}
-\contentsline {section}{\numberline {6.1}Scenariusz I}{11}{section.6.1}
-\contentsline {section}{\numberline {6.2}Scenariusz II}{11}{section.6.2}
-\contentsline {section}{\numberline {6.3}Scenariusz III}{11}{section.6.3}
-\contentsline {section}{\numberline {6.4}Scenariusz IV}{11}{section.6.4}
-\contentsline {section}{\numberline {6.5}Scenariusz V}{11}{section.6.5}
-\contentsline {chapter}{\numberline {7.}Rezultaty}{13}{chapter.7}
-\contentsline {chapter}{\numberline {8.}Analiza wynik\'ow}{15}{chapter.8}
-\contentsline {chapter}{\numberline {9.}Podsumowanie}{17}{chapter.9}
-\contentsline {part}{Dodatek}{19}{part*.9}
-\contentsline {chapter}{\numberline {A.}Dodatek A}{21}{appendix.A}
-\contentsline {chapter}{\numberline {B.}Dodatek B}{23}{appendix.B}
-\contentsline {section}{\numberline {B.1}Wstawianie rysunk\'ow}{23}{section.B.1}
-\contentsline {section}{\numberline {B.2}Wstawianie tabelek}{23}{section.B.2}
-\contentsline {chapter}{\numberline {C.}Kwestie edytorskie}{25}{appendix.C}
+\contentsline {chapter}{\numberline {2.}Wst\k ep}{2}{chapter.2}
+\contentsline {section}{\numberline {2.1}Nowotwory}{2}{section.2.1}
+\contentsline {subsection}{\numberline {2.1.1}Rozw\'oj nowotwor\'ow}{2}{subsection.2.1.1}
+\contentsline {subsection}{\numberline {2.1.2}Rodzaje nowotwor\'ow}{2}{subsection.2.1.2}
+\contentsline {section}{\numberline {2.2}Sposoby leczenia nowotwor\'ow}{2}{section.2.2}
+\contentsline {subsection}{\numberline {2.2.1}Znaczenie uk\IeC {\l }adu immunologicznego}{2}{subsection.2.2.1}
+\contentsline {subsubsection}{Budowa uk\IeC {\l }adu immunologicznego}{2}{section*.4}
+\contentsline {subsubsection}{Limfocyty T-Cells CD8+}{2}{section*.5}
+\contentsline {subsubsection}{Limfocyty NK}{2}{section*.6}
+\contentsline {subsubsection}{tumor infiltrating lymphocytes (TIL)}{2}{section*.7}
+\contentsline {subsection}{\numberline {2.2.2}Immunoterapia}{2}{subsection.2.2.2}
+\contentsline {subsubsection}{interleukins-2 (IL-2)}{2}{section*.8}
+\contentsline {subsubsection}{interferon alpha (INF-$\alpha $)}{2}{section*.9}
+\contentsline {subsection}{\numberline {2.2.3}Chemioterapia}{2}{subsection.2.2.3}
+\contentsline {subsection}{\numberline {2.2.4}Chemioimmunoterapia}{2}{subsection.2.2.4}
+\contentsline {section}{\numberline {2.3}Odniesienie do literatury}{2}{section.2.3}
+\contentsline {subsection}{\numberline {2.3.1}Alternatywne modele}{2}{subsection.2.3.1}
+\contentsline {chapter}{\numberline {3.}Model}{3}{chapter.3}
+\contentsline {section}{\numberline {3.1}Opis modelu}{3}{section.3.1}
+\contentsline {section}{\numberline {3.2}Za\IeC {\l }o\.zenia modelu}{3}{section.3.2}
+\contentsline {section}{\numberline {3.3}R\'ownania modelu}{3}{section.3.3}
+\contentsline {section}{\numberline {3.4}Parametry modelu}{3}{section.3.4}
+\contentsline {chapter}{\numberline {4.}Specyfikacja wewn\k etrzna}{4}{chapter.4}
+\contentsline {chapter}{\numberline {5.}Specyfikacja zewn\k etrzna}{5}{chapter.5}
+\contentsline {chapter}{\numberline {6.}Symulacje}{6}{chapter.6}
+\contentsline {section}{\numberline {6.1}Scenariusz I}{6}{section.6.1}
+\contentsline {section}{\numberline {6.2}Scenariusz II}{6}{section.6.2}
+\contentsline {section}{\numberline {6.3}Scenariusz III}{6}{section.6.3}
+\contentsline {section}{\numberline {6.4}Scenariusz IV}{6}{section.6.4}
+\contentsline {section}{\numberline {6.5}Scenariusz V}{6}{section.6.5}
+\contentsline {chapter}{\numberline {7.}Rezultaty}{7}{chapter.7}
+\contentsline {chapter}{\numberline {8.}Analiza wynik\'ow}{8}{chapter.8}
+\contentsline {chapter}{\numberline {9.}Podsumowanie}{9}{chapter.9}
+\contentsline {part}{Dodatek}{11}{part*.11}
+\contentsline {chapter}{\numberline {A.}Dodatek A}{12}{appendix.A}
+\contentsline {chapter}{\numberline {B.}Dodatek B}{13}{appendix.B}
+\contentsline {section}{\numberline {B.1}Wstawianie rysunk\'ow}{13}{section.B.1}
+\contentsline {section}{\numberline {B.2}Wstawianie tabelek}{13}{section.B.2}
+\contentsline {chapter}{\numberline {C.}Kwestie edytorskie}{15}{appendix.C}
