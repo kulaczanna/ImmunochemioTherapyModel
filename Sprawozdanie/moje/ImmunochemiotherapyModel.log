@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6500) (preloaded format=pdflatex 2017.12.11)  5 JAN 2020 23:13
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6500) (preloaded format=pdflatex 2017.12.11)  6 JAN 2020 13:54
 entering extended mode
 **./ImmunochemiotherapyModel.tex
 (ImmunochemiotherapyModel.tex
@@ -577,42 +577,42 @@ Rozdzia\PlPrIeC {\l } 1.
 Rozdzia\PlPrIeC {\l } 2.
 [3
 
-]
+] [4]
 Rozdzia\PlPrIeC {\l } 3.
-[4
+[5
 
-] [5]
+] [6]
 Rozdzia\PlPrIeC {\l } 4.
-[6
-
-]
-Rozdzia\PlPrIeC {\l } 5.
 [7
 
 ]
-Rozdzia\PlPrIeC {\l } 6.
+Rozdzia\PlPrIeC {\l } 5.
 [8
 
 ]
-Rozdzia\PlPrIeC {\l } 7.
+Rozdzia\PlPrIeC {\l } 6.
 [9
 
 ]
-Rozdzia\PlPrIeC {\l } 8.
+Rozdzia\PlPrIeC {\l } 7.
 [10
 
 ]
-Rozdzia\PlPrIeC {\l } 9.
+Rozdzia\PlPrIeC {\l } 8.
 [11
 
-]) [12
+]
+Rozdzia\PlPrIeC {\l } 9.
+[12
 
-] [13
+]) [13
+
+] [14
 
 ] (Dodatek_A.tex
 Rozdzia\PlPrIeC {\l } A.
 
-LaTeX Warning: Reference `Chapter_Metodologia' on page 14 undefined on input li
+LaTeX Warning: Reference `Chapter_Metodologia' on page 15 undefined on input li
 ne 2.
 
 LaTeX Font Info:    Try loading font information for OT4+cmtt on input line 2.
@@ -620,16 +620,16 @@ LaTeX Font Info:    Try loading font information for OT4+cmtt on input line 2.
 File: ot4cmtt.fd 2008/02/24 v1.2.1 Font defs for fonts PL (MW)
 )
 
-LaTeX Warning: Citation `Tadeusiewicz' on page 14 undefined on input line 2.
+LaTeX Warning: Citation `Tadeusiewicz' on page 15 undefined on input line 2.
 
 
-LaTeX Warning: Citation `Malina' on page 14 undefined on input line 2.
+LaTeX Warning: Citation `Malina' on page 15 undefined on input line 2.
 
 
-LaTeX Warning: Citation `Nieniewski_Morfologia' on page 14 undefined on input l
+LaTeX Warning: Citation `Nieniewski_Morfologia' on page 15 undefined on input l
 ine 2.
 
-[14
+[15
 
 ]
 Rozdzia\PlPrIeC {\l } B.
@@ -645,14 +645,14 @@ T4/cmr/m/n/12 , cen-tru-j¡c je w po-zio-mie ko-men-d¡ \OT4/cmtt/m/n/12 centerin
 g\OT4/cmr/m/n/12 .
  []
 
-[15
+[16
 
-] [16 <./rysunki/logoRIB.png>]
+] [17 <./rysunki/logoRIB.png>]
 Rozdzia\PlPrIeC {\l } C.
 
-LaTeX Warning: Citation `Chwalowski' on page 17 undefined on input line 59.
+LaTeX Warning: Citation `Chwalowski' on page 18 undefined on input line 59.
 
-) [17
+) [18
 
 ]
 No file ImmunochemiotherapyModel.bbl.
@@ -667,7 +667,7 @@ Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 41.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 41.
 Package rerunfilecheck Info: File `ImmunochemiotherapyModel.out' has not change
 d.
-(rerunfilecheck)             Checksum: CC7769B56C24F43854335B96B7D4D372;2328.
+(rerunfilecheck)             Checksum: 5A9F6170BF90C338221E998F720836FB;2174.
 
 
 LaTeX Warning: There were undefined references.
@@ -678,13 +678,13 @@ LaTeX Warning: There were multiply-defined labels.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 41.
  ) 
 Here is how much of TeX's memory you used:
- 9313 strings out of 493312
- 139997 string characters out of 3136354
+ 9310 strings out of 493312
+ 139936 string characters out of 3136354
  249577 words of memory out of 3000000
- 12591 multiletter control sequences out of 15000+200000
+ 12589 multiletter control sequences out of 15000+200000
  15063 words of font info for 43 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 46i,12n,42p,646b,387s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 46i,12n,42p,1402b,387s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Users/Ania/AppData/Roaming/MiKTeX/2.9/fonts/enc/dvips/pl/plrm.enc}{C:/Use
 rs/Ania/AppData/Roaming/MiKTeX/2.9/fonts/enc/dvips/pl/plit.enc}{C:/Users/Ania/A
 ppData/Roaming/MiKTeX/2.9/fonts/enc/dvips/pl/plme.enc}{C:/Users/Ania/AppData/Ro
@@ -706,9 +706,9 @@ ming/MiKTeX/2.9/fonts/type1/public/pl/plsl12.pfb><C:/Users/Ania/AppData/Roaming
 TeX/2.9/fonts/type1/public/pl/plsy8.pfb><C:/Users/Ania/AppData/Roaming/MiKTeX/2
 .9/fonts/type1/public/pl/plti12.pfb><C:/Users/Ania/AppData/Roaming/MiKTeX/2.9/f
 onts/type1/public/pl/pltt12.pfb>
-Output written on ImmunochemiotherapyModel.pdf (21 pages, 425368 bytes).
+Output written on ImmunochemiotherapyModel.pdf (22 pages, 427627 bytes).
 PDF statistics:
- 433 PDF objects out of 1000 (max. 8388607)
- 108 named destinations out of 1000 (max. 500000)
- 310 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 432 PDF objects out of 1000 (max. 8388607)
+ 107 named destinations out of 1000 (max. 500000)
+ 294 words of extra memory for PDF output out of 10000 (max. 10000000)
 
