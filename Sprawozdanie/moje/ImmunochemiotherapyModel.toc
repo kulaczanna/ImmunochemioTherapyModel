@@ -10,24 +10,27 @@
 \contentsline {subsubsection}{Budowa uk\IeC {\l }adu immunologicznego}{3}{section*.4}
 \contentsline {subsubsection}{Limfocyty T CD8+}{4}{section*.6}
 \contentsline {subsubsection}{Kom\'orki NK}{5}{section*.7}
-\contentsline {subsubsection}{Limfocyty naciekaj\k ace nowotw\'or (TIL)}{5}{section*.8}
-\contentsline {subsection}{\numberline {2.2.2}Immunoterapia}{5}{subsection.2.2.2}
-\contentsline {subsubsection}{interleukins-2 (IL-2)}{5}{section*.9}
-\contentsline {subsubsection}{interferon alpha (INF-$\alpha $)}{5}{section*.10}
-\contentsline {subsection}{\numberline {2.2.3}Chemioterapia}{5}{subsection.2.2.3}
-\contentsline {subsection}{\numberline {2.2.4}Chemioimmunoterapia}{5}{subsection.2.2.4}
-\contentsline {section}{\numberline {2.3}Odniesienie do literatury}{5}{section.2.3}
-\contentsline {subsection}{\numberline {2.3.1}Alternatywne modele}{5}{subsection.2.3.1}
-\contentsline {chapter}{\numberline {3.}Model}{6}{chapter.3}
-\contentsline {section}{\numberline {3.1}Opis modelu}{6}{section.3.1}
-\contentsline {section}{\numberline {3.2}Za\IeC {\l }o\.zenia modelu}{6}{section.3.2}
-\contentsline {section}{\numberline {3.3}R\'ownania modelu}{7}{section.3.3}
-\contentsline {section}{\numberline {3.4}Parametry modelu}{7}{section.3.4}
-\contentsline {chapter}{\numberline {4.}Symulacje}{8}{chapter.4}
-\contentsline {section}{\numberline {4.1}Brak leczenia}{8}{section.4.1}
-\contentsline {section}{\numberline {4.2}Leczenie metod\k a immunoterapii}{8}{section.4.2}
-\contentsline {section}{\numberline {4.3}Leczenie metod\k a chemioterapii}{8}{section.4.3}
-\contentsline {section}{\numberline {4.4}Po\IeC {\l }\k aczenie metod immunoterapii i chemioterapii}{8}{section.4.4}
-\contentsline {chapter}{\numberline {5.}Rezultaty}{9}{chapter.5}
-\contentsline {chapter}{\numberline {6.}Analiza wynik\'ow}{10}{chapter.6}
-\contentsline {chapter}{\numberline {7.}Podsumowanie}{11}{chapter.7}
+\contentsline {subsubsection}{Interferony}{5}{section*.8}
+\contentsline {subsubsection}{Interleukiny}{6}{section*.9}
+\contentsline {subsection}{\numberline {2.2.2}Immunoterapia}{6}{subsection.2.2.2}
+\contentsline {subsubsection}{Nieswoista bierna immunoterapia}{6}{section*.10}
+\contentsline {subsubsection}{Swoista bierna immunoterapia}{7}{section*.11}
+\contentsline {subsubsection}{Nieswoista czynna immunoterapia}{7}{section*.12}
+\contentsline {subsubsection}{Swoista czynna immunoterapia}{7}{section*.13}
+\contentsline {subsection}{\numberline {2.2.3}Chemioterapia}{7}{subsection.2.2.3}
+\contentsline {subsection}{\numberline {2.2.4}Leczenie skojarzone}{8}{subsection.2.2.4}
+\contentsline {subsection}{\numberline {2.2.5}Chemioimmunoterapia}{8}{subsection.2.2.5}
+\contentsline {subsection}{\numberline {2.2.6}Alternatywne modele}{8}{subsection.2.2.6}
+\contentsline {chapter}{\numberline {3.}Model}{9}{chapter.3}
+\contentsline {section}{\numberline {3.1}Opis modelu}{9}{section.3.1}
+\contentsline {section}{\numberline {3.2}Za\IeC {\l }o\.zenia modelu}{9}{section.3.2}
+\contentsline {section}{\numberline {3.3}R\'ownania modelu}{10}{section.3.3}
+\contentsline {section}{\numberline {3.4}Parametry modelu}{10}{section.3.4}
+\contentsline {chapter}{\numberline {4.}Symulacje}{11}{chapter.4}
+\contentsline {section}{\numberline {4.1}Brak leczenia}{11}{section.4.1}
+\contentsline {section}{\numberline {4.2}Leczenie metod\k a immunoterapii}{11}{section.4.2}
+\contentsline {section}{\numberline {4.3}Leczenie metod\k a chemioterapii}{11}{section.4.3}
+\contentsline {section}{\numberline {4.4}Po\IeC {\l }\k aczenie metod immunoterapii i chemioterapii}{11}{section.4.4}
+\contentsline {chapter}{\numberline {5.}Rezultaty}{12}{chapter.5}
+\contentsline {chapter}{\numberline {6.}Analiza wynik\'ow}{13}{chapter.6}
+\contentsline {chapter}{\numberline {7.}Podsumowanie}{14}{chapter.7}
