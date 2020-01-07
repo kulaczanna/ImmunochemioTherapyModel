@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6500) (preloaded format=pdflatex 2017.12.11)  7 JAN 2020 14:02
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6500) (preloaded format=pdflatex 2017.12.11)  7 JAN 2020 14:23
 entering extended mode
 **./ImmunochemiotherapyModel.tex
 (ImmunochemiotherapyModel.tex
@@ -648,7 +648,7 @@ Rozdzia\PlPrIeC {\l } 7.
 
 ]) [17
 
-] [18]
+]
 
 Package caption Warning: Unused \captionsetup[subfigure] on input line 148.
 See the caption package documentation for explanation.
@@ -668,8 +668,8 @@ LaTeX Warning: There were multiply-defined labels.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 41.
  ) 
 Here is how much of TeX's memory you used:
- 9376 strings out of 493312
- 140662 string characters out of 3136354
+ 9375 strings out of 493312
+ 140655 string characters out of 3136354
  259577 words of memory out of 3000000
  12670 multiletter control sequences out of 15000+200000
  13732 words of font info for 40 fonts, out of 3000000 for 9000
@@ -689,9 +689,9 @@ c/pl/plr8.pfb><C:/Users/Ania/AppData/Roaming/MiKTeX/2.9/fonts/type1/public/pl/p
 lsl10.pfb><C:/Users/Ania/AppData/Roaming/MiKTeX/2.9/fonts/type1/public/pl/plsl1
 2.pfb><C:/Users/Ania/AppData/Roaming/MiKTeX/2.9/fonts/type1/public/pl/plsy10.pf
 b><C:/Users/Ania/AppData/Roaming/MiKTeX/2.9/fonts/type1/public/pl/plsy8.pfb>
-Output written on ImmunochemiotherapyModel.pdf (21 pages, 284904 bytes).
+Output written on ImmunochemiotherapyModel.pdf (20 pages, 282836 bytes).
 PDF statistics:
- 368 PDF objects out of 1000 (max. 8388607)
- 94 named destinations out of 1000 (max. 500000)
+ 364 PDF objects out of 1000 (max. 8388607)
+ 93 named destinations out of 1000 (max. 500000)
  206 words of extra memory for PDF output out of 10000 (max. 10000000)
 
