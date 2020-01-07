@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6500) (preloaded format=pdflatex 2017.12.11)  6 JAN 2020 22:12
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6500) (preloaded format=pdflatex 2017.12.11)  7 JAN 2020 14:02
 entering extended mode
 **./ImmunochemiotherapyModel.tex
 (ImmunochemiotherapyModel.tex
@@ -407,18 +407,36 @@ Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \float@box=\box30
 \@float@everytoks=\toks24
 \@floatcapt=\box31
+) ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\tools\longtable.sty"
+Package: longtable 2014/10/28 v4.11 Multi-page Table package (DPC)
+\LTleft=\skip57
+\LTright=\skip58
+\LTpre=\skip59
+\LTpost=\skip60
+\LTchunksize=\count161
+\LTcapwidth=\dimen131
+\LT@head=\box32
+\LT@firsthead=\box33
+\LT@foot=\box34
+\LT@lastfoot=\box35
+\LT@cols=\count162
+\LT@rows=\count163
+\c@LT@tables=\count164
+\c@LT@chunks=\count165
+\LT@p@ftn=\toks25
 )
-\c@twierdzenie=\count161
-\c@wlasnosc=\count162
-\c@lemat=\count163
-) ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\ltxmisc\anysize.sty"
+\c@twierdzenie=\count166
+\c@wlasnosc=\count167
+\c@lemat=\count168
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\ltxmisc\anysize.sty"
 Package: anysize 1994/08/13 1.0 Contributed LaTeX2e package
 
 Package: `anysize' 1.0 <1994/08/13>
-\@Leftmargin=\dimen131
-\@Rightmargin=\dimen132
-\@Topmargin=\dimen133
-\@Bottommargin=\dimen134
+\@Leftmargin=\dimen132
+\@Rightmargin=\dimen133
+\@Topmargin=\dimen134
+\@Bottommargin=\dimen135
 ) (ImmunochemiotherapyModel.aux
 
 LaTeX Warning: Label `r_chemioDrug' multiply defined.
@@ -455,17 +473,17 @@ LaTeX Font Info:    ... okay on input line 11.
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count164
-\scratchdimen=\dimen135
-\scratchbox=\box32
-\nofMPsegments=\count165
-\nofMParguments=\count166
-\everyMPshowfont=\toks25
-\MPscratchCnt=\count167
-\MPscratchDim=\dimen136
-\MPnumerator=\count168
-\makeMPintoPDFobject=\count169
-\everyMPtoPDFconversion=\toks26
+\scratchcounter=\count169
+\scratchdimen=\dimen136
+\scratchbox=\box36
+\nofMPsegments=\count170
+\nofMParguments=\count171
+\everyMPshowfont=\toks26
+\MPscratchCnt=\count172
+\MPscratchDim=\dimen137
+\MPnumerator=\count173
+\makeMPintoPDFobject=\count174
+\everyMPtoPDFconversion=\toks27
 ) ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\oberdiek\epstopdf-base.sty"
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
 
@@ -479,7 +497,7 @@ Package grfext Info: Graphics extension search list:
 G,.JBIG2,.JB2,.eps]
 (grfext)             \AppendGraphicsExtensions on input line 456.
 )
-\AtBeginShipoutBox=\box33
+\AtBeginShipoutBox=\box37
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\color.sty"
 Package: color 2016/07/10 v1.1e Standard LaTeX Color (DPC)
@@ -497,7 +515,7 @@ Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\gettitlestring.sty"
 Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
-\c@section@level=\count170
+\c@section@level=\count175
 )
 LaTeX Info: Redefining \ref on input line 11.
 LaTeX Info: Redefining \pageref on input line 11.
@@ -511,8 +529,13 @@ Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: subfig package v1.3 is loaded.
 Package caption Info: float package is loaded.
 Package caption Info: listings package is loaded.
+Package caption Info: longtable package is loaded.
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\caption\ltcaption.sty"
+Package: ltcaption 2013/06/09 v1.4-94 longtable captions (AR)
+)
 Package caption Info: End \AtBeginDocument code.
-\c@lstlisting=\count171
+\c@lstlisting=\count176
 
 (ImmunochemiotherapyModel.toc
 LaTeX Font Info:    Try loading font information for OML+plm on input line 1.
@@ -578,34 +601,54 @@ Rozdzia\PlPrIeC {\l } 2.
 [3
 
 ]
-<./rysunki/roznice.jpg, id=192, 622.57594pt x 448.67625pt>
+<./rysunki/roznice.jpg, id=184, 622.57594pt x 448.67625pt>
 File: ./rysunki/roznice.jpg Graphic file (type jpg)
 <use ./rysunki/roznice.jpg>
-Package pdftex.def Info: ./rysunki/roznice.jpg  used on input line 44.
+Package pdftex.def Info: ./rysunki/roznice.jpg  used on input line 45.
 (pdftex.def)             Requested size: 441.01773pt x 317.83667pt.
  [4 <./rysunki/roznice.jpg>] [5] [6] [7] [8]
 Rozdzia\PlPrIeC {\l } 3.
 [9
 
 ] [10]
+Overfull \hbox (16.38779pt too wide) in paragraph at lines 215--229
+ [][] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 247--247
+[]\OT4/cmr/m/n/12 Tempo roz-pa-du te-ra-peu-tycz-ne-go
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 249--249
+[]\OT4/cmr/m/n/12 Dezaktywacja mo-le-kuª interleukiny-2
+ []
+
+
+Overfull \hbox (14.4598pt too wide) in paragraph at lines 232--252
+ [][] 
+ []
+
+[11] [12]
 Rozdzia\PlPrIeC {\l } 4.
-[11
-
-]
-Rozdzia\PlPrIeC {\l } 5.
-[12
-
-]
-Rozdzia\PlPrIeC {\l } 6.
 [13
 
 ]
-Rozdzia\PlPrIeC {\l } 7.
+Rozdzia\PlPrIeC {\l } 5.
 [14
 
-]) [15
+]
+Rozdzia\PlPrIeC {\l } 6.
+[15
 
-] [16]
+]
+Rozdzia\PlPrIeC {\l } 7.
+[16
+
+]) [17
+
+] [18]
 
 Package caption Warning: Unused \captionsetup[subfigure] on input line 148.
 See the caption package documentation for explanation.
@@ -617,7 +660,7 @@ Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 41.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 41.
 Package rerunfilecheck Info: File `ImmunochemiotherapyModel.out' has not change
 d.
-(rerunfilecheck)             Checksum: 7ED71DFB949CE1B01BA442CF8BF613F5;1717.
+(rerunfilecheck)             Checksum: 0E4BCF95AB58467AEB8432F0245119FB;1569.
 
 
 LaTeX Warning: There were multiply-defined labels.
@@ -625,13 +668,13 @@ LaTeX Warning: There were multiply-defined labels.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 41.
  ) 
 Here is how much of TeX's memory you used:
- 9254 strings out of 493312
- 138996 string characters out of 3136354
- 249577 words of memory out of 3000000
- 12556 multiletter control sequences out of 15000+200000
+ 9376 strings out of 493312
+ 140662 string characters out of 3136354
+ 259577 words of memory out of 3000000
+ 12670 multiletter control sequences out of 15000+200000
  13732 words of font info for 40 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 46i,8n,42p,1401b,387s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 46i,11n,42p,1401b,411s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Users/Ania/AppData/Roaming/MiKTeX/2.9/fonts/enc/dvips/pl/plrm.enc}{C:/Use
 rs/Ania/AppData/Roaming/MiKTeX/2.9/fonts/enc/dvips/pl/plmi.enc}{C:/Users/Ania/A
 ppData/Roaming/MiKTeX/2.9/fonts/enc/dvips/pl/plms.enc}<C:/Users/Ania/AppData/Ro
@@ -646,9 +689,9 @@ c/pl/plr8.pfb><C:/Users/Ania/AppData/Roaming/MiKTeX/2.9/fonts/type1/public/pl/p
 lsl10.pfb><C:/Users/Ania/AppData/Roaming/MiKTeX/2.9/fonts/type1/public/pl/plsl1
 2.pfb><C:/Users/Ania/AppData/Roaming/MiKTeX/2.9/fonts/type1/public/pl/plsy10.pf
 b><C:/Users/Ania/AppData/Roaming/MiKTeX/2.9/fonts/type1/public/pl/plsy8.pfb>
-Output written on ImmunochemiotherapyModel.pdf (19 pages, 275696 bytes).
+Output written on ImmunochemiotherapyModel.pdf (21 pages, 284904 bytes).
 PDF statistics:
- 365 PDF objects out of 1000 (max. 8388607)
- 92 named destinations out of 1000 (max. 500000)
- 222 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 368 PDF objects out of 1000 (max. 8388607)
+ 94 named destinations out of 1000 (max. 500000)
+ 206 words of extra memory for PDF output out of 10000 (max. 10000000)
 

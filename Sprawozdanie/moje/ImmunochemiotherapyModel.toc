@@ -19,18 +19,16 @@
 \contentsline {subsubsection}{Swoista czynna immunoterapia}{7}{section*.13}
 \contentsline {subsection}{\numberline {2.2.3}Chemioterapia}{7}{subsection.2.2.3}
 \contentsline {subsection}{\numberline {2.2.4}Leczenie skojarzone}{8}{subsection.2.2.4}
-\contentsline {subsection}{\numberline {2.2.5}Chemioimmunoterapia}{8}{subsection.2.2.5}
-\contentsline {subsection}{\numberline {2.2.6}Alternatywne modele}{8}{subsection.2.2.6}
 \contentsline {chapter}{\numberline {3.}Model}{9}{chapter.3}
 \contentsline {section}{\numberline {3.1}Opis modelu}{9}{section.3.1}
 \contentsline {section}{\numberline {3.2}Za\IeC {\l }o\.zenia modelu}{9}{section.3.2}
 \contentsline {section}{\numberline {3.3}R\'ownania modelu}{10}{section.3.3}
-\contentsline {section}{\numberline {3.4}Parametry modelu}{10}{section.3.4}
-\contentsline {chapter}{\numberline {4.}Symulacje}{11}{chapter.4}
-\contentsline {section}{\numberline {4.1}Brak leczenia}{11}{section.4.1}
-\contentsline {section}{\numberline {4.2}Leczenie metod\k a immunoterapii}{11}{section.4.2}
-\contentsline {section}{\numberline {4.3}Leczenie metod\k a chemioterapii}{11}{section.4.3}
-\contentsline {section}{\numberline {4.4}Po\IeC {\l }\k aczenie metod immunoterapii i chemioterapii}{11}{section.4.4}
-\contentsline {chapter}{\numberline {5.}Rezultaty}{12}{chapter.5}
-\contentsline {chapter}{\numberline {6.}Analiza wynik\'ow}{13}{chapter.6}
-\contentsline {chapter}{\numberline {7.}Podsumowanie}{14}{chapter.7}
+\contentsline {section}{\numberline {3.4}Parametry modelu}{11}{section.3.4}
+\contentsline {chapter}{\numberline {4.}Symulacje}{13}{chapter.4}
+\contentsline {section}{\numberline {4.1}Brak leczenia}{13}{section.4.1}
+\contentsline {section}{\numberline {4.2}Leczenie metod\k a immunoterapii}{13}{section.4.2}
+\contentsline {section}{\numberline {4.3}Leczenie metod\k a chemioterapii}{13}{section.4.3}
+\contentsline {section}{\numberline {4.4}Po\IeC {\l }\k aczenie metod immunoterapii i chemioterapii}{13}{section.4.4}
+\contentsline {chapter}{\numberline {5.}Rezultaty}{14}{chapter.5}
+\contentsline {chapter}{\numberline {6.}Analiza wynik\'ow}{15}{chapter.6}
+\contentsline {chapter}{\numberline {7.}Podsumowanie}{16}{chapter.7}

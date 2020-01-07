@@ -41,8 +41,9 @@ Pomimo bardzo du¿ego znaczenia uk³adu immunologicznego dla organizmu, wiele mech
 
 \begin{figure}[!htb]
 	\centering
+	\topcaption{Ró¿nice pomiêdzy odpornoœci¹ wrodzon¹ a nabyt¹.}\label{ró¿nice_miêdzy_nab_a_wrodz} 
 	\includegraphics[width=1\textwidth]{roznice}
-	\caption{Ró¿nice pomiêdzy odpornoœci¹ wrodzon¹ a nabyt¹.}\label{ró¿nice_miêdzy_nab_a_wrodz}
+	
 \end{figure}
 
 \subsubsection{Limfocyty T CD8+}
@@ -106,7 +107,7 @@ Ostatni rodzaj leczenia metod¹ immunoterapii polega na pobudzaniu odpornoœci na 
 \end{itemize}
 
 \subsection{Chemioterapia}
-Chemioterapia to metoda leczenia, która polega na niszczeniu komórek nowotworowych, drobnoustrojów, bakterii za pomoc¹ œrodków chemicznych. W przypadku nowotworów, stosuje siê ró¿ne grupy leków, tzw. cytostatyków. Zale¿nie od indywidualnych cech pacjenta ma ona œciœle okreœlony przebieg. Leki stosowane s¹ w monoterapii -- stosowanie jednego leku cytostatycznego lub polichemioterapii -- stosowanie kilku leków w okreœlonym schemacie. Leki podawaje siê w pewnych sekwencjach -- co kilka dni, tygodni czy bez stosowania przerwy w leczeniu. Leki cytostatyczne dzia³aj¹ w okreœlonych fazach podzia³u komórek nowotworowych zmniejszaj¹ lub spowalniaj¹ ich namna¿anie siê. Najczêœciej podawane s¹ w postaci do¿ylnych wlewów, lecz niektóre z nich maj¹ formê tabletek. Skutki uboczne chemioterapii s¹ liczne i zauwa¿alne ju¿ po kilku dniach terapii, a czasem nawet po kilku godzinach \cite{9}. 
+Chemioterapia to metoda leczenia, która polega na niszczeniu komórek nowotworowych, drobnoustrojów, bakterii za pomoc¹ œrodków chemicznych. W przypadku nowotworów, stosuje siê ró¿ne grupy leków, tzw. cytostatyków. Zale¿nie od indywidualnych cech pacjenta ma ona œciœle okreœlony przebieg. Leki stosowane s¹ w monoterapii -- stosowanie jednego leku cytostatycznego lub polichemioterapii -- stosowanie kilku leków w okreœlonym schemacie. Leki podawaje siê w pewnych sekwencjach -- co kilka dni, tygodni czy bez stosowania przerwy w leczeniu. Leki cytostatyczne dzia³aj¹ w okreœlonych fazach podzia³u komórek nowotworowych zmniejszaj¹ lub spowalniaj¹ ich namna¿anie siê. Najczêœciej podawane s¹ w postaci do¿ylnych wlewów, lecz niektóre z nich maj¹ formê tabletek. Skutki uboczne chemioterapii mog¹ byæ liczne i zauwa¿alne ju¿ po kilku dniach terapii, a czasem nawet po kilku godzinach \cite{9}. 
 
 \subsection{Leczenie skojarzone}
 Leczenie skojarzone, polega na po³¹czeniu kilku metod leczniczych u pacjenta. Ten sposób terapii posiada wiele zalet: umo¿liwia wykonanie zabiegu operacyjnego w wielu przypadkach pierwotnie nieoperacyjnych, pozwala zast¹piæ okaleczaj¹ce zabiegi chirurgiczne równie skutecznym leczeniem zachowawczym, zmniejsza ryzyko wznowy miejscowej choroby i rozwoju odleg³ych przerzutów, wp³ywa na wyd³u¿enie czasu prze¿ycia chorych. 
@@ -123,15 +124,32 @@ leczenia w tym samym czasie, na przyk³ad równoczesna
 chemioradioterapia, napromienianie œródoperacyjne.
 \item leczenie naprzemienne — dotyczy kojarzenia radioterapii
 i chemioterapii \cite{11}.
-\end{itemize} 
-
-
-\subsection{Chemioimmunoterapia}
-
-\subsection{Alternatywne modele}
+\end{itemize}
 
 \chapter{Model}
 \section{Opis modelu}
+Model matematyczny wykorzystany w pracy oparto na modelu de Pillis'a oraz modelu Isaeva i Osiopov'a \cite{1}. Obejmuje on cztery populacje komórek:
+\begin{itemize}
+\item komórki nowotworowe T(t),
+\item komórki NK N(t),
+\item limfocyty T CD8+ L(t),
+\item limfocyty kr¹¿¹ce C(t)
+\end{itemize}
+oraz stê¿enie trzech leków:
+\begin{itemize}
+\item interleukin-2 I(t),
+\item interferonów-$\alpha I_{\alpha}$(t),
+\item leku u¿ytego w chemioterapii M(t).
+\end{itemize}
+W równaniach modelu uwzglêdniono takie czynniki, jak:
+\begin{itemize}
+\item naturalny rozwój i œmieræ komórek,
+\item œmieræ komórek nowotworowych pod wp³ywem komórek NK, limfocytów T CD8+ i leków chemioterapetycznych,
+\item wytwarzanie komórek NK i limfocytów T CD8+,
+\item dezaktywacjê komórek NK i limfocytów T CD8+,
+\item iloœæ podawanych leków i czas, w którym zosta³y podane.
+\end{itemize}
+
 \section{Za³o¿enia modelu}
 
 \begin{enumerate}
@@ -189,6 +207,51 @@ c'=c_{CTL}(2-e^{\frac{I_{\alpha}}{I_{\alpha 0}}})
 \end{equation}
 
 \section{Parametry modelu}
+
+W celu przeprowadzenia symulacji dobrano parametry modelu, jak w tabeli \ref{parametry_modelu}.
+
+\begin{table}[!htb]
+	\centering
+	\begin{tabular}{|c|c|c|p{0.47\linewidth}|} \hline
+		Nazwa & Wartoœæ & Jednostka & Opis  \\ \hline
+		a & $4,31 * 10^{-1}$ & dzieñ$^{-1}$ & Tempo wzrostu nowotworu \\ \hline
+		b & $1,02 * 10^{-9}$ & komórka$^{-1}$ & 1/b -- noœnoœæ nowotworu \\ \hline
+		c & $6,41 * 10^{-11}$ & dzieñ$^{-1}$ * komórka$^{-1}$ & Liczba komórek nowotworu zabita przez komórki NK \\ \hline
+		d & $2,34$ &  dzieñ$^{-1}$ & Stopieñ zabijania komórek nowotworu przez limfocyty T CD8+ \\ \hline
+		e & $2,08 * 10^{-7}$ & dzieñ$^{-1}$ & Liczba kr¹¿¹cych limfocytów, które sta³y siê komórkami NK \\ \hline
+		l & $2,9$ & bezwymiarowe & Komórki nowotworowe czêœciowo zabijane przez limfocyty T CD8+ i przez chemioterapiê \\ \hline
+		f & $4,12 * 10^{-2}$ & dzieñ$^{-1}$ & Tempo wymierania komórek NK \\ \hline
+		g & $1,25 * 10^{-2}$ & dzieñ$^{-1}$ & Maksymalna liczba komórek NK wytwarzanych na skutek obecnoœci komórek nowotworowych \\ \hline
+		h & $2,02 * 10^{7}$ & komórka$^{2}$ & Wspó³czynnik stromoœci krzywej rekrutacji komórek NK \\ \hline
+		j & $2,49 * 10^{-2}$ & dzieñ$^{-1}$ & Maksymalne tempo rekrutacji limfocytów T CD8+ \\ \hline
+		k & $3,66 * 10^{7}$ & komórka$^{2}$ & Wspó³czynnik stromoœci krzywej rekrutacji limfocytów T CD8+ \\ \hline
+		\end{tabular}
+\end{table}
+\begin{table}[!htb]
+	\centering
+	\begin{tabular}{|c|c|c|p{0.49\linewidth}|} \hline 
+		m & $2,04 * 10^{-1}$ & dzieñ$^{-1}$ & Tempo wymierania limfocytów T CD8+ \\ \hline
+		q & $1,42 * 10^{-6}$ & dzieñ$^{-1}$ * komórka$^{-1}$ & Tempo dezaktywacji limfocytów T CD8+ przez komórki nowotworu \\ \hline
+		p & $3,42 * 10^{-6}$ & dzieñ$^{-1}$ * komórka$^{-1}$ & Tempo dezaktywacji komórek NK przez komórki nowotworu \\ \hline
+		s & $8,39 * 10^{-2}$ & bezwymiarowe & Wspó³czynnik stromoœci krzywej dezaktywacji nowotworu \\ \hline
+		$r_{1}$ & $1,1 * 10^{-7}$ & dzieñ$^{-1}$ * komórka$^{-1}$ & Tempo stymulacji wytwarzania limfocytów T CD8+ jako rezultat zabijania komórek nowotworowych przez komórki NK \\ \hline
+		$r_{2}$ & $6,5 * 10^{-11}$ & komórka$^{-1}$ * dzieñ$^{-1}$ & Tempo stymulacji wytwarzania limfocytów T CD8+ jako rezultat interakcji komórek  nowotworowych z kr¹¿¹cymi limfocytami \\ \hline
+		u & $3 * 10^{-10}$ & komórka$^{-2}$ * dzieñ$^{-1}$ &  Funkcja regulacyjna limfocytów T CD8+ nadzorowana przez komórki NK\\ \hline
+		$\alpha$ & $7,5 * 10^{8}$ & komórka * dzieñ$^{-1}$ &  Sta³e Ÿród³o kr¹¿¹cych limfocytów\\ \hline
+		$\beta$ & $1,2 * 10^{-2}$ & dzieñ$^{-1}$ & Naturalna œmieræ i ró¿nicowanie kr¹¿¹cych limfocytów\\ \hline
+		$\gamma$ & $9 * 10^{-1}$ & dzieñ$^{-1}$ & Tempo rozpadu leku chemioterapeutycznego \\ \hline
+		$p_{i}$ & $1,25 * 10^{-1}$ & dzieñ$^{-1}$ & Maksymalna krzywa rekrutacji limfocytów T CD8+ przez interleukiny-2 \\ \hline
+		$g_{i}$ & $2 * 10^{2}$ & komórka$^{2}$ & sta³a \\ \hline
+		$\mu_{i}$ & $1 * 10^{1}$ & dzieñ$^{-1}$ & Tempo rozpadu interleukiny-2 (leku) \\ \hline
+		$C_{CTL}$ & $4,4 * 10^{-9}$ & komórka$^{-1}$ * dzieñ$^{-1}$ & Tempo dezaktywacji nowotworu przez limfocyty T CD8+ \\ \hline
+		g' & $1,7$ & dzieñ$^{-1}$ & Tempo rozpadu terapeutycznego interferonu-$\alpha$\\ \hline
+		j' & $3,3 * 10^{-9}$ & komórka$^{-1}$ * dzieñ$^{-1}$ & Tempo wch³aniania interleukiny-2 przez limfocyty T CD8+ \\ \hline
+		k' & $1,8 * 10^{-8}$ & komórka$^{-1}$ * dzieñ$^{-1}$ & Dezaktywacja moleku³ interleukiny-2 przez prostaglandyny \\ \hline
+		\multicolumn{2}{|l|}{$I_{\alpha 0}$} & jednostki & Pocz¹tkowa iloœæ interferonu-$\alpha$ \\ \hline			
+	\end{tabular}
+	\caption{Parametry modelu.}\label{parametry_modelu}
+\end{table}
+
 \chapter{Symulacje}
 \section{Brak leczenia}
 \section{Leczenie metod¹ immunoterapii}
