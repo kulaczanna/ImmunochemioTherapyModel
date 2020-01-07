@@ -1,4 +1,5 @@
 \chapter{Wprowadzenie}
+% \setlength{\parindent}{50pt} tak siê robi wciêcia
 \section{Streszczenie}
 W pracy przedstawiono model opisuj¹cy leczenie nowotworu skojarzonymi metodami immunoterapii i chemioterapii. Model ten oparty jest na modelu de Pillis'a oraz modelu Isaeva i Osiopov'a \cite{1}. Uwzglêdnia on rozwój komórek nowotworowych w organizmie, odpowiedŸ uk³adu immunologicznego -- limfocytów naciekaj¹cych nowotwór (TIL), komórek naturalnie bójczych (komórek NK), limfocytów CD8+ -- na nowotwór oraz leczenie metod¹ chemioterapii i immunoterapii z u¿yciem cytokin: interleukin-2 (IL-2) i interferonów alpha (INF-$\alpha$).
 \section{Abstract}
@@ -43,7 +44,6 @@ Pomimo bardzo du¿ego znaczenia uk³adu immunologicznego dla organizmu, wiele mech
 	\centering
 	\topcaption{Ró¿nice pomiêdzy odpornoœci¹ wrodzon¹ a nabyt¹.}\label{ró¿nice_miêdzy_nab_a_wrodz} 
 	\includegraphics[width=1\textwidth]{roznice}
-	
 \end{figure}
 
 \subsubsection{Limfocyty T CD8+}
@@ -254,6 +254,42 @@ W celu przeprowadzenia symulacji dobrano parametry modelu, jak w tabeli \ref{par
 
 \chapter{Symulacje}
 \section{Brak leczenia}
+ %\setlength{\parindent}{0pt}
+\subsection{Warunki pocz¹tkowe}
+\subsubsection{Scenariusz I}
+\noindent % brak akapitu
+$T(0) = 1 * 10^{6}$ \\
+$N(0) = 1 * 10^{5}$ \\
+$L(0) = 1 * 10^{2}$ \\
+$C(0) = 6 * 10^{10}$ \\
+$I(0) = 0$ \\
+$I_{\alpha}(0) = 0$ \\
+$M(0) = 0$ \\
+Wynik symulacji przedstawiono na rys. \ref{s_bez_leczenia1} 
+\begin{figure}[!htb]
+	\centering
+	\includegraphics[width=0.75\textwidth]{bez_lecz1}
+	\caption{Symulacja odpowiedzi uk³adu immunologicznego na nowotwór, dla warunków pocz¹tkowych: liczba komórek nowotworowych $T(0) = 1 * 10^{6}$, liczba komórek NK $N(0) = 1 * 10^{5}$, liczba limfocytów T CD8+ $L(0) = 1 * 10^{2}$, liczba kr¹¿¹cych limfocytów $C(0) = 6 * 10^{10}$.}\label{s_bez_leczenia1} 
+\end{figure}
+
+\newpage
+\subsubsection{Scenariusz II}
+\noindent
+$T(0) = 1 * 10^{6}$ \\
+$N(0) = 1 * 10^{3}$ \\
+$L(0) = 1 * 10^{1}$ \\
+$C(0) = 6 * 10^{8}$ \\
+$I(0) = 0$ \\
+$I_{\alpha}(0) = 0$ \\
+$M(0) = 0$ \\
+
+Wynik symulacji przedstawiono na rys. \ref{s_bez_leczenia2}
+\begin{figure}[!htb]
+	\centering
+	\includegraphics[width=0.75\textwidth]{bez_lecz2}
+	\caption{Symulacja odpowiedzi uk³adu immunologicznego na nowotwór, dla warunków pocz¹tkowych: liczba komórek nowotworowych $T(0) = 1 * 10^{6}$, liczba komórek NK $N(0) = 1 * 10^{3}$, liczba limfocytów T CD8+ $L(0) = 1 * 10^{1}$, liczba kr¹¿¹cych limfocytów $C(0) = 6 * 10^{8}$.}\label{s_bez_leczenia2} 
+\end{figure}
+
 \section{Leczenie metod¹ immunoterapii}
 \section{Leczenie metod¹ chemioterapii}
 \section{Po³¹czenie metod immunoterapii i chemioterapii}

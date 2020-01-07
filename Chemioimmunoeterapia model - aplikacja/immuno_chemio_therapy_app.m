@@ -1,7 +1,7 @@
 clc; clear all
 close all
 
-n = 2; % wybór przypadku - 1 st³umienie nowotworu, 2 wzrost nowotworu
+n = 1; % wybór przypadku - 1 st³umienie nowotworu, 2 wzrost nowotworu
 
 switch n
     case 1
@@ -31,15 +31,16 @@ x = [T_0; N_0; L_0; C_0; M_0; I_0; I_alfa_0]; % parametry wejœciowe  uk³adu równ
 
 % wyœwietlenie wykresów
 figure
+subplot(2,2,1)
 plot(t, y(:,1), 'b');
 legend('Tumor cells');
-figure
+subplot(2,2,2)
 plot(t, y(:,2), 'g');
 legend('Natural killer cells');
-figure
+subplot(2,2,3)
 plot(t, y(:,3), 'r');
 legend('CD8+ T cells');
-figure
+subplot(2,2,4)
 plot(t, y(:,4), 'c');
 legend('Circulating lymphocytes');
 
