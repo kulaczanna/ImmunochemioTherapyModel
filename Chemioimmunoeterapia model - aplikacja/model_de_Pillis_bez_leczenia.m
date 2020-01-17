@@ -1,4 +1,4 @@
-function rownania = model_immuno_chemio_therapy(t, x)
+function rownania = model_de_Pillis_bez_leczenia(t, x)
 
 K_T = 0;
 K_N = 0;
