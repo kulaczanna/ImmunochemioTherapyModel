@@ -1,8 +1,7 @@
 clc; clear all
 close all
-format long
 
-n = 1; % wybór przypadku - 1 st³umienie nowotworu, 2 wzrost nowotworu
+n = 2; % wybór przypadku - 1 st³umienie nowotworu, 2 wzrost nowotworu
 
 switch n
     case 1
@@ -32,7 +31,6 @@ figure
 semilogy(t, y(:,1), 'm');
 hold on
 semilogy(t, y(:,2), 'g');
-legend();
 hold on
 semilogy(t, y(:,3), 'r');
 hold on
@@ -41,4 +39,5 @@ hold on
 semilogy(t, y(:,5), 'k');
 hold on
 semilogy(t, y(:,6), 'b');
+axis([0, 120, 10e0, 10e12])
 legend('Tumour', 'Natural killer cells', 'CD8+ T cells', 'Circulating lymphocytes', 'Chemotherapy drug', 'IL2');

@@ -32,6 +32,5 @@ dLdt = (jj*(T/(k+T))*L) - (q * L * T) + (((r1 * N) + (r2 * C)) * T);
 dCdt = alfa - (beta * C);
 
 rownania = [dTdt; dNdt; dLdt; dCdt];
-
 end
 

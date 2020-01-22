@@ -27,14 +27,11 @@ d = 2.34;
 e = 2.08e-7;
 l = 2.09;
 f = 1.25e-2;
-g = 1.25e-2;
 g_N = 2.5036e5;
-h = 2.02e7;
 jj = 1.245e-2;
 k = 2.019e7;
-kk = 2.5036e3;
+kappa = 2.5036e3;
 m = 9e-3;
-q = 1.42e-6;
 p = 2.794e-13;
 p_N = 6.68e-2;
 s = 3.8e-3;
@@ -47,7 +44,7 @@ gamma = 5.199e-1;
 theta = 2.5036e-3;
 omega = 7.874e-2;
 Omega = 2.38405e-7;
-znak = 2.5036e3;
+dzeta = 2.5036e3;
 q = 3.422e-10;
 p_I = 2.971;
 g_I = 2.5036e3;
@@ -58,10 +55,10 @@ D = count_D(d, L, T, s, l);
 % równania modelu
 dTdt = (a * T *(1 - (b * T))) - (c * N * T) - (D * T) - (K_T * (1 - (exp(-delta_T*M))) * T);
 dNdt = (e * C) - (f * N) - (p * N * T) + ((p_N*N*I)/(g_N+I)) - (K_N * (1 - exp(-delta_N*M)) * N);
-dLdt = ((theta*m*L)/(theta+I)) + (jj*(T/(k+T))*L) - (q * L * T) + (((r1 * N) + (r2 * C)) * T) - ((u*L^2*C*I)/(kk+I)) - (K_L * (1 - exp(-delta_L*M)) * L) + ((p_I * L * I) / (g_I + I)) + v_L;
+dLdt = ((theta*m*L)/(theta+I)) + (jj*(T/(k+T))*L) - (q * L * T) + (((r1 * N) + (r2 * C)) * T) - ((u*L^2*C*I)/(kappa+I)) - (K_L * (1 - exp(-delta_L*M)) * L) + ((p_I * L * I) / (g_I + I)) + v_L;
 dCdt = alfa - (beta * C) - (K_C * (1 - exp(-delta_C*M)) * C);
 dMdt = ((-gamma) * M) + v_M;
-dIdt = ((-mi_I) * I) + (Omega*C) + ((omega*L*I)/(znak+I)) + v_I;
+dIdt = ((-mi_I) * I) + (Omega*C) + ((omega*L*I)/(dzeta+I)) + v_I;
 
 rownania = [dTdt; dNdt; dLdt; dCdt; dMdt; dIdt; 0; 0; 0];
 
