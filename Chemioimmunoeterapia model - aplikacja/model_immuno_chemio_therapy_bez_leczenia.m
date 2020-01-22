@@ -1,10 +1,5 @@
 function rownania = model_immuno_chemio_therapy_bez_leczenia(t, x)
 
-K_T = 0;
-K_N = 0;
-K_L = 0;
-K_C = 0;
-
 T = x(1);
 N = x(2);
 L = x(3);
