@@ -29,7 +29,7 @@ switch n
 end
 
 x = [T_0; N_0; L_0; C_0; M_0; I_0; v_L; v_M; v_I]; % parametry wejœciowe  uk³adu równañ
-[t,y] = ode45(@model_de_Pillis, [0 200], x); % rozwi¹zanie uk³adu równañ ró¿niczkowych
+[t,y] = ode45(@model_de_Isaeva_bez_leczenia, [0 200], x); % rozwi¹zanie uk³adu równañ ró¿niczkowych
 
 % wyœwietlenie wykresów
 figure

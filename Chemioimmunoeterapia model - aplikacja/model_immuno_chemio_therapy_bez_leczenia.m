@@ -26,18 +26,8 @@ r2 = 6.5e-11;
 u = 3e-10;
 alfa = 7.5e8;
 beta = 1.2e-2;
-gamma = 9e-1;
-p_i = 1.25e-1;
-g_i = 2e2;
-mi_i = 1e1;
-c_CTL = 4.4e-9;
-g_prim = 1.7;
-j_prim = 3.3e-9;
-k_prim = 1.8e-8;
 
 D = count_D(d, L, T, s, l);
-% c_prim = c_CTL * (2 - (exp((-I_alfa) / I_alfa0))); % I_alfa, CD8T, tumor interact - inactivation
-c_prim = c_CTL;
 
 % równania modelu
 dTdt = (a * T *(1 - (b * T))) - (c * N * T) - (D * T);
