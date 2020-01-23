@@ -26,7 +26,7 @@ q = 3.422e-10;
 D = count_D(d, L, T, s, l);
 
 % równania modelu
-dTdt = (a * T *(1 - (b * T))) - (c * N * T) - (D * T) ;
+dTdt = (a * T *(1 - (b * T))) - (c * N * T) - (D * T);
 dNdt = (e * C) - (f * N) - (p * N * T);
 dLdt = (jj*(T/(k+T))*L) - (q * L * T) + (((r1 * N) + (r2 * C)) * T);
 dCdt = alfa - (beta * C);

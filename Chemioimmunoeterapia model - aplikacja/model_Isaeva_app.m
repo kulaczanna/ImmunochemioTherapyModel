@@ -17,10 +17,10 @@ semilogy(t, y(:,1), 'm');
 hold on
 semilogy(t, y(:,2), 'r');
 hold on
-semilogy(t, y(:,3), 'c');
+semilogy(t, y(:,3), 'k');
 hold on
 semilogy(t, y(:,4), 'b');
 hold on
-semilogy(t, y(:,5), 'w');
-hold on
+semilogy(t, y(:,5), 'y');
+axis([0, 120, 10e5, 10e12])
 legend('Tumour', 'CD8+ T cells', 'Chemotherapy drug', 'IL2', 'IFN-alfa');

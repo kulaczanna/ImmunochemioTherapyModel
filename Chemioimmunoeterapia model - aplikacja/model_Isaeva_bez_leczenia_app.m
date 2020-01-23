@@ -13,5 +13,5 @@ figure
 semilogy(t, y(:,1), 'm');
 hold on
 semilogy(t, y(:,2), 'r');
-hold on
+axis([0, 120, 10e-1, 10e12])
 legend('Tumour', 'CD8+ T cells');
