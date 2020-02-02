@@ -29,9 +29,9 @@
 \contentsline {subsection}{\numberline {4.1.1}Warunki pocz\k atkowe}{13}
 \contentsline {subsubsection}{Scenariusz I}{13}
 \contentsline {subsubsection}{Scenariusz II}{14}
-\contentsline {section}{\numberline {4.2}Leczenie metod\k a immunoterapii}{15}
-\contentsline {section}{\numberline {4.3}Leczenie metod\k a chemioterapii}{15}
-\contentsline {section}{\numberline {4.4}Po\IeC {\l }\k aczenie metod immunoterapii i chemioterapii}{15}
-\contentsline {chapter}{\numberline {5.}Rezultaty}{16}
-\contentsline {chapter}{\numberline {6.}Analiza wynik\'ow}{17}
-\contentsline {chapter}{\numberline {7.}Podsumowanie}{18}
+\contentsline {section}{\numberline {4.2}Leczenie metod\k a immunoterapii}{14}
+\contentsline {section}{\numberline {4.3}Leczenie metod\k a chemioterapii}{14}
+\contentsline {section}{\numberline {4.4}Po\IeC {\l }\k aczenie metod immunoterapii i chemioterapii}{14}
+\contentsline {chapter}{\numberline {5.}Rezultaty}{15}
+\contentsline {chapter}{\numberline {6.}Analiza wynik\'ow}{16}
+\contentsline {chapter}{\numberline {7.}Podsumowanie}{17}

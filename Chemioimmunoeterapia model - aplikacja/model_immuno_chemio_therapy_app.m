@@ -2,7 +2,7 @@ clc; clear all
 close all
 format long
 
-n = 1; % wybór przypadku - 1 st³umienie nowotworu, 2 wzrost nowotworu
+n = 2; % wybór przypadku - 1 st³umienie nowotworu, 2 wzrost nowotworu
 
 switch n
     case 1
