@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6500) (preloaded format=pdflatex 2017.12.11)  5 FEB 2020 14:17
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6500) (preloaded format=pdflatex 2017.12.11)  5 FEB 2020 17:51
 entering extended mode
 **./ImmunochemiotherapyModel.tex
 (ImmunochemiotherapyModel.tex
@@ -330,17 +330,7 @@ Package: `anysize' 1.0 <1994/08/13>
 LaTeX Warning: Unused global option(s):
     [colorlinks].
 
-(ImmunochemiotherapyModel.aux
-
-LaTeX Warning: Label `r_chemioDrug' multiply defined.
-
-
-LaTeX Warning: Label `r_chemioDrug' multiply defined.
-
-
-LaTeX Warning: Label `r_chemioDrug' multiply defined.
-
-)
+(ImmunochemiotherapyModel.aux)
 \openout1 = `ImmunochemiotherapyModel.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 11.
@@ -357,7 +347,8 @@ LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 11.
 LaTeX Font Info:    ... okay on input line 11.
 LaTeX Font Info:    Checking defaults for OT4/cmr/m/n on input line 11.
 LaTeX Font Info:    Try loading font information for OT4+cmr on input line 11.
- (C:\Users\Ania\AppData\Roaming\MiKTeX\2.9\tex\latex\polski\ot4cmr.fd
+
+(C:\Users\Ania\AppData\Roaming\MiKTeX\2.9\tex\latex\polski\ot4cmr.fd
 File: ot4cmr.fd 2008/02/24 v1.2.1 Font defs for fonts PL (MW)
 )
 LaTeX Font Info:    ... okay on input line 11.
@@ -510,71 +501,76 @@ Rozdzia\PlPrIeC {\l } 2.
 [3
 
 ]
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 50.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 52.
  ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\omscmr.fd"
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/bx/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/b/n' tried instead on input line 50.
+(Font)              Font shape `OMS/cmsy/b/n' tried instead on input line 52.
  [4]
 LaTeX Font Info:    External font `plex10' loaded for size
-(Font)              <14.4> on input line 53.
+(Font)              <14.4> on input line 55.
 LaTeX Font Info:    External font `plex10' loaded for size
-(Font)              <10> on input line 53.
+(Font)              <10> on input line 55.
 LaTeX Font Info:    External font `plex10' loaded for size
-(Font)              <7> on input line 53.
+(Font)              <7> on input line 55.
  [5]
 [6] [7] [8]
 Rozdzia\PlPrIeC {\l } 3.
 [9
 
-] [10]
-Overfull \hbox (7.2629pt too wide) in paragraph at lines 222--236
+]
+Overfull \hbox (60.35231pt too wide) detected at line 203
+[]
+ []
+
+[10]
+Overfull \hbox (7.2629pt too wide) in paragraph at lines 216--230
  [][] 
  []
 
 
-Underfull \hbox (badness 1755) in paragraph at lines 241--241
+Underfull \hbox (badness 1755) in paragraph at lines 235--235
 []\OT4/cmr/m/n/12 Tempo dez-ak-ty-wa-cji lim-fo-cy-tów $\OML/plm/m/it/12 T[]$
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 254--254
+Underfull \hbox (badness 10000) in paragraph at lines 248--248
 []\OT4/cmr/m/n/12 Tempo roz-pa-du te-ra-peu-tycz-ne-go
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 256--256
+Underfull \hbox (badness 10000) in paragraph at lines 250--250
 []\OT4/cmr/m/n/12 Dezaktywacja mo-le-kuª interleukiny-2
  []
 
 
-Overfull \hbox (5.3349pt too wide) in paragraph at lines 239--259
+Overfull \hbox (5.3349pt too wide) in paragraph at lines 233--253
  [][] 
  []
 
 [11] [12] [13]
 Rozdzia\PlPrIeC {\l } 4.
-<./rysunki/bez_lecz1.jpg, id=69, 562.1pt x 421.575pt>
-File: ./rysunki/bez_lecz1.jpg Graphic file (type jpg)
-<use ./rysunki/bez_lecz1.jpg>
-Package pdftex.def Info: ./rysunki/bez_lecz1.jpg  used on input line 278.
+<./rysunki/bez_lecz1m.jpg, id=70, 562.1pt x 421.575pt>
+File: ./rysunki/bez_lecz1m.jpg Graphic file (type jpg)
+<use ./rysunki/bez_lecz1m.jpg>
+Package pdftex.def Info: ./rysunki/bez_lecz1m.jpg  used on input line 272.
 (pdftex.def)             Requested size: 330.76329pt x 248.07095pt.
 LaTeX Font Info:    External font `plex10' loaded for size
-(Font)              <10.95> on input line 279.
+(Font)              <10.95> on input line 273.
 [14
 
- <./rysunki/bez_lecz1.jpg>]
-Underfull \hbox (badness 10000) in paragraph at lines 284--292
+ <./rysunki/bez_lecz1m.jpg>]
+Underfull \hbox (badness 10000) in paragraph at lines 278--286
 
  []
 
-<./rysunki/bez_lecz2.jpg, id=73, 562.1pt x 421.575pt>
-File: ./rysunki/bez_lecz2.jpg Graphic file (type jpg)
-<use ./rysunki/bez_lecz2.jpg>
-Package pdftex.def Info: ./rysunki/bez_lecz2.jpg  used on input line 297.
+<./rysunki/bez_lecz2m.jpg, id=74, 562.1pt x 421.575pt>
+File: ./rysunki/bez_lecz2m.jpg Graphic file (type jpg)
+<use ./rysunki/bez_lecz2m.jpg>
+Package pdftex.def Info: ./rysunki/bez_lecz2m.jpg  used on input line 291.
 (pdftex.def)             Requested size: 330.76329pt x 248.07095pt.
-[15 <./rysunki/bez_lecz2.jpg>]
+[15 <./rysunki/bez_lecz2m.jpg>]
 Rozdzia\PlPrIeC {\l } 5.
 [16
 
@@ -593,38 +589,37 @@ Rozdzia\PlPrIeC {\l } 7.
 Package caption Warning: Unused \captionsetup[subfigure] on input line 148.
 See the caption package documentation for explanation.
 
-(ImmunochemiotherapyModel.aux)
-
-LaTeX Warning: There were multiply-defined labels.
-
- ) 
+(ImmunochemiotherapyModel.aux) ) 
 Here is how much of TeX's memory you used:
- 5803 strings out of 493312
- 86397 string characters out of 3136354
- 175257 words of memory out of 3000000
- 9204 multiletter control sequences out of 15000+200000
+ 5798 strings out of 493312
+ 86363 string characters out of 3136354
+ 178257 words of memory out of 3000000
+ 9199 multiletter control sequences out of 15000+200000
  19765 words of font info for 60 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  46i,11n,42p,1391b,362s stack positions out of 5000i,500n,10000p,200000b,50000s
-{C:/Users/Ania/AppData/Roaming/MiKTeX/2.9/fonts/enc/dvips/pl/plrm.enc}{C:/Use
-rs/Ania/AppData/Roaming/MiKTeX/2.9/fonts/enc/dvips/pl/plmi.enc}{C:/Users/Ania/A
-ppData/Roaming/MiKTeX/2.9/fonts/enc/dvips/pl/plms.enc}<C:/Program Files (x86)/M
-iKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbsy10.pfb><C:/Users/Ania/AppData/Roa
-ming/MiKTeX/2.9/fonts/type1/public/pl/plbx12.pfb><C:/Users/Ania/AppData/Roaming
-/MiKTeX/2.9/fonts/type1/public/pl/plmi10.pfb><C:/Users/Ania/AppData/Roaming/MiK
-TeX/2.9/fonts/type1/public/pl/plmi12.pfb><C:/Users/Ania/AppData/Roaming/MiKTeX/
-2.9/fonts/type1/public/pl/plmi6.pfb><C:/Users/Ania/AppData/Roaming/MiKTeX/2.9/f
-onts/type1/public/pl/plmi8.pfb><C:/Users/Ania/AppData/Roaming/MiKTeX/2.9/fonts/
-type1/public/pl/plr10.pfb><C:/Users/Ania/AppData/Roaming/MiKTeX/2.9/fonts/type1
-/public/pl/plr12.pfb><C:/Users/Ania/AppData/Roaming/MiKTeX/2.9/fonts/type1/publ
-ic/pl/plr6.pfb><C:/Users/Ania/AppData/Roaming/MiKTeX/2.9/fonts/type1/public/pl/
-plr8.pfb><C:/Users/Ania/AppData/Roaming/MiKTeX/2.9/fonts/type1/public/pl/plsl10
-.pfb><C:/Users/Ania/AppData/Roaming/MiKTeX/2.9/fonts/type1/public/pl/plsl12.pfb
-><C:/Users/Ania/AppData/Roaming/MiKTeX/2.9/fonts/type1/public/pl/plsy10.pfb><C:
-/Users/Ania/AppData/Roaming/MiKTeX/2.9/fonts/type1/public/pl/plsy8.pfb>
-Output written on ImmunochemiotherapyModel.pdf (23 pages, 203678 bytes).
+{C:/Users/Ania/AppData/Roaming/MiKTeX/2.9/fonts
+/enc/dvips/pl/plrm.enc}{C:/Users/Ania/AppData/Roaming/MiKTeX/2.9/fonts/enc/dvip
+s/pl/plmi.enc}{C:/Users/Ania/AppData/Roaming/MiKTeX/2.9/fonts/enc/dvips/pl/plms
+.enc}{C:/Users/Ania/AppData/Roaming/MiKTeX/2.9/fonts/enc/dvips/pl/plme.enc}<C:/
+Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbsy10.pfb><C:/U
+sers/Ania/AppData/Roaming/MiKTeX/2.9/fonts/type1/public/pl/plbx12.pfb><C:/Users
+/Ania/AppData/Roaming/MiKTeX/2.9/fonts/type1/public/pl/plex10.pfb><C:/Users/Ani
+a/AppData/Roaming/MiKTeX/2.9/fonts/type1/public/pl/plmi10.pfb><C:/Users/Ania/Ap
+pData/Roaming/MiKTeX/2.9/fonts/type1/public/pl/plmi12.pfb><C:/Users/Ania/AppDat
+a/Roaming/MiKTeX/2.9/fonts/type1/public/pl/plmi6.pfb><C:/Users/Ania/AppData/Roa
+ming/MiKTeX/2.9/fonts/type1/public/pl/plmi8.pfb><C:/Users/Ania/AppData/Roaming/
+MiKTeX/2.9/fonts/type1/public/pl/plr10.pfb><C:/Users/Ania/AppData/Roaming/MiKTe
+X/2.9/fonts/type1/public/pl/plr12.pfb><C:/Users/Ania/AppData/Roaming/MiKTeX/2.9
+/fonts/type1/public/pl/plr6.pfb><C:/Users/Ania/AppData/Roaming/MiKTeX/2.9/fonts
+/type1/public/pl/plr8.pfb><C:/Users/Ania/AppData/Roaming/MiKTeX/2.9/fonts/type1
+/public/pl/plsl10.pfb><C:/Users/Ania/AppData/Roaming/MiKTeX/2.9/fonts/type1/pub
+lic/pl/plsl12.pfb><C:/Users/Ania/AppData/Roaming/MiKTeX/2.9/fonts/type1/public/
+pl/plsy10.pfb><C:/Users/Ania/AppData/Roaming/MiKTeX/2.9/fonts/type1/public/pl/p
+lsy8.pfb>
+Output written on ImmunochemiotherapyModel.pdf (23 pages, 201726 bytes).
 PDF statistics:
- 137 PDF objects out of 1000 (max. 8388607)
+ 142 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  11 words of extra memory for PDF output out of 10000 (max. 10000000)
 

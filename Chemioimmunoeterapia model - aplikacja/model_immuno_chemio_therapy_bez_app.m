@@ -32,4 +32,6 @@ semilogy(t, y(:,3), 'r');
 hold on
 semilogy(t, y(:,4), 'c');
 axis([0, 120, 10e-1, 10e12])
-legend('Tumour', 'Natural killer cells', 'CD8+ T cells', 'Circulating lymphocytes');
+legend('Komórki nowotworowe', 'Komórki NK', 'Limfocyty T_{CD8+}', 'Kr¹¿¹ce limfocyty');
+ylabel('Liczba komórek')
+xlabel('Czas [dni]')

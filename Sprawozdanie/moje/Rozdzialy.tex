@@ -1,7 +1,9 @@
 \chapter{Wprowadzenie}
 % \setlength{\parindent}{50pt} tak siê robi wciêcia
 \section{Streszczenie}
-W pracy przedstawiono model opisuj¹cy leczenie nowotworu skojarzonymi metodami immunoterapii i chemioterapii. Model ten oparty jest na modelu de Pillis'a oraz modelu Isaeva i Osiopov'a \cite{1}. Uwzglêdnia on rozwój komórek nowotworowych w organizmie, odpowiedŸ uk³adu immunologicznego -- limfocytów naciekaj¹cych nowotwór (ang. Tumor Infiltrating Lymphocytes (TIL)), komórek NK (ang. Natural Killer - naturalni zabójcy), limfocytów $T_{CD8+}$ -- na nowotwór oraz leczenie metod¹ chemioterapii i immunoterapii z u¿yciem cytokin: interleukin-2 (IL-2) i interferonów alpha (INF-$\alpha$).
+W pracy przedstawiono model opisuj¹cy odpowiedŸ uk³adu immunologicznego na rozwijaj¹cy siê w organizmie nowotwór. Model ten oparty jest na modelu de Pillis'a oraz modelu Isaeva i Osiopov'a \cite{1}. Obejmuje on rozwój komórek nowotworowych w organizmie oraz odpowiedŸ uk³adu immunologicznego -- w tym limfocytów naciekaj¹cych nowotwór (ang. Tumor Infiltrating Lymphocytes (TIL)), komórek NK (ang. Natural Killer - naturalni zabójcy), limfocytów $T_{CD8+}$. 
+Nastêpnie model zostaje poddany modyfikacji -- uwzglêdnia dodatkowo proces leczenia nowotworu skojarzonymi metodami chemioterapii i immunoterapii z u¿yciem cytokin: interleukin-2 (IL-2) i interferonów alfa (INF-$\alpha$).
+
 \section{Abstract}
 \section{Cel pracy}
 Celem pracy by³o:
@@ -174,44 +176,36 @@ W równaniach modelu uwzglêdniono takie czynniki, jak:
 
 \section{Równania modelu}
 
-\begin{equation}\label{r_tumor}
-\dfrac{dT}{dt}=aT(1-bT)-cNT-DT-K_{T}(1-e^{-M})T-c'TL,
+% \begin{equation}
+% \begin{cases} 
+% \dfrac{dT}{dt}=aT(1-bT)-cNT-DT-K_{T}(1-e^{-M})T-c'TL,
+% \\ \dfrac{dN}{dt}=eC-fN+g\dfrac{T^{2}}{h+T^{2}}N-pNT-K_{N}(1-e^{-M})N,
+% \\ \dfrac{dL}{dt}=-mL+j\dfrac{D^{2}T^{2}}{k+D^{2}T^{2}}L-qLT+(r_{1}N+r_{2}C)T-uNL^{2}-K_{L}(1-e^{-M})L+\dfrac{p_{i}LI}{g_{i}}+ % \nu_{L}(t), 
+% \\ \dfrac{dC}{dt}=\alpha-\beta C-K_{C}(1-e^{-M})C,
+% \\ \dfrac{dM}{dt}=-\gamma M+\nu_{M}(t),
+% \\ \dfrac{dI}{dt}=-\mu_{i}L-j'LI-k'TI+\nu_{I}(t),
+% \\ \dfrac{dI_{\alpha}}{dt}=V_{\alpha}(t)-gI_{\alpha},
+% \label{RównanieWodarz} 
+% \end{cases}
+% \end{equation} 
+
+\begin{equation}
+\label{równania_modelu_pillis_i_isaeva}
+\left\{ \begin{array}{ll}
+\dfrac{dT}{dt}=aT(1-bT)-cNT-DT-K_{T}(1-e^{-M})T-c'TL,\\\\
+\dfrac{dN}{dt}=eC-fN+g\dfrac{T^{2}}{h+T^{2}}N-pNT-K_{N}(1-e^{-M})N,\\\\
+\dfrac{dL}{dt}=-mL+j\dfrac{D^{2}T^{2}}{k+D^{2}T^{2}}L-qLT+(r_{1}N+r_{2}C)T-uNL^{2}-K_{L}(1-e^{-M})L+\dfrac{p_{i}LI}{g_{i}}+ \nu_{L}(t),\\\\
+\dfrac{dC}{dt}=\alpha-\beta C-K_{C}(1-e^{-M})C,\\\\
+\dfrac{dM}{dt}=-\gamma M+\nu_{M}(t),\\\\
+\dfrac{dI}{dt}=-\mu_{i}L-j'LI-k'TI+\nu_{I}(t),\\\\
+\dfrac{dI_{\alpha}}{dt}=V_{\alpha}(t)-gI_{\alpha},\\\\
+\end{array} \right.
 \end{equation}
 
-\begin{equation}\label{r_NKcells}
-\dfrac{dN}{dt}=eC-fN+g\dfrac{T^{2}}{h+T^{2}}N-pNT-K_{N}(1-e^{-M})N,
-\end{equation}
 
-\begin{equation}\label{r_CD8+Tcells}
-\dfrac{dL}{dt}=-mL+j\dfrac{D^{2}T^{2}}{k+D^{2}T^{2}}L-qLT+(r_{1}N+r_{2}C)T-uNL^{2}-K_{L}(1-e^{-M})L+\dfrac{p_{i}LI}{g_{i}}+ \nu_{L}(t),
-\end{equation}
+gdzie: $D=d\dfrac{(\frac{L}{T})^{l}}{s+(\frac{L}{T})^{l}}$ i $c'=c_{CTL}(2-e^{\frac{I_{\alpha}}{I_{\alpha 0}}})$.
 
-\begin{equation}\label{r_cylculLymphocytes}
-\dfrac{dC}{dt}=\alpha-\beta C-K_{C}(1-e^{-M})C,
-\end{equation}
-
-\begin{equation}\label{r_chemioDrug}
-\dfrac{dM}{dt}=-\gamma M+\nu_{M}(t),
-\end{equation}
-
-\begin{equation}\label{r_IL-2}
-\dfrac{dI}{dt}=-\mu_{i}L-j'LI-k'TI+\nu_{I}(t),
-\end{equation}
-
-\begin{equation}\label{r_chemioDrug}
-\dfrac{dI_{\alpha}}{dt}=V_{\alpha}(t)-gI_{\alpha},
-\end{equation}
-
-gdzie:
-
-\begin{equation}\label{r_chemioDrug}
-D=d\dfrac{(\frac{L}{T})^{l}}{s+(\frac{L}{T})^{l}}
-\end{equation}
-
-\begin{equation}\label{r_chemioDrug}
-c'=c_{CTL}(2-e^{\frac{I_{\alpha}}{I_{\alpha 0}}})
-\end{equation}
-
+\section{Sk³adowe równañ modelu}
 \section{Parametry modelu}
 
 W celu przeprowadzenia symulacji dobrano parametry modelu, jak w tabeli \ref{parametry_modelu}.
@@ -271,11 +265,11 @@ $C(0) = 6 \cdot 10^{10}$ \\
 $I(0) = 0$ \\
 $I_{\alpha}(0) = 0$ \\
 $M(0) = 0$ \\
-Wynik symulacji przedstawiono na Rys. \ref{s_bez_leczenia1} 
+Wynik symulacji przedstawiono na Rys. \ref{s_bez_leczenia1}.
 
 \begin{figure}[!htb]
 	\centering
-	\includegraphics[width=0.75\textwidth]{bez_lecz1}
+	\includegraphics[width=0.75\textwidth]{bez_lecz1m}
 	\caption{Symulacja odpowiedzi uk³adu immunologicznego na nowotwór, dla warunków pocz¹tkowych: pocz¹tkowa liczba komórek nowotworowych $T(0) = 1 \cdot 10^{6}$, pocz¹tkowa liczba komórek NK $N(0) = 1 \cdot 10^{5}$, pocz¹tkowa liczba limfocytów $T_{CD8+}$ $L(0) = 1 \cdot 10^{2}$, pocz¹tkowa liczba kr¹¿¹cych limfocytów $C(0) = 6 \cdot 10^{10}$.}\label{s_bez_leczenia1} 
 \end{figure}
 
@@ -290,11 +284,11 @@ $I(0) = 0$ \\
 $I_{\alpha}(0) = 0$ \\
 $M(0) = 0$ \\
 
-Wynik symulacji przedstawiono na Rys. \ref{s_bez_leczenia2}
+Wynik symulacji przedstawiono na Rys. \ref{s_bez_leczenia2}.
 
 \begin{figure}[!htb]
 	\centering
-	\includegraphics[width=0.75\textwidth]{bez_lecz2}
+	\includegraphics[width=0.75\textwidth]{bez_lecz2m}
 	\caption{Symulacja odpowiedzi uk³adu immunologicznego na nowotwór, dla warunków pocz¹tkowych: pocz¹tkowa liczba komórek nowotworowych $T(0) = 1 \cdot 10^{6}$, pocz¹tkowa liczba komórek NK $N(0) = 1 \cdot 10^{3}$, pocz¹tkowa liczba limfocytów $T_{CD8+}$ $L(0) = 1 \cdot 10^{1}$, pocz¹tkowa liczba kr¹¿¹cych limfocytów $C(0) = 6 \cdot 10^{8}$.}\label{s_bez_leczenia2} 
 \end{figure}
 

@@ -21,8 +21,9 @@
 \contentsline {chapter}{\numberline {3.}Model}{9}
 \contentsline {section}{\numberline {3.1}Opis modelu}{9}
 \contentsline {section}{\numberline {3.2}Za\IeC {\l }o\.zenia modelu}{10}
-\contentsline {section}{\numberline {3.3}R\'ownania modelu}{10}
-\contentsline {section}{\numberline {3.4}Parametry modelu}{11}
+\contentsline {section}{\numberline {3.3}R\'ownania modelu}{11}
+\contentsline {section}{\numberline {3.4}Sk\IeC {\l }adowe r\'owna\'n modelu}{11}
+\contentsline {section}{\numberline {3.5}Parametry modelu}{11}
 \contentsline {chapter}{\numberline {4.}Symulacje}{14}
 \contentsline {section}{\numberline {4.1}Brak leczenia}{14}
 \contentsline {subsection}{\numberline {4.1.1}Warunki pocz\k atkowe}{14}
