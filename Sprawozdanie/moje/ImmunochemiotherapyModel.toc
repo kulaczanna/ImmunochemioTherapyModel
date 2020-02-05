@@ -7,31 +7,31 @@
 \contentsline {section}{\numberline {2.1}Procesy nowotworowe}{3}
 \contentsline {section}{\numberline {2.2}Budowa uk\IeC {\l }adu immunologicznego i jego znaczenie w procesie leczenia nowotwor\'ow}{3}
 \contentsline {subsection}{\numberline {2.2.1}Limfocyty $T_{CD8+}$}{5}
-\contentsline {subsection}{\numberline {2.2.2}Kom\'orki NK}{5}
-\contentsline {subsection}{\numberline {2.2.3}Interferony}{5}
+\contentsline {subsection}{\numberline {2.2.2}Kom\'orki NK}{6}
+\contentsline {subsection}{\numberline {2.2.3}Interferony}{6}
 \contentsline {subsection}{\numberline {2.2.4}Interleukiny}{6}
-\contentsline {section}{\numberline {2.3}Sposoby leczenia nowotwor\'ow}{6}
-\contentsline {subsection}{\numberline {2.3.1}Immunoterapia}{6}
-\contentsline {subsubsection}{Nieswoista bierna immunoterapia}{6}
+\contentsline {section}{\numberline {2.3}Sposoby leczenia nowotwor\'ow}{7}
+\contentsline {subsection}{\numberline {2.3.1}Immunoterapia}{7}
+\contentsline {subsubsection}{Nieswoista bierna immunoterapia}{7}
 \contentsline {subsubsection}{Swoista bierna immunoterapia}{7}
-\contentsline {subsubsection}{Nieswoista czynna immunoterapia}{7}
-\contentsline {subsubsection}{Swoista czynna immunoterapia}{7}
-\contentsline {subsection}{\numberline {2.3.2}Chemioterapia}{7}
+\contentsline {subsubsection}{Nieswoista czynna immunoterapia}{8}
+\contentsline {subsubsection}{Swoista czynna immunoterapia}{8}
+\contentsline {subsection}{\numberline {2.3.2}Chemioterapia}{8}
 \contentsline {subsection}{\numberline {2.3.3}Leczenie skojarzone}{8}
-\contentsline {chapter}{\numberline {3.}Model}{9}
-\contentsline {section}{\numberline {3.1}Opis modelu}{9}
-\contentsline {section}{\numberline {3.2}Za\IeC {\l }o\.zenia modelu}{10}
-\contentsline {section}{\numberline {3.3}R\'ownania modelu}{11}
-\contentsline {section}{\numberline {3.4}Sk\IeC {\l }adowe r\'owna\'n modelu}{11}
-\contentsline {section}{\numberline {3.5}Parametry modelu}{11}
-\contentsline {chapter}{\numberline {4.}Symulacje}{14}
-\contentsline {section}{\numberline {4.1}Brak leczenia}{14}
-\contentsline {subsection}{\numberline {4.1.1}Warunki pocz\k atkowe}{14}
-\contentsline {subsubsection}{Scenariusz I}{14}
-\contentsline {subsubsection}{Scenariusz II}{15}
-\contentsline {section}{\numberline {4.2}Leczenie metod\k a immunoterapii}{15}
-\contentsline {section}{\numberline {4.3}Leczenie metod\k a chemioterapii}{15}
-\contentsline {section}{\numberline {4.4}Po\IeC {\l }\k aczenie metod immunoterapii i chemioterapii}{15}
-\contentsline {chapter}{\numberline {5.}Rezultaty}{16}
-\contentsline {chapter}{\numberline {6.}Analiza wynik\'ow}{17}
-\contentsline {chapter}{\numberline {7.}Podsumowanie}{18}
+\contentsline {chapter}{\numberline {3.}Model}{10}
+\contentsline {section}{\numberline {3.1}Opis modelu}{10}
+\contentsline {section}{\numberline {3.2}Za\IeC {\l }o\.zenia modelu}{11}
+\contentsline {section}{\numberline {3.3}R\'ownania modelu}{12}
+\contentsline {section}{\numberline {3.4}Sk\IeC {\l }adowe r\'owna\'n modelu}{12}
+\contentsline {section}{\numberline {3.5}Parametry modelu}{12}
+\contentsline {chapter}{\numberline {4.}Symulacje}{15}
+\contentsline {section}{\numberline {4.1}Brak leczenia}{15}
+\contentsline {subsection}{\numberline {4.1.1}Warunki pocz\k atkowe}{15}
+\contentsline {subsubsection}{Scenariusz I}{15}
+\contentsline {subsubsection}{Scenariusz II}{16}
+\contentsline {section}{\numberline {4.2}Leczenie metod\k a immunoterapii}{16}
+\contentsline {section}{\numberline {4.3}Leczenie metod\k a chemioterapii}{16}
+\contentsline {section}{\numberline {4.4}Po\IeC {\l }\k aczenie metod immunoterapii i chemioterapii}{16}
+\contentsline {chapter}{\numberline {5.}Rezultaty}{17}
+\contentsline {chapter}{\numberline {6.}Analiza wynik\'ow}{18}
+\contentsline {chapter}{\numberline {7.}Podsumowanie}{19}

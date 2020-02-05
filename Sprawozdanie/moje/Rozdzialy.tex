@@ -1,7 +1,7 @@
 \chapter{Wprowadzenie}
 % \setlength{\parindent}{50pt} tak siê robi wciêcia
 \section{Streszczenie}
-W pracy przedstawiono model opisuj¹cy odpowiedŸ uk³adu immunologicznego na rozwijaj¹cy siê w organizmie nowotwór. Model ten oparty jest na modelu de Pillis'a oraz modelu Isaeva i Osiopov'a \cite{1}. Obejmuje on rozwój komórek nowotworowych w organizmie oraz odpowiedŸ uk³adu immunologicznego -- w tym limfocytów naciekaj¹cych nowotwór (ang. Tumor Infiltrating Lymphocytes (TIL)), komórek NK (ang. Natural Killer - naturalni zabójcy), limfocytów $T_{CD8+}$. 
+W pracy przedstawiono model opisuj¹cy odpowiedŸ uk³adu immunologicznego na rozwijaj¹cy siê w organizmie nowotwór. Model ten oparty jest na modelu de Pillis'a oraz modelu Isaeva i Osiopov'a \cite{1}. Obejmuje on rozwój komórek nowotworowych w organizmie oraz odpowiedŸ uk³adu immunologicznego -- w tym limfocytów naciekaj¹cych nowotwór (ang. Tumor Infiltrating Lymphocytes (TIL)), komórek NK (ang. Natural Killer cells - naturalni zabójcy), limfocytów $T_{CD8+}$. 
 Nastêpnie model zostaje poddany modyfikacji -- uwzglêdnia dodatkowo proces leczenia nowotworu skojarzonymi metodami chemioterapii i immunoterapii z u¿yciem cytokin: interleukin-2 (IL-2) i interferonów alfa (INF-$\alpha$).
 
 \section{Abstract}
@@ -27,31 +27,56 @@ Praca sk³ada siê z nastêpuj¹cych czêœci:
 
 \chapter{Wstêp}
 \section{Procesy nowotworowe}
-Nowotworem okreœla siê nieprawid³owe komórki w organizmie, których wzrost odbywa siê w sposób niekontrolowany \cite{1, 2}. W zdrowym organizmie wystêpuje równowaga pomiêdzy tempem podzia³ów komórkowych a ich utrat¹. W przypadku nowotworu ginie mniej komórek ni¿ przybywa \cite{3}. W efekcie ich spontanicznego mno¿enia siê struktura, która siê z nich sk³ada zaczyna niszczyæ narz¹d, w którym wyst¹pi³ proces nowotworowy. Niektóre z tych komórek mog¹ oderwaæ siê od pozosta³ych, przedostaæ do naczyñ krwionoœnych i limfatycznych, a w konsekwencji dawaæ przerzuty do innych narz¹dów \cite {2}. Powstawanie nowotworu wi¹¿e siê z wieloma zmianami materia³u genetycznego. Rozpoczêcie tego procesu zale¿y zarówno od wagi, jak i miejsca, w którym dana zmiana wyst¹pi³a. Warto zwróciæ uwagê na zmiany systemów naprawy DNA oraz systemów reguluj¹cych podstawowe procesy komórek (na przyk³ad wzrost, ró¿nicowanie, apoptoza). Na skutek zmian systemów naprawczych dochodzi do szybkiej i du¿ej niestabilnoœci genomu, natomiast w przypadku zmian w systemach reguluj¹cych proces zaburzenia homeostazy komórki jest powolny, a niestabilnoœæ narasta stopniowo. Choroby nowotworowe w wiêkszoœci rozwijaj¹ siê zgodnie z powolnym mechanizmem, dlatego od pojawienia siê pocz¹tkowej zmiany do klinicznego ujawnienia guza mija zazwyczaj wiele lat \cite{3}.
+Nowotworem okreœla siê nieprawid³owe komórki w organizmie, których wzrost odbywa siê w sposób niekontrolowany \cite{1, 2}. W zdrowym organizmie wystêpuje równowaga pomiêdzy tempem podzia³ów komórkowych a utrat¹ komórek. W przypadku nowotworu ginie mniej komórek ni¿ przybywa \cite{3}. W efekcie ich spontanicznego mno¿enia siê struktura, która siê z nich sk³ada zaczyna niszczyæ narz¹d, w którym wyst¹pi³ proces nowotworowy. Niektóre z tych komórek mog¹ oderwaæ siê od pozosta³ych, przedostaæ do naczyñ krwionoœnych i limfatycznych, a w konsekwencji dawaæ przerzuty do innych narz¹dów \cite {2}. Powstawanie nowotworu wi¹¿e siê z wieloma zmianami materia³u genetycznego. Rozpoczêcie tego procesu zale¿y zarówno od wagi, jak i miejsca, w którym dana zmiana wyst¹pi³a. Warto zwróciæ uwagê na zmiany systemów naprawy DNA oraz systemów reguluj¹cych podstawowe procesy komórek (na przyk³ad wzrost, ró¿nicowanie, apoptoza\footnote{Œmieræ programowana, œmieræ samobójcza komórki zachodz¹ca w warunkach fizjologicznych \cite{12}.}). Na skutek zmian systemów naprawczych dochodzi do szybkiej i du¿ej niestabilnoœci genomu, natomiast w przypadku zmian w systemach reguluj¹cych proces zaburzenia homeostazy komórki jest powolny, a niestabilnoœæ narasta stopniowo. Choroby nowotworowe w wiêkszoœci rozwijaj¹ siê zgodnie z powolnym mechanizmem, dlatego od pojawienia siê pocz¹tkowej zmiany do klinicznego ujawnienia guza mija zazwyczaj wiele lat \cite{3}.
 
 \section{Budowa uk³adu immunologicznego i jego znaczenie w procesie leczenia nowotworów}
-Na uk³ad immunologiczny sk³adaj¹ siê mechanizmy odpornoœci swoistej (nabytej) i nieswoistej (wrodzonej) \cite{4,5}. %Najwa¿niejsze ró¿nice pomiêdzy tymi dwoma rodzajami odpornoœci zosta³y przedstawione na rys. \ref{ró¿nice_miêdzy_nab_a_wrodz}. 
-Funkcjonowanie mechanizmów nieswoistych jest niezale¿ne od wczeœniejszej stycznoœci organizmu z czynnikami patogennymi i pe³ni funkcjê obronn¹ przed infekcjami i chorobami bêd¹cymi skutkiem dzia³ania czynników œrodowiskowych. Mechanizmy te cechuje mniejsza precyzja, ale s¹ one zdolne do szybkiego rozpoznawania i niszczenia wnikaj¹cych drobnoustrojów. Odpornoœæ wrodzon¹ warunkuj¹ miêdzy innymi: komórki NK, makrofagi, granulocyty, monocyty. Do mechanizmów swoistej odpornoœci nale¿¹ \cite{6}:
+Na uk³ad immunologiczny sk³adaj¹ siê mechanizmy odpornoœci swoistej (nabytej) i nieswoistej (wrodzonej) \cite{4,5}. Podzia³ tych mechanizmów przedstawiono w Tab. \ref{ró¿nice_miêdzy_nab_a_wrodz}. 
+
+Funkcjonowanie mechanizmów nieswoistych jest niezale¿ne od wczeœniejszej stycznoœci organizmu z czynnikami patogennymi i pe³ni funkcjê obronn¹ przed infekcjami i chorobami bêd¹cymi skutkiem dzia³ania czynników œrodowiskowych. Mechanizmy te cechuje mniejsza precyzja, ale s¹ one zdolne do szybkiego rozpoznawania i niszczenia wnikaj¹cych drobnoustrojów. Odpornoœæ wrodzon¹ warunkuj¹ miêdzy innymi: komórki NK, makrofagi, granulocyty, monocyty. 
+
+Do mechanizmów swoistej odpornoœci nale¿¹ \cite{6}:
 \begin{itemize}
 \item aktywnoœæ cytokin i chemokin,
 \item cytokinozale¿na wrodzona opornoœæ leukocytów i innych komórek,
 \item zabijanie zaka¿onych lub nowotworowych komórek przez komórki NK, komplement aktywowany lektynami lub drog¹ alternatywn¹,
-\item opsonizacja i fagocytoza.
+\item opsonizacja i fagocytoza\footnote{Usuwanie kompleksów immunologicznych i uszkodzonych komórek (u³atwienie fagocytozy immunologicznej). Efektywne niszczenie drobnoustrojów przez fagocyty \cite{13, 14}.}.
 \end{itemize}
-Odpornoœæ swoista rozpoznaje antygeny bardzo precyzyjnie. Jej wa¿nymi elementami s¹ limfocyty T, limfocyty B, cytokiny, przeciwcia³a. Komórki tego typu s¹ zdolne do wytwarzania nieograniczonej liczby receptorów. Dodatkowo, jeœli dojdzie do ich kontaktu z antygenem wytwarza siê pamiêæ immunologiczna, dziêki której przy ponownym zetkniêciu wytwarzana jest odpowiedŸ immunologiczna. W przypadku limfocytów T, typ odpowiedzi swoistej okreœlany jest jako komórkowy, natomiast dla limfocytów B -- humoralny.
+
+Odpornoœæ swoista rozpoznaje antygeny bardzo precyzyjnie. Jej wa¿nymi elementami s¹ limfocyty T, limfocyty B, cytokiny, przeciwcia³a. Komórki tego typu s¹ zdolne do wytwarzania nieograniczonej liczby receptorów. Dodatkowo, jeœli dojdzie do ich kontaktu z antygenem wytwarza siê pamiêæ immunologiczna, dziêki której przy ponownym zetkniêciu komórki danego typu z odpowiednim antygenem wytwarzana jest odpowiedŸ immunologiczna. W przypadku limfocytów T, typ odpowiedzi swoistej okreœlany jest jako komórkowy, natomiast dla limfocytów B -- humoralny.
 Pomimo bardzo du¿ego znaczenia uk³adu immunologicznego dla organizmu, wiele mechanizmów jego dzia³ania pozostaje jeszcze niewyjaœnionych \cite{4}.
 
-\textbf{SCHEMAT}
-%\begin{figure}[!htb]
-%	\centering
-%	\topcaption{Ró¿nice pomiêdzy odpornoœci¹ wrodzon¹ a nabyt¹.}\label{ró¿nice_miêdzy_nab_a_wrodz} 
-%	\includegraphics[width=1\textwidth]{roznice}
-%\end{figure}
+\begin{table}[!htb]
+\caption{Podzia³ mechanizmów obronnych odpornoœci nieswoistej i swoistej \cite{7}.}\label{ró¿nice_miêdzy_nab_a_wrodz}
+	\centering
+	\begin{tabular}{|c|l|l|p{0.47\linewidth}|} \hline
+		\multicolumn{3}{|c|}{Odpornoœæ} \\ \hline
+		& Nieswoista (wrodzona) & Swoista (nabyta) \\ \hline
+		Humoralna & Lizozym & Immunoglobuliny \\
+		& Laktoferyna & Limfocyty B \\
+		& Transferyna & \\
+		& Bia³ka ostrej fazy & \\
+		& Uk³ad dope³niacza & \\
+		& Interferony & \\ \hline
+		Komórkowa & Fagocyty & Limfocyty T \\
+		& Eozynofile & \\
+		& Komórki K & \\
+		& Komórki NK & \\ \hline
+		\end{tabular}
+\end{table}
 
+Znacz¹c¹ rolê w oddzia³ywaniu uk³adu immunologicznego na rozwijaj¹cy siê nowotwór maj¹ takie jego elementy, jak:
 
-\textbf{•!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! tutrzeba coœ napisaæ czemu dalej pisze o limfocytach cd8+T itd..}
+\begin{itemize}
+\item limfocyty $T_{CD8+}$,
+\item komórki NK,
+\item interferony,
+\item interleukiny.
+\end{itemize}
 
-\newpage
+W zwi¹zku z tym, ich funkcjê w organizmie ujêto w opisywanym modelu, a ich znaczenie opisano w dalszej czêœci pracy.
+
+% glikoproteiny MHC (Major Histocompatibility Complex)
+
 \subsection{Limfocyty $T_{CD8+}$}
 Limfocyty T wytwarzane s¹ w szpiku kostnym, natomiast dojrzewaj¹ w grasicy. Te oznaczane jako CD8+ dziel¹ siê na limfocyty:
 \begin{itemize}
@@ -59,8 +84,15 @@ Limfocyty T wytwarzane s¹ w szpiku kostnym, natomiast dojrzewaj¹ w grasicy. Te o
 \item $T_{s}$ -- supresyjne -- odpowiadaj¹ce za hamowanie dzia³ania innych limfocytów, reakcji alergicznych i utrzymanie tolerancji immunologicznej na w³asne antygeny \cite{7}.
 \end{itemize}
 OdpowiedŸ immunologiczna swoista typu komórkowego, w któr¹ zaanga¿owane s¹ subpopulacje limfocytów T polega na wywo³aniu reakcji zwalczania antygenu. Mo¿liwe s¹ dwa typy tej reakcji. W pierwszym z nich funkcjê efektorów pe³ni¹ limfocyty CD4+, a makrofagi s¹ komórkami pomocniczymi. Drugi typ reakcji zak³ada, ¿e limfocyt cytotoksyczny CD8+ jest komórk¹ efektorow¹, a limfocyt CD4+ pomocnicz¹.
+Podzia³ limfocytów T przedstawiono na Rys. \ref{limfocyty_T_cd8+}.
 Odpornoœæ komórkowa ma za zadanie, przede wszystkim walczyæ z zaka¿eniami bêd¹cymi efektem namna¿aj¹cych siê drobnoustrojów, ale równie¿ spe³nia wa¿n¹ rolê w reakcji kontaktowej ze zwi¹zkami chemicznymi, odrzuceniu przeszczepu czy tkanek zmienionych nowotworowo i w niektórych reakcjach autoimmunologicznych \cite{4}.
 Miêdzy 5 a 6 dekad¹ ¿ycia ustaje czynnoœæ grasicy, czego skutkiem s¹ zmiany w subpopulacjach limfocytów T. Z wiekiem g³ównie wzrasta liczba limfocytów CD4+, natomiast zmniejsza siê liczba limfocytów supresorowych i cytotoksycznych CD8+ \cite{4}.
+
+\begin{figure}[!htb]
+	\centering
+	\includegraphics[width=1\textwidth]{Limf_TT}
+	\caption{Podzia³ limfocytów T \cite{7}.}\label{limfocyty_T_cd8+} 
+\end{figure}
 
 \subsection{Komórki NK}
 Swoj¹ rolê w odpowiedzi immunologicznej maj¹ tak¿e komórki NK, które pochodz¹ z prekursorów dojrzewaj¹cych w szpiku kostnym \cite{7}.
@@ -71,8 +103,7 @@ Z wiekiem aktywnoœæ komórek NK spada (ze wzglêdu na zwiêkszon¹ liczbê receptorów
 Interferony nale¿¹ do humoralnych mechanizmów obronnych odpornoœci nieswoistej. Ich funkcj¹ jest, miêdzy innymi hamowanie replikacji wirusów w komórce i proliferacji komórek (w szczególnoœci nowotworowych), aktywowanie syntezy enzymów (rybonukleazy, syntetazy, kinazy bia³kowej) i cytotoksycznoœci makrofagów oraz limfocytów T, a tak¿e wzmo¿enie aktywnoœci komórek cytotoksycznych \cite{7}.
 
 \subsection{Interleukiny}
-Interleukiny s¹ jedn¹ z grup cytokin, która s³u¿y, miêdzy innymi do komunikacji pomiêdzy komórkami uk³adu odpornoœciowego, stanowi¹cymi elementy odpornoœci
-wrodzonej i nabytej. Maj¹ one charakter bia³kowy i s¹ produkowane g³ównie przez leukocyty. Ze wzglêdu na cechy biologiczne, w tym ró¿nice w budowie molekularnej i strukturze, interleukiny zosta³y zgrupowane w trzy rodziny:
+Interleukiny s¹ jedn¹ z grup cytokin, która s³u¿y, miêdzy innymi do komunikacji pomiêdzy komórkami uk³adu odpornoœciowego, stanowi¹cymi elementy odpornoœci wrodzonej i nabytej. Maj¹ one charakter bia³kowy i s¹ produkowane g³ównie przez leukocyty. Ze wzglêdu na cechy biologiczne, w tym ró¿nice w budowie molekularnej i strukturze, interleukiny zosta³y zgrupowane w trzy rodziny:
 \begin{itemize}
 \item pierwsz¹ -- podzielon¹ na podrodzinê interleukiny-2 i podrodzinê interferonów (reprezentowan¹ przez interferon-$\alpha$ i interferon-$\beta$),
 \item drug¹ -- rodzinê interleukiny-1,
@@ -81,7 +112,7 @@ wrodzonej i nabytej. Maj¹ one charakter bia³kowy i s¹ produkowane g³ównie przez 
 
 \section{Sposoby leczenia nowotworów}
 \subsection{Immunoterapia}
-Podczas immunoterapii dochodzi do ingerencji w uk³ad odpornoœciowy, co ma na celu wzmocnienie lub modyfikacjê mechanizmów obronnych walcz¹cych z nowotworem. Immunoterapiê mo¿na podzieliæ na biern¹ i czynn¹ o charakterze swoistym albo nieswoistym.
+Podczas immunoterapii dochodzi do ingerencji w uk³ad odpornoœciowy, co ma na celu wzmocnienie lub modyfikacjê mechanizmów obronnych walcz¹cych z nowotworem. Immunoterapiê mo¿na podzieliæ na biern¹ i czynn¹ o charakterze swoistym albo nieswoistym \cite{10}.
 
 \subsubsection{Nieswoista bierna immunoterapia}
 Immunoterapia tego typu ma za zadanie wywo³aæ nieswoist¹ aktywacjê uk³adu immunologicznego, a w konsekwencji dzia³anie przeciwnowotworowe na skutek podawania czynników lub aktywowanych komórek efektorowych. Wykorzystuje siê tu, na przyk³ad cytokiny czy komórki LAK (ang. Lymphokine Activated Killers).
@@ -93,33 +124,34 @@ Aby wywo³aæ efekt biologiczny konieczne jest po³¹czenie cytokiny ze swoistym rec
 \item hamowanie proliferacji komórek nowotworowych (m. in. INF-$\alpha$),
 \item aktywacja komórek NK (m. in. IL-2).
 \end{itemize}
-INF-$\alpha$ to pierwsza rekombinowana cytokina zarejestrowana do stosowania klinicznego.
+INF-$\alpha$ to pierwsza rekombinowana cytokina zarejestrowana do stosowania klinicznego \cite{10}.
 
 \subsubsection{Swoista bierna immunoterapia}
 Swoista bierna immunoterapia to metoda, która polega na podawaniu czynników lub komórek efektorowych swoiœcie skierowanych przeciwko danej komórce nowotworowej. S¹ to, na przyk³ad:
 \begin{itemize}
 \item przeciwcia³a podawane przeciwko antygenom, które wystêpuj¹ na komórkach nowotworowych, 
 \item terapie komórkowe, które wykorzystuj¹ limfocyty naciekaj¹ce guz (TIL); s¹ one izolowane, nastêpnie namno¿one i aktywowane, po czym ponownie przetaczane,
-\item limfocyty krwi obwodowej stymulowane in vitro komórkami prezentuj¹cymi antygen. 
+\item limfocyty krwi obwodowej stymulowane in vitro komórkami prezentuj¹cymi antygen \cite{10}. 
 \end{itemize} 
 
 \subsubsection{Nieswoista czynna immunoterapia}
-W metodzie tej pobudzany jest uk³ad odpornoœciowy, a zw³aszcza odpowiedŸ komórkowa. Wykorzystywane s¹ do tego antygeny, niewystêpuj¹ce w komórkach nowotworu. Substancjami stymuluj¹cymi procesy odpornoœciowe s¹ nieswoiste immunostymulatory (np. ca³e mikroorganizmy, elementy œciany komórkowej) i immunomodulatory (m. in. wyci¹gi z grasicy, syntetyczne hormony grasicy, tuftsynê, enkefaliny, endorfiny, wyci¹gi z limfocytów).
+W metodzie tej pobudzany jest uk³ad odpornoœciowy, a zw³aszcza odpowiedŸ komórkowa. Wykorzystywane s¹ do tego antygeny, niewystêpuj¹ce w komórkach nowotworu. Substancjami stymuluj¹cymi procesy odpornoœciowe s¹ nieswoiste immunostymulatory (np. ca³e mikroorganizmy, elementy œciany komórkowej) i immunomodulatory (m. in. wyci¹gi z grasicy, syntetyczne hormony grasicy, tuftsynê, enkefaliny, endorfiny, wyci¹gi z limfocytów) \cite{10}.
 
 \subsubsection{Swoista czynna immunoterapia}
 Ostatni rodzaj leczenia metod¹ immunoterapii polega na pobudzaniu odpornoœci na antygeny swoiste dla danego typu nowotworu. Wykorzystuje siê w niej immunizacjê przy u¿yciu tzw. terapeutycznych szczepionek nowotworowych. S¹ to szczepionki:
 \begin{itemize}
 \item niekomórkowe – peptydowe, HSP (ang. Heat Shock Protein – szczepionki na bazie bia³ek szoku cieplnego), szczepionki DNA oraz wirusowe,
-\item komórkowe – niemodyfikowane i modyfikowane genetycznie oraz komórki DC „karmione” antygenami nowotworowymi \cite{10}.
+\item komórkowe – niemodyfikowane i modyfikowane genetycznie oraz komórki DC (ang. Dendritic Cells -- komórki dendrytyczne) „karmione” antygenami nowotworowymi \cite{10}.
 \end{itemize}
 
 \subsection{Chemioterapia}
-Chemioterapia to metoda leczenia, która polega na niszczeniu komórek nowotworowych, drobnoustrojów, bakterii za pomoc¹ œrodków chemicznych. W przypadku nowotworów, stosuje siê ró¿ne grupy leków, tzw. cytostatyków. Zale¿nie od indywidualnych cech pacjenta ma ona œciœle okreœlony przebieg. Leki stosowane s¹ w monoterapii -- stosowanie jednego leku cytostatycznego lub polichemioterapii -- stosowanie kilku leków w okreœlonym schemacie. Leki podaje siê w pewnych sekwencjach -- co kilka dni, tygodni czy bez stosowania przerwy w leczeniu. Leki cytostatyczne dzia³aj¹ w okreœlonych fazach podzia³u komórek nowotworowych -- zmniejszaj¹ lub spowalniaj¹ ich namna¿anie siê. Najczêœciej podawane s¹ w postaci do¿ylnych wlewów, lecz niektóre z nich maj¹ formê tabletek. Skutki uboczne chemioterapii mog¹ byæ liczne i zauwa¿alne ju¿ po kilku dniach terapii, a czasem nawet po kilku godzinach \cite{9}. 
+Chemioterapia to metoda leczenia, która polega na niszczeniu komórek nowotworowych, drobnoustrojów, bakterii za pomoc¹ œrodków chemicznych. W przypadku nowotworów, stosuje siê ró¿ne grupy leków, tzw. cytostatyków. Zale¿nie od indywidualnych cech pacjenta ma ona œciœle okreœlony przebieg. Leki mog¹ byæ stosowane w monoterapii -- stosowanie jednego leku cytostatycznego lub polichemioterapii -- stosowanie kilku leków zgodnie z okreœlonym schematem. Leki podawane s¹ w sekwencjach -- co kilka dni, tygodni lub stale, bez przerwy w leczeniu. Leki cytostatyczne dzia³aj¹ w okreœlonych fazach podzia³u komórek nowotworowych -- zmniejszaj¹ lub spowalniaj¹ ich proliferacjê. Najczêœciej podawane s¹ w postaci do¿ylnych wlewów, lecz niektóre z nich maj¹ formê tabletek. Skutki uboczne chemioterapii mog¹ byæ liczne i zauwa¿alne ju¿ po kilku dniach terapii, a czasem nawet po kilku godzinach \cite{9}. 
 
 \subsection{Leczenie skojarzone}
-Leczenie skojarzone, polega na po³¹czeniu kilku metod leczniczych u pacjenta. Ten sposób terapii posiada wiele zalet: umo¿liwia wykonanie zabiegu operacyjnego w wielu przypadkach pierwotnie nieoperacyjnych, pozwala zast¹piæ okaleczaj¹ce zabiegi chirurgiczne równie skutecznym leczeniem zachowawczym, zmniejsza ryzyko wznowy miejscowej choroby i rozwoju odleg³ych przerzutów, wp³ywa na wyd³u¿enie czasu prze¿ycia chorych. 
-Sposób ten ma równie¿ pewne wady: znacznie wiêksza toksycznoœæ w porównaniu z monoterapi¹, brak wspó³pracy miêdzy specjalistami -- trudnoœci w przeprowadzeniu optymalnego w danym przypadku leczenia skojarzonego.
-Mo¿na wyró¿niæ:
+Leczenie skojarzone polega na po³¹czeniu kilku metod leczniczych u pacjenta. Ten sposób terapii posiada wiele zalet, miêdzy innymi umo¿liwia wykonanie zabiegu operacyjnego w wielu przypadkach pierwotnie nieoperacyjnych i pozwala zast¹piæ okaleczaj¹ce zabiegi chirurgiczne równie skutecznym leczeniem zachowawczym. Ponadto, zmniejsza ryzyko wznowy miejscowej choroby i rozwoju odleg³ych przerzutów, co wp³ywa na wyd³u¿enie czasu prze¿ycia chorych. 
+Z drugiej strony, leczenie skojarzone ma równie¿ pewne wady takie, jak znaczne zwiêkszenie toksycznoœci w porównaniu z monoterapi¹ czy brak wspó³pracy miêdzy specjalistami, co z kolei sprawia trudnoœci w przeprowadzeniu optymalnego w danym przypadku leczenia.
+
+Wœród metod leczenia skojarzonego mo¿na wyró¿niæ:
 \begin{itemize}
 \item leczenie sekwencyjne -- poszczególne metody lecznicze stosowane s¹ po kolei, np.:
 \begin{itemize}
@@ -132,6 +164,8 @@ chemioradioterapia, napromienianie œródoperacyjne;
 \item leczenie naprzemienne — dotyczy kojarzenia radioterapii
 i chemioterapii \cite{11}.
 \end{itemize}
+
+W tej pracy omawiany jest przypadek leczenia skojarzon¹ metod¹ chemioterapii i immunoterapii, zwanej tak¿e biochemioterapi¹ \cite{1}.
 
 \chapter{Model}
 \section{Opis modelu}
@@ -312,4 +346,7 @@ Wynik symulacji przedstawiono na Rys. \ref{s_bez_leczenia2}.
 \bibitem{9} ,,Chemioterapia, Immunoterapia i Terapia Celowana Informacje dla Pacjenta", Centrum Onkologii Ziemi Lubelskiej im. œw. Jana z Dukli, Lublin, 2011
 \bibitem{10} Jacek Mackiewicz, Andrzej Mackiewicz, ,,Immunoterapia nowotworów i perspektywy jej rozwoju", Zak³ad Immunologii Nowotworów, Katedra Biotechnologii Medycznej, Uniwersytet Medyczny im. Karola Marcinkowskiego w Poznaniu, Wielkopolskie Centrum Onkologii w Poznaniu
 \bibitem{11} Anna Œwieboda-Sadlej, ,,Skojarzone leczenie nowotworów — wspó³praca chirurga i onkologa klinicznego w zakresie leczenia raka piersi, jelita grubego i p³uca", Klinika Hematologii, Onkologii i Chorób Wewnêtrznych WUM
+\bibitem{12} Ewa Sikora, ,,Cykl komórkowy i apoptoza: œmieræ starej komórki'', Polskie Towarzystwo Biochemiczne, ,,Postêpy biochemii'', tom 42, nr 2, 1996
+\bibitem{13} Izabela Klaska, Jerzy Z. Nowak, ,,Rola uk³adu dope³niacza w fizjologii i patologii'', £ódŸ, 2007
+\bibitem{14} dr hab. Krzysztof Bryniarski, ,,Immunologia'', 2017
 \end{thebibliography}
