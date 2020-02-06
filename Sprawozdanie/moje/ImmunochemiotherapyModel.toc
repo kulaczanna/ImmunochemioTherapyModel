@@ -22,15 +22,17 @@
 \contentsline {section}{\numberline {3.1}Opis modelu}{10}
 \contentsline {section}{\numberline {3.2}Za\IeC {\l }o\.zenia modelu}{11}
 \contentsline {section}{\numberline {3.3}R\'ownania modelu}{12}
-\contentsline {section}{\numberline {3.4}Interpretacja r\'owna\'n modelu}{12}
-\contentsline {subsection}{\numberline {3.4.1}R\'ownanie $\genfrac {}{}{}0{dT}{dt}$}{12}
+\contentsline {subsection}{\numberline {3.3.1}Model bez sk\IeC {\l }adowych odpowiadaj\k acych leczeniu}{12}
+\contentsline {subsection}{\numberline {3.3.2}Model uwzgl\k edniaj\k acy proces leczenia}{12}
+\contentsline {section}{\numberline {3.4}Interpretacja r\'owna\'n modelu}{13}
+\contentsline {subsection}{\numberline {3.4.1}R\'ownanie $\genfrac {}{}{}0{dT}{dt}$}{13}
 \contentsline {subsection}{\numberline {3.4.2}R\'ownanie $\genfrac {}{}{}0{dN}{dt}$}{13}
 \contentsline {subsection}{\numberline {3.4.3}R\'ownanie $\genfrac {}{}{}0{dL}{dt}$}{13}
 \contentsline {subsection}{\numberline {3.4.4}R\'ownanie $\genfrac {}{}{}0{dC}{dt}$}{14}
 \contentsline {subsection}{\numberline {3.4.5}R\'ownanie $\genfrac {}{}{}0{dM}{dt}$}{14}
 \contentsline {subsection}{\numberline {3.4.6}R\'ownanie $\genfrac {}{}{}0{dI}{dt}$}{14}
 \contentsline {subsection}{\numberline {3.4.7}R\'ownanie $\genfrac {}{}{}0{dI_{\alpha }}{dt}$}{14}
-\contentsline {section}{\numberline {3.5}Parametry modelu}{14}
+\contentsline {section}{\numberline {3.5}Parametry modelu}{15}
 \contentsline {chapter}{\numberline {4.}Symulacje}{17}
 \contentsline {section}{\numberline {4.1}Brak leczenia}{17}
 \contentsline {subsection}{\numberline {4.1.1}Warunki pocz\k atkowe}{17}
