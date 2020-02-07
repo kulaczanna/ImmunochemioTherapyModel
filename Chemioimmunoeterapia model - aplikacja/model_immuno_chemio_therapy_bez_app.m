@@ -5,10 +5,10 @@ n = 1; % wybór przypadku - 1 st³umienie nowotworu, 2 wzrost nowotworu
 
 switch n
     case 1
-        T_0 = 1.8e7;% tumor cells population T(t)
+        T_0 = 1e6;% tumor cells population T(t)
         N_0 = 1e5;% natural killer cells N(t)
         L_0 = 1e2;% CD8+T cells L(t)
-        C_0 = 6e10;% cell C(t)
+        C_0 = 1e9;% cell C(t)
 
     case 2
         T_0 = 1e6;% tumor cells population T(t)
