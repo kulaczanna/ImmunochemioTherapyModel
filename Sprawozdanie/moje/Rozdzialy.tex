@@ -1,52 +1,54 @@
 \chapter{Wprowadzenie}
 % \setlength{\parindent}{50pt} tak siê robi wciêcia
 \section{Streszczenie}
-W pracy przedstawiono model opisuj¹cy odpowiedŸ uk³adu immunologicznego na rozwijaj¹cy siê w organizmie nowotwór. Model ten oparty jest na modelu de Pillis'a oraz modelu Isaeva i Osiopov'a \cite{1}. Obejmuje on rozwój komórek nowotworowych w organizmie oraz odpowiedŸ uk³adu immunologicznego -- w tym limfocytów naciekaj¹cych nowotwór (ang. Tumor Infiltrating Lymphocytes (TIL)), komórek NK (ang. Natural Killer cells - naturalni zabójcy), limfocytów $T_{CD8+}$. 
-Nastêpnie model zosta³ poddany modyfikacji -- uwzglêdnia dodatkowo proces leczenia nowotworu skojarzonymi metodami chemioterapii i immunoterapii z u¿yciem cytokin: interleukin-2 (IL-2) i interferonów alfa (INF-$\alpha$).
+W~pracy przedstawiono model opisuj¹cy odpowiedŸ uk³adu immunologicznego na~rozwijaj¹cy siê w~organizmie nowotwór. Model ten oparty jest na~modelu de Pillis'a oraz~modelu Isaeva i~Osiopov'a \cite{1}. Obejmuje on rozwój komórek nowotworowych w~organizmie oraz~odpowiedŸ uk³adu immunologicznego -- w~tym limfocytów naciekaj¹cych nowotwór (ang. Tumor Infiltrating Lymphocytes (TIL)), komórek NK (ang. Natural Killer cells - naturalni zabójcy), limfocytów $T_{CD8+}$. 
+Nastêpnie model zosta³ poddany modyfikacji -- uwzglêdnia dodatkowo proces leczenia nowotworu skojarzonymi metodami chemioterapii i~immunoterapii z~u¿yciem cytokin: interleukin-2 (IL-2) i~interferonów alfa (INF-$\alpha$).
 
 \section{Abstract}
 \section{Cel pracy}
 Celem pracy by³o:
 \begin{itemize}
-\item utworzenie modelu rozwoju nowotworu w organizmie z uwzglêdnieniem leczenia skojarzonymi metodami chemioterapii i immunoterapii,
-\item przeprowadzenie symulacji leczenia nowotworu metod¹ chemioterapii, immunoterapii oraz skojarzonych metod chemioterapii i immunoterapii,
+\item utworzenie modelu rozwoju nowotworu w~organizmie z~uwzglêdnieniem leczenia skojarzonymi metodami chemioterapii i~immunoterapii,
+\item przeprowadzenie symulacji leczenia nowotworu metod¹ chemioterapii, immunoterapii oraz~skojarzonych metod chemioterapii i~immunoterapii,
 \item analiza rozwi¹zañ modelu opisuj¹cego leczenie wy³¹cznie metod¹ chemioterapii,
 \item analiza rozwi¹zañ modelu opisuj¹cego leczenie wy³¹cznie metod¹ immunoterapii,
-\item analiza rozwi¹zañ modelu opisuj¹cego leczenie zarówno metod¹ chemioterapii, jak i immunoterapii.
+\item analiza rozwi¹zañ modelu opisuj¹cego leczenie zarówno metod¹ chemioterapii, jak~i~immunoterapii.
 \end{itemize}
 
+\newpage
 \section{Uk³ad pracy}
-Praca sk³ada siê z nastêpuj¹cych czêœci:
+Praca sk³ada siê z~nastêpuj¹cych czêœci:
 \begin{itemize}
-\item wstêpu teoretycznego zawieraj¹cego informacje na temat rodzajów nowotworów i sposobów ich rozwoju oraz niektórych metod ich leczenia, a tak¿e dotycz¹cych budowy i sposobu dzia³ania uk³adu immunologicznego,
+\item wstêpu teoretycznego zawieraj¹cego informacje na~temat rodzajów nowotworów i~sposobów ich rozwoju oraz~niektórych metod ich leczenia, a~tak¿e dotycz¹cych budowy i~sposobu dzia³ania uk³adu immunologicznego,
 \item przedstawienia zaimplementowanego modelu, na którym przeprowadzano symulacje,
-\item opisu dokonanych symulacji i scenariuszy, wed³ug których zosta³y przeprowadzone,
-\item analizy wyników symulacji i wynikaj¹cych z nich wniosków,
+\item opisu dokonanych symulacji i~scenariuszy, wed³ug których zosta³y przeprowadzone,
+\item analizy wyników symulacji i~wynikaj¹cych z~nich wniosków,
 \item podsumowania.
 \end{itemize}
 
 \chapter{Wstêp}
 \section{Procesy nowotworowe}
-Nowotworem okreœla siê nieprawid³owe komórki w organizmie, których wzrost odbywa siê w sposób niekontrolowany \cite{1, 2}. W zdrowym organizmie wystêpuje równowaga pomiêdzy tempem podzia³ów komórkowych a utrat¹ komórek. W przypadku nowotworu ginie mniej komórek ni¿ przybywa \cite{3}. W efekcie ich spontanicznego mno¿enia siê struktura, która siê z nich sk³ada zaczyna niszczyæ narz¹d, w którym wyst¹pi³ proces nowotworowy. Niektóre z tych komórek mog¹ oderwaæ siê od pozosta³ych, przedostaæ do naczyñ krwionoœnych i limfatycznych, a w konsekwencji dawaæ przerzuty do innych narz¹dów \cite {2}. Powstawanie nowotworu wi¹¿e siê z wieloma zmianami materia³u genetycznego. Rozpoczêcie tego procesu zale¿y zarówno od wagi, jak i miejsca, w którym dana zmiana wyst¹pi³a. Warto zwróciæ uwagê na zmiany systemów naprawy DNA oraz systemów reguluj¹cych podstawowe procesy komórek (na przyk³ad wzrost, ró¿nicowanie, apoptoza\footnote{Œmieræ programowana, œmieræ samobójcza komórki zachodz¹ca w warunkach fizjologicznych \cite{12}.}). Na skutek zmian systemów naprawczych dochodzi do szybkiej i du¿ej niestabilnoœci genomu, natomiast w przypadku zmian w systemach reguluj¹cych proces zaburzenia homeostazy komórki jest powolny, a niestabilnoœæ narasta stopniowo. Choroby nowotworowe w wiêkszoœci rozwijaj¹ siê zgodnie z powolnym mechanizmem, dlatego od pojawienia siê pocz¹tkowej zmiany do klinicznego ujawnienia guza mija zazwyczaj wiele lat \cite{3}.
+Nowotworem okreœla siê nieprawid³owe komórki w~organizmie, których wzrost odbywa siê w~sposób niekontrolowany \cite{1, 2}. w~zdrowym organizmie wystêpuje równowaga pomiêdzy tempem podzia³ów komórkowych a~utrat¹ komórek. w~przypadku nowotworu ginie mniej komórek ni¿ przybywa \cite{3}. W~efekcie ich spontanicznego mno¿enia siê struktura, która siê z~nich sk³ada zaczyna niszczyæ narz¹d, w~którym wyst¹pi³ proces nowotworowy. Niektóre z~tych komórek mog¹ oderwaæ siê od~pozosta³ych, przedostaæ do~naczyñ krwionoœnych i~limfatycznych, a~w~konsekwencji dawaæ przerzuty do~innych narz¹dów \cite {2}. Powstawanie nowotworu wi¹¿e siê z~wieloma zmianami materia³u genetycznego. Rozpoczêcie tego procesu zale¿y zarówno od~wagi, jak~i~miejsca, w~którym dana zmiana wyst¹pi³a. Warto zwróciæ uwagê na~zmiany systemów naprawy DNA oraz~systemów reguluj¹cych podstawowe procesy komórek (na przyk³ad wzrost, ró¿nicowanie, apoptoza\footnote{Œmieræ programowana, œmieræ samobójcza komórki zachodz¹ca w~warunkach fizjologicznych \cite{12}.}). Na~skutek zmian systemów naprawczych dochodzi do~szybkiej i~du¿ej niestabilnoœci genomu, natomiast w~przypadku zmian w~systemach reguluj¹cych proces zaburzenia homeostazy komórki jest powolny, a~niestabilnoœæ narasta stopniowo. Choroby nowotworowe w~wiêkszoœci rozwijaj¹ siê zgodnie z~powolnym mechanizmem, dlatego od~pojawienia siê pocz¹tkowej zmiany do~klinicznego ujawnienia guza mija zazwyczaj wiele lat \cite{3}.
 
-\section{Budowa uk³adu immunologicznego i jego znaczenie w procesie leczenia nowotworów}
-Na uk³ad immunologiczny sk³adaj¹ siê mechanizmy odpornoœci swoistej (nabytej) i nieswoistej (wrodzonej) \cite{4,5}. Podzia³ tych mechanizmów przedstawiono w Tab. \ref{ró¿nice_miêdzy_nab_a_wrodz}. 
+\section{Budowa uk³adu immunologicznego i~jego znaczenie w~procesie leczenia nowotworów}
+Na uk³ad immunologiczny sk³adaj¹ siê mechanizmy odpornoœci swoistej (nabytej) i~nieswoistej (wrodzonej) \cite{4,5}. Podzia³ tych mechanizmów przedstawiono w~Tab. \ref{ró¿nice_miêdzy_nab_a_wrodz}. 
 
-Funkcjonowanie mechanizmów nieswoistych jest niezale¿ne od wczeœniejszej stycznoœci organizmu z czynnikami patogennymi i pe³ni funkcjê obronn¹ przed infekcjami i chorobami bêd¹cymi skutkiem dzia³ania czynników œrodowiskowych. Mechanizmy te cechuje mniejsza precyzja, ale s¹ one zdolne do szybkiego rozpoznawania i niszczenia wnikaj¹cych drobnoustrojów. Odpornoœæ wrodzon¹ warunkuj¹ miêdzy innymi: komórki NK, makrofagi, granulocyty, monocyty. 
+Funkcjonowanie mechanizmów nieswoistych jest niezale¿ne od~wczeœniejszej stycznoœci organizmu z~czynnikami patogennymi i~pe³ni funkcjê obronn¹ przed infekcjami i~chorobami bêd¹cymi skutkiem dzia³ania czynników œrodowiskowych. Mechanizmy te cechuje mniejsza precyzja, ale s¹ one zdolne do~szybkiego rozpoznawania i~niszczenia wnikaj¹cych drobnoustrojów. Odpornoœæ wrodzon¹ warunkuj¹ miêdzy innymi: komórki NK, makrofagi, granulocyty, monocyty. 
 
+\newpage
 Do mechanizmów swoistej odpornoœci nale¿¹ \cite{6}:
 \begin{itemize}
-\item aktywnoœæ cytokin i chemokin,
-\item cytokinozale¿na wrodzona opornoœæ leukocytów i innych komórek,
-\item zabijanie zaka¿onych lub nowotworowych komórek przez komórki NK, komplement aktywowany lektynami lub drog¹ alternatywn¹,
-\item opsonizacja i fagocytoza\footnote{Usuwanie kompleksów immunologicznych i uszkodzonych komórek (u³atwienie fagocytozy immunologicznej). Efektywne niszczenie drobnoustrojów przez fagocyty \cite{13, 14}.}.
+\item aktywnoœæ cytokin i~chemokin,
+\item cytokinozale¿na wrodzona opornoœæ leukocytów i~innych komórek,
+\item zabijanie zaka¿onych lub~nowotworowych komórek przez komórki NK, komplement aktywowany lektynami lub~drog¹ alternatywn¹,
+\item opsonizacja i~fagocytoza\footnote{Usuwanie kompleksów immunologicznych i~uszkodzonych komórek (u³atwienie fagocytozy immunologicznej). Efektywne niszczenie drobnoustrojów przez fagocyty \cite{13, 14}.}.
 \end{itemize}
 
-Odpornoœæ swoista rozpoznaje antygeny bardzo precyzyjnie. Jej wa¿nymi elementami s¹ limfocyty T, limfocyty B, cytokiny, przeciwcia³a. Komórki tego typu s¹ zdolne do wytwarzania nieograniczonej liczby receptorów. Dodatkowo, jeœli dojdzie do ich kontaktu z antygenem wytwarza siê pamiêæ immunologiczna, dziêki której przy ponownym zetkniêciu komórki danego typu z odpowiednim antygenem wytwarzana jest odpowiedŸ immunologiczna. W przypadku limfocytów T, typ odpowiedzi swoistej okreœlany jest jako komórkowy, natomiast dla limfocytów B -- humoralny.
+Odpornoœæ swoista rozpoznaje antygeny bardzo precyzyjnie. Jej wa¿nymi elementami s¹ limfocyty T, limfocyty B, cytokiny, przeciwcia³a. Komórki tego typu s¹ zdolne do~wytwarzania nieograniczonej liczby receptorów. Dodatkowo, jeœli dojdzie do~ich kontaktu z~antygenem wytwarza siê pamiêæ immunologiczna, dziêki której przy~ponownym zetkniêciu komórki danego typu z~odpowiednim antygenem wytwarzana jest odpowiedŸ immunologiczna. W~przypadku limfocytów T, typ odpowiedzi swoistej okreœlany jest jako komórkowy, natomiast dla limfocytów B -- humoralny.
 Pomimo bardzo du¿ego znaczenia uk³adu immunologicznego dla organizmu, wiele mechanizmów jego dzia³ania pozostaje jeszcze niewyjaœnionych \cite{4}.
 
 \begin{table}[!htb]
-\caption{Podzia³ mechanizmów obronnych odpornoœci nieswoistej i swoistej \cite{7}.}\label{ró¿nice_miêdzy_nab_a_wrodz}
+\caption{Podzia³ mechanizmów obronnych odpornoœci nieswoistej i~swoistej \cite{7}.}\label{ró¿nice_miêdzy_nab_a_wrodz}
 	\centering
 	\begin{tabular}{|c|l|l|p{0.47\linewidth}|} \hline
 		\multicolumn{3}{|c|}{Odpornoœæ} \\ \hline
@@ -64,7 +66,8 @@ Pomimo bardzo du¿ego znaczenia uk³adu immunologicznego dla organizmu, wiele mech
 		\end{tabular}
 \end{table}
 
-Znacz¹c¹ rolê w oddzia³ywaniu uk³adu immunologicznego na rozwijaj¹cy siê nowotwór maj¹ takie jego elementy, jak:
+\newpage
+Znacz¹c¹ rolê w~oddzia³ywaniu uk³adu immunologicznego na~rozwijaj¹cy siê nowotwór maj¹ takie jego elementy, jak:
 
 \begin{itemize}
 \item limfocyty $T_{CD8+}$,
@@ -73,20 +76,17 @@ Znacz¹c¹ rolê w oddzia³ywaniu uk³adu immunologicznego na rozwijaj¹cy siê nowotwó
 \item interleukiny.
 \end{itemize}
 
-W zwi¹zku z tym, ich funkcjê w organizmie ujêto w opisywanym modelu, a ich znaczenie opisano w dalszej czêœci pracy.
+W~zwi¹zku z~tym, ich funkcjê w~organizmie ujêto w~opisywanym modelu, a~ich znaczenie opisano w~dalszej czêœci pracy.
 
 % glikoproteiny MHC (Major Histocompatibility Complex)
 
 \subsection{Limfocyty $T_{CD8+}$}
-Limfocyty T wytwarzane s¹ w szpiku kostnym, natomiast dojrzewaj¹ w grasicy. Te oznaczane jako CD8+ dziel¹ siê na limfocyty:
+Limfocyty T wytwarzane s¹ w~szpiku kostnym, natomiast dojrzewaj¹ w~grasicy. Te~oznaczane jako CD8+ dziel¹ siê na~limfocyty:
 \begin{itemize}
-\item $T_{c}$ -- cytotoksyczne -- odpowiadaj¹ce za niszczenie komórek i odrzucanie przeszczepów,
-\item $T_{s}$ -- supresyjne -- odpowiadaj¹ce za hamowanie dzia³ania innych limfocytów, reakcji alergicznych i utrzymanie tolerancji immunologicznej na w³asne antygeny \cite{7}.
+\item $T_{c}$ -- cytotoksyczne -- odpowiadaj¹ce za~niszczenie komórek i~odrzucanie przeszczepów,
+\item $T_{s}$ -- supresyjne -- odpowiadaj¹ce za~hamowanie dzia³ania innych limfocytów, reakcji alergicznych i~utrzymanie tolerancji immunologicznej na~w³asne antygeny \cite{7}.
 \end{itemize}
-OdpowiedŸ immunologiczna swoista typu komórkowego, w któr¹ zaanga¿owane s¹ subpopulacje limfocytów T polega na wywo³aniu reakcji zwalczania antygenu. Mo¿liwe s¹ dwa typy tej reakcji. W pierwszym z nich funkcjê efektorów pe³ni¹ limfocyty CD4+, a makrofagi s¹ komórkami pomocniczymi. Drugi typ reakcji zak³ada, ¿e limfocyt cytotoksyczny CD8+ jest komórk¹ efektorow¹, a limfocyt CD4+ pomocnicz¹.
-Podzia³ limfocytów T przedstawiono na Rys. \ref{limfocyty_T_cd8+}.
-Odpornoœæ komórkowa ma za zadanie, przede wszystkim walczyæ z zaka¿eniami bêd¹cymi efektem namna¿aj¹cych siê drobnoustrojów, ale równie¿ spe³nia wa¿n¹ rolê w reakcji kontaktowej ze zwi¹zkami chemicznymi, odrzuceniu przeszczepu czy tkanek zmienionych nowotworowo i w niektórych reakcjach autoimmunologicznych \cite{4}.
-Miêdzy 5 a 6 dekad¹ ¿ycia ustaje czynnoœæ grasicy, czego skutkiem s¹ zmiany w subpopulacjach limfocytów T. Z wiekiem g³ównie wzrasta liczba limfocytów CD4+, natomiast zmniejsza siê liczba limfocytów supresorowych i cytotoksycznych CD8+ \cite{4}.
+Podzia³ limfocytów T przedstawiono na~Rys. \ref{limfocyty_T_cd8+}.
 
 \begin{figure}[!htb]
 	\centering
@@ -94,121 +94,126 @@ Miêdzy 5 a 6 dekad¹ ¿ycia ustaje czynnoœæ grasicy, czego skutkiem s¹ zmiany w su
 	\caption{Podzia³ limfocytów T \cite{7}.}\label{limfocyty_T_cd8+} 
 \end{figure}
 
+\newpage
+OdpowiedŸ immunologiczna swoista typu komórkowego, w~któr¹ zaanga¿owane s¹ subpopulacje limfocytów T polega na~wywo³aniu reakcji zwalczania antygenu. Mo¿liwe s¹ dwa typy tej reakcji. W~pierwszym z~nich funkcjê efektorów pe³ni¹ limfocyty CD4+, a~makrofagi s¹ komórkami pomocniczymi. Drugi typ reakcji zak³ada, ¿e limfocyt cytotoksyczny CD8+ jest komórk¹ efektorow¹, a~limfocyt CD4+ pomocnicz¹.
+Odpornoœæ komórkowa ma za~zadanie, przede wszystkim walczyæ z~zaka¿eniami bêd¹cymi efektem namna¿aj¹cych siê drobnoustrojów, ale równie¿ spe³nia wa¿n¹ rolê w~reakcji kontaktowej ze zwi¹zkami chemicznymi, odrzuceniu przeszczepu czy~tkanek zmienionych nowotworowo i~w niektórych reakcjach autoimmunologicznych \cite{4}.
+Miêdzy 5 a~6 dekad¹ ¿ycia ustaje czynnoœæ grasicy, czego skutkiem s¹ zmiany w~subpopulacjach limfocytów T. Z~wiekiem g³ównie wzrasta liczba limfocytów CD4+, natomiast zmniejsza siê liczba limfocytów supresorowych i~cytotoksycznych CD8+ \cite{4}.
+
 \subsection{Komórki NK}
-Swoj¹ rolê w odpowiedzi immunologicznej maj¹ tak¿e komórki NK, które pochodz¹ z prekursorów dojrzewaj¹cych w szpiku kostnym \cite{7}.
-Stanowi¹ one 10-15\% limfocytów obecnych w krwi. Ich zadaniem jest niszczenie komórek nowotworowych i zainfekowanych wirusami \cite{5}. Charakterystyczny jest dla nich brak posiadania markerów czy receptorów antygenowych na powierzchni. Ich dzia³anie wp³ywa na cytotoksyczne uszkodzenie, miêdzy innymi komórek nowotworowych. Jest to mo¿liwe dziêki rozpoznawaniu przez receptor pektynowy reszt cukrowych, co wp³ywa na gotowoœæ komórek NK do zabicia komórki docelowej. Z kolei receptor KIR (Killer Cell Inhibitory Receptor) zmniejsza aktywnoœæ komórek NK, jeœli rozpoznaj¹ one prawid³owe komórki organizmu \cite{4}.
-Z wiekiem aktywnoœæ komórek NK spada (ze wzglêdu na zwiêkszon¹ liczbê receptorów KIR \cite{5}), co zwiêksza ryzyko umieralnoœci z powodu ciê¿kich infekcji. Niekorzystnymi czynnikami maj¹cymi wp³yw na komórki NK s¹: stres, niska aktywnoœæ fizyczna oraz dieta wysokot³uszczowa \cite{4}. Silna aktywnoœæ cytotoksyczna komórek NK mo¿e byæ uznana za oznakê dobrego zdrowia \cite{5}.
+Swoj¹ rolê w~odpowiedzi immunologicznej maj¹ tak¿e komórki NK, które pochodz¹ z~prekursorów dojrzewaj¹cych w~szpiku kostnym \cite{7}.
+Stanowi¹ one 10-15\% limfocytów obecnych w~krwi. Ich zadaniem jest niszczenie komórek nowotworowych i~zainfekowanych wirusami \cite{5}. Charakterystyczny jest dla nich brak posiadania markerów czy~receptorów antygenowych na~powierzchni. Ich dzia³anie wp³ywa na~cytotoksyczne uszkodzenie, miêdzy innymi komórek nowotworowych. Jest to mo¿liwe dziêki rozpoznawaniu przez receptor pektynowy reszt cukrowych, co wp³ywa na~gotowoœæ komórek NK do~zabicia komórki docelowej. Z~kolei receptor KIR (Killer Cell Inhibitory Receptor) zmniejsza aktywnoœæ komórek NK, jeœli rozpoznaj¹ one prawid³owe komórki organizmu \cite{4}.
+Z wiekiem aktywnoœæ komórek NK spada (ze wzglêdu na~zwiêkszon¹ liczbê receptorów KIR \cite{5}), co zwiêksza ryzyko umieralnoœci z~powodu ciê¿kich infekcji. Niekorzystnymi czynnikami maj¹cymi wp³yw na~komórki NK s¹: stres, niska aktywnoœæ fizyczna oraz~dieta wysokot³uszczowa \cite{4}. Silna aktywnoœæ cytotoksyczna komórek NK mo¿e byæ uznana za~oznakê dobrego zdrowia \cite{5}.
 
 \subsection{Interferony}
-Interferony nale¿¹ do humoralnych mechanizmów obronnych odpornoœci nieswoistej. Ich funkcj¹ jest, miêdzy innymi hamowanie replikacji wirusów w komórce i proliferacji komórek (w szczególnoœci nowotworowych), aktywowanie syntezy enzymów (rybonukleazy, syntetazy, kinazy bia³kowej) i cytotoksycznoœci makrofagów oraz limfocytów T, a tak¿e wzmo¿enie aktywnoœci komórek cytotoksycznych \cite{7}.
+Interferony nale¿¹ do~humoralnych mechanizmów obronnych odpornoœci nieswoistej. Ich funkcj¹ jest, miêdzy innymi hamowanie replikacji wirusów w~komórce i~proliferacji komórek (w szczególnoœci nowotworowych), aktywowanie syntezy enzymów (rybonukleazy, syntetazy, kinazy bia³kowej) i~cytotoksycznoœci makrofagów oraz~limfocytów T, a~tak¿e wzmo¿enie aktywnoœci komórek cytotoksycznych \cite{7}.
 
 \subsection{Interleukiny}
-Interleukiny s¹ jedn¹ z grup cytokin, która s³u¿y, miêdzy innymi do komunikacji pomiêdzy komórkami uk³adu odpornoœciowego, stanowi¹cymi elementy odpornoœci wrodzonej i nabytej. Maj¹ one charakter bia³kowy i s¹ produkowane g³ównie przez leukocyty. Ze wzglêdu na cechy biologiczne, w tym ró¿nice w budowie molekularnej i strukturze, interleukiny zosta³y zgrupowane w trzy rodziny:
+Interleukiny s¹ jedn¹ z~grup cytokin, która s³u¿y, miêdzy innymi do~komunikacji pomiêdzy komórkami uk³adu odpornoœciowego, stanowi¹cymi elementy odpornoœci wrodzonej i~nabytej. Maj¹ one charakter bia³kowy i~s¹ produkowane g³ównie przez leukocyty. Ze wzglêdu na~cechy biologiczne, w~tym ró¿nice w~budowie molekularnej i~strukturze, interleukiny zosta³y zgrupowane w~trzy rodziny:
 \begin{itemize}
-\item pierwsz¹ -- podzielon¹ na podrodzinê interleukiny-2 i podrodzinê interferonów (reprezentowan¹ przez interferon-$\alpha$ i interferon-$\beta$),
+\item pierwsz¹ -- podzielon¹ na~podrodzinê interleukiny-2 i~podrodzinê interferonów (reprezentowan¹ przez interferon-$\alpha$ i~interferon-$\beta$),
 \item drug¹ -- rodzinê interleukiny-1,
-\item trzeci¹ -- zawieraj¹c¹ interleukinê 17A, B, C, D, F oraz IL-8, 25 i 27, a tak¿e IL-31, 32 i 33 \cite{8}. 
+\item trzeci¹ -- zawieraj¹c¹ interleukinê 17A, B, C, D, F oraz~IL-8, 25 i~27, a~tak¿e IL-31, 32 i~33 \cite{8}. 
 \end{itemize}
 
 \section{Sposoby leczenia nowotworów}
 \subsection{Immunoterapia}
-Podczas immunoterapii dochodzi do ingerencji w uk³ad odpornoœciowy, co ma na celu wzmocnienie lub modyfikacjê mechanizmów obronnych walcz¹cych z nowotworem. Immunoterapiê mo¿na podzieliæ na biern¹ i czynn¹ o charakterze swoistym albo nieswoistym \cite{10}.
+Podczas immunoterapii dochodzi do~ingerencji w~uk³ad odpornoœciowy, co ma na~celu wzmocnienie lub~modyfikacjê mechanizmów obronnych walcz¹cych z~nowotworem. Immunoterapiê mo¿na podzieliæ na~biern¹ i~czynn¹ o~charakterze swoistym albo nieswoistym \cite{10}.
 
 \subsubsection{Nieswoista bierna immunoterapia}
-Immunoterapia tego typu ma za zadanie wywo³aæ nieswoist¹ aktywacjê uk³adu immunologicznego, a w konsekwencji dzia³anie przeciwnowotworowe na skutek podawania czynników lub aktywowanych komórek efektorowych. Wykorzystuje siê tu, na przyk³ad cytokiny czy komórki LAK (ang. Lymphokine Activated Killers).
-Aby wywo³aæ efekt biologiczny konieczne jest po³¹czenie cytokiny ze swoistym receptorem na komórkach docelowych (limfocyty T i B, komórki NK, monocyty, makrofagi i granulocyty). Efektami przeciwnowotworowymi cytokin s¹:
+Immunoterapia tego typu ma za~zadanie wywo³aæ nieswoist¹ aktywacjê uk³adu immunologicznego, a~w~konsekwencji dzia³anie przeciwnowotworowe na~skutek podawania czynników lub~aktywowanych komórek efektorowych. Wykorzystuje siê tu, na~przyk³ad cytokiny czy~komórki LAK (ang. Lymphokine Activated Killers).
+Aby wywo³aæ efekt biologiczny konieczne jest po³¹czenie cytokiny ze swoistym receptorem na~komórkach docelowych (limfocyty T i~B, komórki NK, monocyty, makrofagi i~granulocyty). Efektami przeciwnowotworowymi cytokin s¹:
 \begin{itemize}
 \item bezpoœredni efekt cytotoksyczny,
 \item modyfikacja migracji limfocytów,
-\item wzrost wra¿liwoœci komórek nowotworowych na efekty cytotoksyczne ró¿nych czynników biologicznych lub chemicznych,
+\item wzrost wra¿liwoœci komórek nowotworowych na~efekty cytotoksyczne ró¿nych czynników biologicznych lub~chemicznych,
 \item hamowanie proliferacji komórek nowotworowych (m. in. INF-$\alpha$),
 \item aktywacja komórek NK (m. in. IL-2).
 \end{itemize}
-INF-$\alpha$ to pierwsza rekombinowana cytokina zarejestrowana do stosowania klinicznego \cite{10}.
+INF-$\alpha$ to pierwsza rekombinowana cytokina zarejestrowana do~stosowania klinicznego \cite{10}.
 
 \subsubsection{Swoista bierna immunoterapia}
-Swoista bierna immunoterapia to metoda, która polega na podawaniu czynników lub komórek efektorowych swoiœcie skierowanych przeciwko danej komórce nowotworowej. S¹ to, na przyk³ad:
+Swoista bierna immunoterapia to metoda, która polega na~podawaniu czynników lub~komórek efektorowych swoiœcie skierowanych przeciwko danej komórce nowotworowej. S¹ to, na~przyk³ad:
 \begin{itemize}
-\item przeciwcia³a podawane przeciwko antygenom, które wystêpuj¹ na komórkach nowotworowych, 
-\item terapie komórkowe, które wykorzystuj¹ limfocyty naciekaj¹ce guz (TIL); s¹ one izolowane, nastêpnie namno¿one i aktywowane, po czym ponownie przetaczane,
+\item przeciwcia³a podawane przeciwko antygenom, które wystêpuj¹ na~komórkach nowotworowych, 
+\item terapie komórkowe, które wykorzystuj¹ limfocyty naciekaj¹ce guz (TIL); s¹ one izolowane, nastêpnie namno¿one i~aktywowane, po czym ponownie przetaczane,
 \item limfocyty krwi obwodowej stymulowane in vitro komórkami prezentuj¹cymi antygen \cite{10}. 
 \end{itemize} 
 
 \subsubsection{Nieswoista czynna immunoterapia}
-W metodzie tej pobudzany jest uk³ad odpornoœciowy, a zw³aszcza odpowiedŸ komórkowa. Wykorzystywane s¹ do tego antygeny, niewystêpuj¹ce w komórkach nowotworu. Substancjami stymuluj¹cymi procesy odpornoœciowe s¹ nieswoiste immunostymulatory (np. ca³e mikroorganizmy, elementy œciany komórkowej) i immunomodulatory (m. in. wyci¹gi z grasicy, syntetyczne hormony grasicy, tuftsynê, enkefaliny, endorfiny, wyci¹gi z limfocytów) \cite{10}.
+W metodzie tej pobudzany jest uk³ad odpornoœciowy, a~zw³aszcza odpowiedŸ komórkowa. Wykorzystywane s¹ do~tego antygeny, niewystêpuj¹ce w~komórkach nowotworu. Substancjami stymuluj¹cymi procesy odpornoœciowe s¹ nieswoiste immunostymulatory (np. ca³e mikroorganizmy, elementy œciany komórkowej) i~immunomodulatory (m. in. wyci¹gi z~grasicy, syntetyczne hormony grasicy, tuftsynê, enkefaliny, endorfiny, wyci¹gi z~limfocytów) \cite{10}.
 
 \subsubsection{Swoista czynna immunoterapia}
-Ostatni rodzaj leczenia metod¹ immunoterapii polega na pobudzaniu odpornoœci na antygeny swoiste dla danego typu nowotworu. Wykorzystuje siê w niej immunizacjê przy u¿yciu tzw. terapeutycznych szczepionek nowotworowych. S¹ to szczepionki:
+Ostatni rodzaj leczenia metod¹ immunoterapii polega na~pobudzaniu odpornoœci na~antygeny swoiste dla danego typu nowotworu. Wykorzystuje siê w~niej immunizacjê przy~u¿yciu tzw. terapeutycznych szczepionek nowotworowych. S¹ to szczepionki:
 \begin{itemize}
-\item niekomórkowe – peptydowe, HSP (ang. Heat Shock Protein – szczepionki na bazie bia³ek szoku cieplnego), szczepionki DNA oraz wirusowe,
-\item komórkowe – niemodyfikowane i modyfikowane genetycznie oraz komórki DC (ang. Dendritic Cells -- komórki dendrytyczne) „karmione” antygenami nowotworowymi \cite{10}.
+\item niekomórkowe – peptydowe, HSP (ang. Heat Shock Protein – szczepionki na~bazie bia³ek szoku cieplnego), szczepionki DNA oraz~wirusowe,
+\item komórkowe – niemodyfikowane i~modyfikowane genetycznie oraz~komórki DC (ang. Dendritic Cells -- komórki dendrytyczne) „karmione” antygenami nowotworowymi \cite{10}.
 \end{itemize}
 
 \subsection{Chemioterapia}
-Chemioterapia to metoda leczenia, która polega na niszczeniu komórek nowotworowych, drobnoustrojów, bakterii za pomoc¹ œrodków chemicznych. W przypadku nowotworów, stosuje siê ró¿ne grupy leków, tzw. cytostatyków. Zale¿nie od indywidualnych cech pacjenta ma ona œciœle okreœlony przebieg. Leki mog¹ byæ stosowane w monoterapii -- stosowanie jednego leku cytostatycznego lub polichemioterapii -- stosowanie kilku leków zgodnie z okreœlonym schematem. Leki podawane s¹ w sekwencjach -- co kilka dni, tygodni lub stale, bez przerwy w leczeniu. Leki cytostatyczne dzia³aj¹ w okreœlonych fazach podzia³u komórek nowotworowych -- zmniejszaj¹ lub spowalniaj¹ ich proliferacjê. Najczêœciej podawane s¹ w postaci do¿ylnych wlewów, lecz niektóre z nich maj¹ formê tabletek. Skutki uboczne chemioterapii mog¹ byæ liczne i zauwa¿alne ju¿ po kilku dniach terapii, a czasem nawet po kilku godzinach \cite{9}. 
+Chemioterapia to metoda leczenia, która polega na~niszczeniu komórek nowotworowych, drobnoustrojów, bakterii za~pomoc¹ œrodków chemicznych. W~przypadku nowotworów, stosuje siê ró¿ne grupy leków, tzw. cytostatyków. Zale¿nie od~indywidualnych cech pacjenta ma ona œciœle okreœlony przebieg. Leki mog¹ byæ stosowane w~monoterapii -- stosowanie jednego leku cytostatycznego lub~polichemioterapii -- stosowanie kilku leków zgodnie z~okreœlonym schematem. Leki podawane s¹ w~sekwencjach -- co kilka dni, tygodni lub~stale, bez przerwy w~leczeniu. Leki cytostatyczne dzia³aj¹ w~okreœlonych fazach podzia³u komórek nowotworowych -- zmniejszaj¹ lub~spowalniaj¹ ich proliferacjê. Najczêœciej podawane s¹ w~postaci do¿ylnych wlewów, lecz niektóre z~nich maj¹ formê tabletek. Skutki uboczne chemioterapii mog¹ byæ liczne i~zauwa¿alne ju¿ po kilku dniach terapii, a~czasem nawet po kilku godzinach \cite{9}. 
 
 \subsection{Leczenie skojarzone}
-Leczenie skojarzone polega na po³¹czeniu kilku metod leczniczych u pacjenta. Ten sposób terapii posiada wiele zalet, miêdzy innymi umo¿liwia wykonanie zabiegu operacyjnego w wielu przypadkach pierwotnie nieoperacyjnych i pozwala zast¹piæ okaleczaj¹ce zabiegi chirurgiczne równie skutecznym leczeniem zachowawczym. Ponadto, zmniejsza ryzyko wznowy miejscowej choroby i rozwoju odleg³ych przerzutów, co wp³ywa na wyd³u¿enie czasu prze¿ycia chorych. 
-Z drugiej strony, leczenie skojarzone ma równie¿ pewne wady takie, jak znaczne zwiêkszenie toksycznoœci w porównaniu z monoterapi¹ czy brak wspó³pracy miêdzy specjalistami, co z kolei sprawia trudnoœci w przeprowadzeniu optymalnego w danym przypadku leczenia.
+Leczenie skojarzone polega na~po³¹czeniu kilku metod leczniczych u~pacjenta. Ten sposób terapii posiada wiele zalet, miêdzy innymi umo¿liwia wykonanie zabiegu operacyjnego w~wielu przypadkach pierwotnie nieoperacyjnych i~pozwala zast¹piæ okaleczaj¹ce zabiegi chirurgiczne równie skutecznym leczeniem zachowawczym. Ponadto, zmniejsza ryzyko wznowy miejscowej choroby i~rozwoju odleg³ych przerzutów, co wp³ywa na~wyd³u¿enie czasu prze¿ycia chorych. 
+Z drugiej strony, leczenie skojarzone ma równie¿ pewne wady takie, jak~znaczne zwiêkszenie toksycznoœci w~porównaniu z~monoterapi¹ czy~brak wspó³pracy miêdzy specjalistami, co z~kolei sprawia trudnoœci w~przeprowadzeniu optymalnego w~danym przypadku leczenia.
 
 Wœród metod leczenia skojarzonego mo¿na wyró¿niæ:
 \begin{itemize}
 \item leczenie sekwencyjne -- poszczególne metody lecznicze stosowane s¹ po kolei, np.:
 \begin{itemize}
-\item[-] leczenie wstêpne (neoadiuwantowe, indukcyjne) — poprzedza leczenie radykalne. Jego celem jest wczesne oddzia³ywanie na mikroprzerzuty lub zmniejszenie masy guza u chorych z miejscowo zaawansowanym nowotworem i umo¿liwienie tym samym przeprowadzenia leczenia radykalnego;
-\item[-] uzupe³niaj¹ce (adiuwantowe) — stosowane jest po leczeniu radykalnym, czyli u osób bez cech choroby nowotworowej, u których ryzyko uogólnienia jest du¿e. Jego celem jest zniszczenie potencjalnie istniej¹cych mikroprzerzutów i zmniejszenie tym samym prawdopodobieñstwa nawrotu nowotworu;
+\item[-] leczenie wstêpne (neoadiuwantowe, indukcyjne) — poprzedza leczenie radykalne. Jego celem jest wczesne oddzia³ywanie na~mikroprzerzuty lub~zmniejszenie masy guza u~chorych z~miejscowo zaawansowanym nowotworem i~umo¿liwienie tym samym przeprowadzenia leczenia radykalnego;
+\item[-] uzupe³niaj¹ce (adiuwantowe) — stosowane jest po leczeniu radykalnym, czyli u~osób bez cech choroby nowotworowej, u~których ryzyko uogólnienia jest du¿e. Jego celem jest zniszczenie potencjalnie istniej¹cych mikroprzerzutów i~zmniejszenie tym samym prawdopodobieñstwa nawrotu nowotworu;
 \end{itemize}
 \item leczenie równoczesne — kojarzenie ró¿nych metod
-leczenia w tym samym czasie, na przyk³ad równoczesna
+leczenia w~tym samym czasie, na~przyk³ad równoczesna
 chemioradioterapia, napromienianie œródoperacyjne;
 \item leczenie naprzemienne — dotyczy kojarzenia radioterapii
 i chemioterapii \cite{11}.
 \end{itemize}
 
-W tej pracy omawiany jest przypadek leczenia skojarzon¹ metod¹ chemioterapii i immunoterapii, zwanej tak¿e biochemioterapi¹ \cite{1}.
+W tej pracy omawiany jest przypadek leczenia skojarzon¹ metod¹ chemioterapii i~immunoterapii, zwanej tak¿e biochemioterapi¹ \cite{1}.
 
 \chapter{Model}
 \section{Opis modelu}
-Model matematyczny wykorzystany w pracy oparto na modelu de Pillis'a oraz modelu Isaeva i Osiopov'a \cite{1}. W pierwszym etapie model \ref{równania_modelu_pillis_i_isaeva_bez_leczenia} obejmuje tempo rozwoju czterech populacji komórek:
+Model matematyczny wykorzystany w~pracy oparto na~modelu de Pillis'a oraz~modelu Isaeva i~Osiopov'a \cite{1}. W~pierwszym etapie model \ref{równania_modelu_pillis_i_isaeva_bez_leczenia} obejmuje tempo rozwoju czterech populacji komórek:
 \begin{itemize}
-\item T(t) -- liczba komórek nowotworowych w chwili czasowej t,
-\item N(t) -- liczba komórek NK w chwili czasowej t,
-\item L(t) -- liczba limfocytów $T_{CD8+}$ w chwili czasowej t,
-\item C(t) -- liczba limfocytów kr¹¿¹cych w chwili czasowej t,
+\item T(t) -- liczba komórek nowotworowych w~chwili czasowej t,
+\item N(t) -- liczba komórek NK w~chwili czasowej t,
+\item L(t) -- liczba limfocytów $T_{CD8+}$ w~chwili czasowej t,
+\item C(t) -- liczba limfocytów kr¹¿¹cych w~chwili czasowej t,
 \end{itemize}
 gdzie jednostk¹ czasu t jest dzieñ. \newline
 
-W drugim etapie model \ref{równania_modelu_pillis_i_isaeva_z_leczeniem} zostaje poddany modyfikacji i dodatkowo badane s¹ zmiany stê¿enia trzech podawanych leków:
+W drugim etapie model \ref{równania_modelu_pillis_i_isaeva_z_leczeniem} zostaje poddany modyfikacji i~dodatkowo badane s¹ zmiany stê¿enia trzech podawanych leków:
 \begin{itemize}
 \item I(t) -- interleukin-2,
 \item $I_{\alpha}$(t) -- interferonów-$\alpha$,
-\item M(t) -- cytostatyku u¿ytego w chemioterapii.
+\item M(t) -- cytostatyku u¿ytego w~chemioterapii.
 \end{itemize}
 
 W równaniach modelu uwzglêdniono takie czynniki, jak:
 \begin{itemize}
-\item naturalny rozwój i œmieræ komórek,
-\item œmieræ komórek nowotworowych pod wp³ywem komórek NK, limfocytów $T_{CD8+}$ i leków cytostatycznych,
-\item wytwarzanie komórek NK i limfocytów $T_{CD8+}$,
-\item dezaktywacjê komórek NK i limfocytów $T_{CD8+}$,
-\item iloœæ podawanych leków i czas, w którym zosta³y podane.
+\item naturalny rozwój i~œmieræ komórek,
+\item œmieræ komórek nowotworowych pod wp³ywem komórek NK, limfocytów $T_{CD8+}$ i~leków cytostatycznych,
+\item wytwarzanie komórek NK i~limfocytów $T_{CD8+}$,
+\item dezaktywacjê komórek NK i~limfocytów $T_{CD8+}$,
+\item iloœæ podawanych leków i~czas, w~którym zosta³y podane.
 \end{itemize}
 
 \section{Za³o¿enia modelu}
 
-Przyjêto za³o¿enia jak w po³¹czonym modelu de Pillis'a oraz modelu Isaeva i Osiopov'a \cite{1}:
+Przyjêto za³o¿enia jak~w~po³¹czonym modelu de Pillis'a oraz~modelu Isaeva i~Osiopov'a \cite{1}:
 \begin{enumerate}
-\item W przypadku braku odpowiedzi uk³adu immunologicznego liczba komórek nowotworowych wzrasta logistycznie.
-\item Komórki NK i limfocyty $T_{CD8+}$ s¹ zdolne zniszczyæ komórki nowotworu.
-\item Pod wp³ywem komórek nowotworowych komórki NK i limfocyty $T_{CD8+}$ ulegaj¹ szybszej proliferacji oraz wzrasta ich aktywnoœæ cytolityczna\footnote{Jeden z mechanizmów cytotoksycznoœci limfocytów s³u¿¹cy do niszczenia komórek zainfekowanych lub nowotworowych \cite{15}.}.
-\item Komórki NK s¹ zawsze obecne w organizmie, tak¿e w przypadku braku wystêpowania komórek nowotworowych.
-\item W organizmie wystêpuje du¿a liczba aktywnych limfocytów $T_{CD8+}$, tylko w przypadku obecnoœci komórek nowotworowych. Jest to specyficzna odpowiedŸ immunologiczna.
-\item Komórki NK i limfocyty $T_{CD8+}$ ulegaj¹ ca³kowitej dezaktywacji po pewnej iloœci interakcji z komórkami nowotworowymi.
+\item W~przypadku braku odpowiedzi uk³adu immunologicznego liczba komórek nowotworowych wzrasta logistycznie.
+\item Komórki NK i~limfocyty $T_{CD8+}$ s¹ zdolne zniszczyæ komórki nowotworu.
+\item Pod wp³ywem komórek nowotworowych komórki NK i~limfocyty $T_{CD8+}$ ulegaj¹ szybszej proliferacji oraz~wzrasta ich aktywnoœæ cytolityczna\footnote{Jeden z~mechanizmów cytotoksycznoœci limfocytów s³u¿¹cy do~niszczenia komórek zainfekowanych lub~nowotworowych \cite{15}.}.
+\item Komórki NK s¹ zawsze obecne w~organizmie, tak¿e w~przypadku braku wystêpowania komórek nowotworowych.
+\item W~organizmie wystêpuje du¿a liczba aktywnych limfocytów $T_{CD8+}$, tylko w~przypadku obecnoœci komórek nowotworowych. Jest to specyficzna odpowiedŸ immunologiczna.
+\item Komórki NK i~limfocyty $T_{CD8+}$ ulegaj¹ ca³kowitej dezaktywacji po pewnej iloœci interakcji z~komórkami nowotworowymi.
 \item Komórki nowotworowe dezaktywuj¹ siê pod wp³ywem interferonów $\alpha$.
-\item Poziom kr¹¿¹cych limfocytów mo¿e s³u¿yæ do oceny zdrowia pacjenta.
-\item Odsetek komórek nowotworowych zniszczonych w wyniku chemioterapii zale¿y od iloœci cytostatyku obecnego w organizmie. Maksymalny odsetek zniszczonych komórek wynosi mniej ni¿ 1 -- pokonanie komórek nowotworowych wskutek chemioterapii jest mo¿liwe tylko na niektórych etapach ich rozwoju.
-\item Czêœæ komórek NK, limfocytów $T_{CD8+}$ i limfocytów kr¹¿¹cych jest niszczona podczas chemioterapii.
-\item Komórki NK i limfocyty $T_{CD8+}$ uczestnicz¹ w procesie stymulacji i eliminacji aktywowanych komórek (efektorów); uproszczony model ma odzwierciedlaæ samoreguluj¹cy charakter uk³adu immunologicznego.
+\item Poziom kr¹¿¹cych limfocytów mo¿e s³u¿yæ do~oceny zdrowia pacjenta.
+\item Odsetek komórek nowotworowych zniszczonych w~wyniku chemioterapii zale¿y od~iloœci cytostatyku obecnego w~organizmie. Maksymalny odsetek zniszczonych komórek wynosi mniej ni¿ 1 -- pokonanie komórek nowotworowych wskutek chemioterapii jest mo¿liwe tylko na~niektórych etapach ich rozwoju.
+\item Czêœæ komórek NK, limfocytów $T_{CD8+}$ i~limfocytów kr¹¿¹cych jest niszczona podczas chemioterapii.
+\item Komórki NK i~limfocyty $T_{CD8+}$ uczestnicz¹ w~procesie stymulacji i~eliminacji aktywowanych komórek (efektorów); uproszczony model ma odzwierciedlaæ samoreguluj¹cy charakter uk³adu immunologicznego.
 \end{enumerate}
 
 \section{Równania modelu}
@@ -241,78 +246,78 @@ gdzie: $D=d\dfrac{(\frac{L}{T})^{l}}{s+(\frac{L}{T})^{l}}$.
 \end{array} \right.
 \end{equation}
 
-gdzie: $D=d\dfrac{(\frac{L}{T})^{l}}{s+(\frac{L}{T})^{l}}$ i $c'=c_{CTL}(2-e^{\frac{I_{\alpha}}{I_{\alpha 0}}})$.
+gdzie: $D=d\dfrac{(\frac{L}{T})^{l}}{s+(\frac{L}{T})^{l}}$ i~$c'=c_{CTL}(2-e^{\frac{I_{\alpha}}{I_{\alpha 0}}})$.
 
 \section{Interpretacja równañ modelu}
 \subsection{Równanie $\dfrac{dT}{dt}$}
 
 \begin{itemize}
-\item $aT(1-bT)$ -- liczba komórek nowotworowych powsta³ych w chwili czasowej t (wzrost logistyczny),
-\item $-cNT$ -- liczba komórek nowotworowych zniszczonych w chwili czasowej t na skutek ich interakcji z komórkami NK,
-\item $-DT$ -- liczba komórek nowotworowych zniszczonych w chwili czasowej t na skutek ich interakcji z limfocytami $T_{CD8+}$,
-\item $-K_{T}(1-e^{-M})T$ -- liczba komórek nowotworowych zniszczonych w chwili czasowej t na skutek dzia³ania cytostatyku podanego podczas chemioterapii,
-\item $-c'TL$ -- liczba komórek nowotworowych zniszczonych w chwili czasowej t na skutek interakcji INF-$\alpha$, limfocytów $T_{CD8+}$ i komórek nowotworu;
+\item $aT(1-bT)$ -- liczba komórek nowotworowych powsta³ych w~chwili czasowej t (wzrost logistyczny),
+\item $-cNT$ -- liczba komórek nowotworowych zniszczonych w~chwili czasowej t na~skutek ich interakcji z~komórkami NK,
+\item $-DT$ -- liczba komórek nowotworowych zniszczonych w~chwili czasowej t na~skutek ich interakcji z~limfocytami $T_{CD8+}$,
+\item $-K_{T}(1-e^{-M})T$ -- liczba komórek nowotworowych zniszczonych w~chwili czasowej t na~skutek dzia³ania cytostatyku podanego podczas chemioterapii,
+\item $-c'TL$ -- liczba komórek nowotworowych zniszczonych w~chwili czasowej t na~skutek interakcji INF-$\alpha$, limfocytów $T_{CD8+}$ i~komórek nowotworu;
 \end{itemize}
 
 \subsection{Równanie $\dfrac{dN}{dt}$}
 
 \begin{itemize}
-\item $eC$ -- liczba komórek NK powsta³ych w chwili czasowej t z kr¹¿¹cych limfocytów,
-\item $-fN$ -- liczba zniszczonych komórek NK w chwili czasowej t,
-\item $g\dfrac{T^{2}}{h+T^{2}}N$ -- liczba komórek okreœlonych jako komórki NK podczas rekrutacji w chwili czasowej t,
-\item $-pNT$ -- liczba dezaktywowanych komórek NK w chwili czasowej t na skutek interakcji z komórkami nowotworowymi,
-\item $-K_{N}(1-e^{-M})N$ -- liczba komórek NK zniszczonych w chwili czasowej t na skutek dzia³ania cytostatyku podanego podczas chemioterapii;
+\item $eC$ -- liczba komórek NK powsta³ych w~chwili czasowej t z~kr¹¿¹cych limfocytów,
+\item $-fN$ -- liczba zniszczonych komórek NK w~chwili czasowej t,
+\item $g\dfrac{T^{2}}{h+T^{2}}N$ -- liczba komórek okreœlonych jako komórki NK podczas rekrutacji w~chwili czasowej t,
+\item $-pNT$ -- liczba dezaktywowanych komórek NK w~chwili czasowej t na~skutek interakcji z~komórkami nowotworowymi,
+\item $-K_{N}(1-e^{-M})N$ -- liczba komórek NK zniszczonych w~chwili czasowej t na~skutek dzia³ania cytostatyku podanego podczas chemioterapii;
 \end{itemize}
 
 \subsection{Równanie $\dfrac{dL}{dt}$}
 
 \begin{itemize}
-\item $-mL$ -- liczba limfocytów $T_{CD8+}$ zniszczonych w chwili czasowej t na skutek obecnoœci komórek nowotworowych,
-\item $j\dfrac{D^{2}T^{2}}{k+D^{2}T^{2}}L$ -- liczba stymulowanych limfocytów $T_{CD8+}$ przez resztê komórek nowotworowych lizowanych przez limfocyty $T_{CD8+}$  w chwili czasowej t,
-\item $-qLT$ -- liczba dezaktywowanych limfocytów $T_{CD8+}$ w chwili czasowej t na skutek interakcji z komórkami nowotworowymi,
-\item $(r_{1}N+r_{2}C)T$ -- liczba stymulowanych limfocytów $T_{CD8+}$ przez resztê komórek nowotworowych lizowanych przez komórki NK oraz limfocytów $T_{CD8+}$ powsta³ych na skutek obecnoœci komórek nowotworowych w chwili czasowej t,
-\item $-uNL^{2}$ -- liczba dezaktywowanych limfocytów $T_{CD8+}$ w chwili czasowej t na skutek dzia³ania komórek NK,
-\item $-K_{L}(1-e^{-M})L$ -- liczba limfocytów $T_{CD8+}$ zniszczonych w chwili czasowej t na skutek dzia³ania cytostatyku podanego podczas chemioterapii,
+\item $-mL$ -- liczba limfocytów $T_{CD8+}$ zniszczonych w~chwili czasowej t na~skutek obecnoœci komórek nowotworowych,
+\item $j\dfrac{D^{2}T^{2}}{k+D^{2}T^{2}}L$ -- liczba stymulowanych limfocytów $T_{CD8+}$ przez resztê komórek nowotworowych lizowanych przez limfocyty $T_{CD8+}$  w~chwili czasowej t,
+\item $-qLT$ -- liczba dezaktywowanych limfocytów $T_{CD8+}$ w~chwili czasowej t na~skutek interakcji z~komórkami nowotworowymi,
+\item $(r_{1}N+r_{2}C)T$ -- liczba stymulowanych limfocytów $T_{CD8+}$ przez resztê komórek nowotworowych lizowanych przez komórki NK oraz~limfocytów $T_{CD8+}$ powsta³ych na~skutek obecnoœci komórek nowotworowych w~chwili czasowej t,
+\item $-uNL^{2}$ -- liczba dezaktywowanych limfocytów $T_{CD8+}$ w~chwili czasowej t na~skutek dzia³ania komórek NK,
+\item $-K_{L}(1-e^{-M})L$ -- liczba limfocytów $T_{CD8+}$ zniszczonych w~chwili czasowej t na~skutek dzia³ania cytostatyku podanego podczas chemioterapii,
 \item $\dfrac{p_{i}LI}{g_{i}}$ -- liczba limfocytów $T_{CD8+}$ stymulowanych przez IL-2,
-\item $\nu_{L}(t)$ -- funkcja opisuj¹ca iloœæ i czas podania TIL;
+\item $\nu_{L}(t)$ -- funkcja opisuj¹ca iloœæ i~czas podania TIL;
 \end{itemize}
 
 \subsection{Równanie $\dfrac{dC}{dt}$}
 
 \begin{itemize}
-\item $\alpha-\beta C$ -- liczba powsta³ych i zniszczonych limfocytów kr¹¿¹cych w chwili czasowej t,
-\item $-K_{C}(1-e^{-M})C$ -- liczba limfocytów kr¹¿¹cych zniszczonych w chwili czasowej t na skutek dzia³ania cytostatyku podanego podczas chemioterapii;
+\item $\alpha-\beta C$ -- liczba powsta³ych i~zniszczonych limfocytów kr¹¿¹cych w~chwili czasowej t,
+\item $-K_{C}(1-e^{-M})C$ -- liczba limfocytów kr¹¿¹cych zniszczonych w~chwili czasowej t na~skutek dzia³ania cytostatyku podanego podczas chemioterapii;
 \end{itemize}
 
 \subsection{Równanie $\dfrac{dM}{dt}$}
 
 \begin{itemize}
-\item $-\gamma M$ -- spadek stê¿enia cytostatyku na skutek jego rozpadu,
-\item $+\nu_{M}(t)$ -- funkcja opisuj¹ca iloœæ i czas podania cytostatyku;
+\item $-\gamma M$ -- spadek stê¿enia cytostatyku na~skutek jego rozpadu,
+\item $+\nu_{M}(t)$ -- funkcja opisuj¹ca iloœæ i~czas podania cytostatyku;
 \end{itemize}
 
 \subsection{Równanie $\dfrac{dI}{dt}$}
 
 \begin{itemize}
-\item $-\mu_{i}L$ -- spadek stê¿enia IL-2 na skutek jej rozpadu,
-\item $-j'LI$ -- liczba komórek IL-2 wch³oniêtych przez limfocyty $T_{CD8+}$ w chwili czasowej t,
-\item $-k'TI$ -- liczba dezaktywowanych komórek IL-2 przez prostaglandyny w chwili czasowej t,
-\item $\nu_{I}(t)$ -- funkcja opisuj¹ca iloœæ i czas podania IL-2;
+\item $-\mu_{i}L$ -- spadek stê¿enia IL-2 na~skutek jej rozpadu,
+\item $-j'LI$ -- liczba komórek IL-2 wch³oniêtych przez limfocyty $T_{CD8+}$ w~chwili czasowej t,
+\item $-k'TI$ -- liczba dezaktywowanych komórek IL-2 przez prostaglandyny w~chwili czasowej t,
+\item $\nu_{I}(t)$ -- funkcja opisuj¹ca iloœæ i~czas podania IL-2;
 \end{itemize}
 
 \subsection{Równanie $\dfrac{dI_{\alpha}}{dt}$}
 
 \begin{itemize}
-\item $V_{\alpha}(t)$ -- funkcja opisuj¹ca iloœæ i czas podania INF-$\alpha$,
-\item $-gI_{\alpha}$ -- spadek stê¿enia INF-$\alpha$ na skutek jego rozpadu;
+\item $V_{\alpha}(t)$ -- funkcja opisuj¹ca iloœæ i~czas podania INF-$\alpha$,
+\item $-gI_{\alpha}$ -- spadek stê¿enia INF-$\alpha$ na~skutek jego rozpadu;
 \end{itemize}
 
 \section{Parametry modelu}
 
-W celu przeprowadzenia symulacji dobrano parametry modelu, jak w tabeli \ref{parametry_modelu}.
+W celu przeprowadzenia symulacji dobrano parametry modelu, jak~w~tabeli \ref{parametry_modelu}.
 
 \begin{table}[!htb]
-\caption{Parametry modelu odpowiedzi immunologicznej na rozwijaj¹cy siê nowotwór bez i z uwzglêdnieniem procesu leczenia.}\label{parametry_modelu}
+\caption{Parametry modelu odpowiedzi immunologicznej na~rozwijaj¹cy siê nowotwór bez i~z uwzglêdnieniem procesu leczenia.}\label{parametry_modelu}
 	\centering
 	\begin{tabular}{|c|c|c|p{0.47\linewidth}|} \hline
 		Nazwa & Wartoœæ & Jednostka & Opis  \\ \hline
@@ -323,27 +328,27 @@ W celu przeprowadzenia symulacji dobrano parametry modelu, jak w tabeli \ref{par
 		e & $2,08 \cdot 10^{-7}$ & dzieñ$^{-1}$ & Liczba kr¹¿¹cych limfocytów, które sta³y siê komórkami NK \\ \hline
 		l & $2,9$ & bezwymiarowe & Wspó³czynnik skalowania si³y uk³adu odpornoœciowego \\ \hline
 		f & $4,12 \cdot 10^{-2}$ & dzieñ$^{-1}$ & Tempo wyniszczania komórek NK \\ \hline
-		g & $1,25 \cdot 10^{-2}$ & dzieñ$^{-1}$ & Maksymalna liczba komórek NK wytwarzanych na skutek obecnoœci komórek nowotworowych \\ \hline
+		g & $1,25 \cdot 10^{-2}$ & dzieñ$^{-1}$ & Maksymalna liczba komórek NK wytwarzanych na~skutek obecnoœci komórek nowotworowych \\ \hline
 		h & $2,02 \cdot 10^{7}$ & komórka$^{2}$ & Wspó³czynnik stromoœci krzywej rekrutacji komórek NK \\ \hline
 		j & $2,49 \cdot 10^{-2}$ & dzieñ$^{-1}$ & Maksymalne tempo rekrutacji limfocytów $T_{CD8+}$ \\ \hline
 		k & $3,66 \cdot 10^{7}$ & komórka$^{2}$ & Wspó³czynnik stromoœci krzywej rekrutacji limfocytów $T_{CD8+}$ \\ \hline
-		\end{tabular}
-\end{table}
-\begin{table}[!htb]
-	\centering
-	\begin{tabular}{|c|c|c|p{0.49\linewidth}|} \hline 
 		m & $2,04 \cdot 10^{-1}$ & dzieñ$^{-1}$ & Tempo wyniszczania limfocytów $T_{CD8+}$ \\ \hline
 		q & $1,42 \cdot 10^{-6}$ & dzieñ$^{-1} \cdot$ komórka$^{-1}$ & Tempo dezaktywacji limfocytów $T_{CD8+}$ przez komórki nowotworu \\ \hline
 		p & $3,42 \cdot 10^{-6}$ & dzieñ$^{-1} \cdot$ komórka$^{-1}$ & Tempo dezaktywacji komórek NK przez komórki nowotworu \\ \hline
-		s & $8,39 \cdot 10^{-2}$ & bezwymiarowe & Wartoœæ ${(\frac{L}{T})}^{l}$ konieczna do osi¹gniêcia po³owy maksymalnej wartoœci cytotoksycznoœci limfocytów $T_{CD8+}$\\ \hline
+		s & $8,39 \cdot 10^{-2}$ & bezwymiarowe & Wartoœæ ${(\frac{L}{T})}^{l}$ konieczna do~osi¹gniêcia po³owy maksymalnej wartoœci cytotoksycznoœci limfocytów $T_{CD8+}$\\ \hline
+		\end{tabular}
+\end{table}
+\begin{table}[!t]
+	\centering
+	\begin{tabular}{|c|c|c|p{0.49\linewidth}|} \hline 
 		$r_{1}$ & $1,1 \cdot 10^{-7}$ & dzieñ$^{-1} \cdot$ komórka$^{-1}$ & Tempo stymulacji wytwarzania limfocytów $T_{CD8+}$ jako rezultat niszczenia komórek nowotworowych przez komórki NK \\ \hline
-		$r_{2}$ & $6,5 \cdot 10^{-11}$ & komórka$^{-1} \cdot$ dzieñ$^{-1}$ & Tempo stymulacji wytwarzania limfocytów $T_{CD8+}$ jako rezultat interakcji komórek  nowotworowych z kr¹¿¹cymi limfocytami \\ \hline
+		$r_{2}$ & $6,5 \cdot 10^{-11}$ & komórka$^{-1} \cdot$ dzieñ$^{-1}$ & Tempo stymulacji wytwarzania limfocytów $T_{CD8+}$ jako rezultat interakcji komórek  nowotworowych z~kr¹¿¹cymi limfocytami \\ \hline
 		u & $3 \cdot 10^{-10}$ & komórka$^{-2} \cdot$ dzieñ$^{-1}$ &  Wspó³czynnik Funkcji regulacyjnej limfocytów $T_{CD8+}$ nadzorowanej przez komórki NK\\ \hline
 		$\alpha$ & $7,5 \cdot 10^{8}$ & komórka $\cdot$ dzieñ$^{-1}$ &  Sta³a liczba kr¹¿¹cych limfocytów\\ \hline
 		$\beta$ & $1,2 \cdot 10^{-2}$ & dzieñ$^{-1}$ & Tempo wyniszczania kr¹¿¹cych limfocytów\\ \hline
 		$\gamma$ & $9 \cdot 10^{-1}$ & dzieñ$^{-1}$ & Tempo rozpadu leku chemioterapeutycznego \\ \hline
 		$p_{i}$ & $1,25 \cdot 10^{-1}$ & dzieñ$^{-1}$ & Maksymalne tempo rekrutacji limfocytów $T_{CD8+}$ przez interleukiny-2 \\ \hline
-		$g_{i}$ & $2 \cdot 10^{2}$ & komórka$^{2}$ & Wartoœæ stê¿enia interleukiny-2 konieczna do osi¹gniêcia po³owy maksymalnej wartoœci aktywnoœci cytolitycznej limfocytów $T_{CD8+}$ \\ \hline
+		$g_{i}$ & $2 \cdot 10^{2}$ & komórka$^{2}$ & Wartoœæ stê¿enia interleukiny-2 konieczna do~osi¹gniêcia po³owy maksymalnej wartoœci aktywnoœci cytolitycznej limfocytów $T_{CD8+}$ \\ \hline
 		$\mu_{i}$ & $1 \cdot 10^{1}$ & dzieñ$^{-1}$ & Tempo rozpadu interleukiny-2 (leku) \\ \hline
 		$C_{CTL}$ & $4,4 \cdot 10^{-9}$ & komórka$^{-1} \cdot$ dzieñ$^{-1}$ & Tempo dezaktywacji nowotworu przez limfocyty $T_{CD8+}$ \\ \hline
 		g' & $1,7$ & dzieñ$^{-1}$ & Tempo rozpadu terapeutycznego interferonu-$\alpha$\\ \hline
@@ -354,18 +359,18 @@ W celu przeprowadzenia symulacji dobrano parametry modelu, jak w tabeli \ref{par
 \end{table}
 
 \chapter{Symulacje}
-W pracy przeprowadzono modelowanie odpowiedzi uk³adu immunologicznego na rozwijaj¹cy siê nowotwór:
+W pracy przeprowadzono modelowanie odpowiedzi uk³adu immunologicznego na~rozwijaj¹cy siê nowotwór:
 \begin{itemize}
 \item bez uwzglêdnienia procesu leczenia,
-\item z uwzglêdnieniem leczenia wy³¹cznie metod¹ chemioterapii,
-\item z uwzglêdnieniem leczenia wy³¹cznie metod¹ immunoterapii,
-\item z uwzglêdnieniem leczenia skojarzonymi metodami chemioterapii i immunoterapii.
+\item z~uwzglêdnieniem leczenia wy³¹cznie metod¹ chemioterapii,
+\item z~uwzglêdnieniem leczenia wy³¹cznie metod¹ immunoterapii,
+\item z~uwzglêdnieniem leczenia skojarzonymi metodami chemioterapii i~immunoterapii.
 \end{itemize}
 
-Warunki pocz¹tkowe dla modelu \ref{równania_modelu_pillis_i_isaeva_bez_leczenia} dobrano zgodnie z literatur¹ \cite{1} i przedstawiono je w tabeli \ref{parametry_modelu_bez_lecz_lit}.
+Warunki pocz¹tkowe dla modelu \ref{równania_modelu_pillis_i_isaeva_bez_leczenia} dobrano zgodnie z~literatur¹ \cite{1} i~przedstawiono je w~tabeli \ref{parametry_modelu_bez_lecz_lit}.
 
 \begin{table}[!htb]
-\caption{Warunki pocz¹tkowe dla modelu odpowiedzi immunologicznej na rozwijaj¹cy siê nowotwór bez uwzglêdnienia procesu leczenia.}\label{parametry_modelu_bez_lecz_lit}
+\caption{Warunki pocz¹tkowe dla modelu odpowiedzi immunologicznej na~rozwijaj¹cy siê nowotwór bez uwzglêdnienia procesu leczenia.}\label{parametry_modelu_bez_lecz_lit}
 	\centering
 	\begin{tabular}{|c|c|c|p{0.8\linewidth}|} \hline
 		Oznaczenie populacji & Wartoœæ [liczba komórek] & Rodzaj komórek  \\ \hline
@@ -377,15 +382,15 @@ Warunki pocz¹tkowe dla modelu \ref{równania_modelu_pillis_i_isaeva_bez_leczenia}
 \end{table}
 
 \newpage
-\section{OdpowiedŸ uk³adu immunologicznego na nowotwór -- brak leczenia}
+\section{OdpowiedŸ uk³adu immunologicznego na~nowotwór -- brak leczenia}
 %\setlength{\parindent}{0pt}
 %\noindent % brak akapitu
 \subsection{Scenariusz I}
-Analiza zmian odpowiedzi uk³adu immunologicznego -- wielkoœci nowotworu po zadanym czasie symulacji -- w zale¿noœci od pocz¹tkowej wielkoœci nowotworu. Czas symulacji wynosi³ t = 120 dni. Warunki pocz¹tkowe -- wielkoœæ (liczbê komórek) nowotworu $T(0)$, liczbê komórek NK $N(0)$, liczbê limfocytów $T_{CD8+}$, liczbê limfocytów kr¹¿¹cych $C(0)$ dobrano jak w tabeli \ref{parametry_modelu_bez_lecz_lit}, a nastêpnie doœwiadczalnie zmieniano wartoœæ pocz¹tkowej wielkoœci nowotworu $T(0)$.
-W tabeli \ref{zmiany_poczatkowej_wartosci_T} przedstawiono wartoœci przyjmowane przez $T(0)$ podczas symulacji, liczbê komórek nowotworu oraz szacowan¹ objêtoœæ nowotworu w chwili t = 120.
+Analiza zmian odpowiedzi uk³adu immunologicznego -- wielkoœci nowotworu po zadanym czasie symulacji -- w~zale¿noœci od~pocz¹tkowej wielkoœci nowotworu. Czas symulacji wynosi³ t = 120 dni. Warunki pocz¹tkowe -- wielkoœæ (liczbê komórek) nowotworu $T(0)$, liczbê komórek NK $N(0)$, liczbê limfocytów $T_{CD8+}$, liczbê limfocytów kr¹¿¹cych $C(0)$ dobrano jak~w~tabeli \ref{parametry_modelu_bez_lecz_lit}, a~nastêpnie doœwiadczalnie zmieniano wartoœæ pocz¹tkowej wielkoœci nowotworu $T(0)$.
+W tabeli \ref{zmiany_poczatkowej_wartosci_T} przedstawiono wartoœci przyjmowane przez $T(0)$ podczas symulacji, liczbê komórek nowotworu oraz~szacowan¹ objêtoœæ nowotworu w~chwili t = 120.
 
 \begin{table}[!htb]
-\caption{Zmiany wartoœci $T(0)$, $T(120)$ i szacowanej objêtoœci nowotworu podczas symulacji.}\label{zmiany_poczatkowej_wartosci_T}
+\caption{Zmiany wartoœci $T(0)$, $T(120)$ i~szacowanej objêtoœci nowotworu podczas symulacji.}\label{zmiany_poczatkowej_wartosci_T}
 	\centering
 \begin{tabular}{|c|c|c|p{0.47\linewidth}|} \hline
 		$T(0)$ [liczba komórek] & $T(120)$ [liczba komórek] & Objêtoœæ nowotworu [$cm^{3}$] \\ \hline
@@ -402,7 +407,7 @@ W tabeli \ref{zmiany_poczatkowej_wartosci_T} przedstawiono wartoœci przyjmowane 
 		\end{tabular}
 \end{table}
 
-Przyk³adowe zmiany liczby komórek ka¿dej z czterech badanych populacji - $T(t)$ komórek nowotworowych, $N(t)$ komórek NK, $L(t)$ limfocytów $T_{CD8+}$ i $C(t)$ limfocytów kr¹¿¹cych. przedstawiono na poni¿szych wykresach (Rys. \ref{zmiany_liczby_kom_4_populacji}). Na pierwszym wykresie (Rys. \ref{bez_lecz_stlumienie}) przedstawiono sytuacjê, gdy nowotwór zostaje st³umiony przez system immunologiczny -- liczba komórek nowotworowych stabilizuje siê na poziomie bliskim 0. Wykres drugi (Rys. \ref{bez_lecz_brak_stlumienia}) obrazuje przypadek, w którym uk³ad immunologiczny nie jest w stanie pokonaæ nowotworu -- liczba jego komórek stabilizuje siê oko³o wartoœci $9,8 \cdot 10^{8}$.
+Przyk³adowe zmiany liczby komórek ka¿dej z~czterech badanych populacji - komórek nowotworowych $T(t)$, komórek NK $N(t)$, limfocytów $T_{CD8+}$ $L(t)$ i~limfocytów kr¹¿¹cych $C(t)$ przedstawiono na~poni¿szych wykresach (Rys. \ref{zmiany_liczby_kom_4_populacji}). Na~pierwszym wykresie (Rys. \ref{bez_lecz_stlumienie}) przedstawiono sytuacjê, gdy nowotwór zostaje st³umiony przez uk³ad immunologiczny -- liczba komórek nowotworowych stabilizuje siê na~poziomie bliskim 0. Wykres drugi (Rys. \ref{bez_lecz_brak_stlumienia}) obrazuje przypadek, w~którym uk³ad immunologiczny nie jest w~stanie pokonaæ nowotworu -- liczba jego komórek stabilizuje siê oko³o wartoœci $9,8 \cdot 10^{8}$.
 
 \begin{figure}
 \centering
@@ -411,31 +416,32 @@ Przyk³adowe zmiany liczby komórek ka¿dej z czterech badanych populacji - $T(t)$ 
 \quad
 \subfloat[Zmiany liczby komórek badanych populacji dla wartoœci pocz¹tkowej $T(0) = 1.8 \cdot 10^{7}$. Stabilizacja liczby komórek nowotworowych oko³o wartoœci $9,8 \cdot 10^{8}$.]{\label{bez_lecz_brak_stlumienia}
 \includegraphics[width=0.85\textwidth]{bez_lecz3m}}
-\caption{Wykresy zmian liczby komórek badanych populacji -- $T(t)$ komórek nowotworowych, $N(t)$ komórek NK, $L(t)$ limfocytów $T_{CD8+}$ i $C(t)$ limfocytów kr¹¿¹cych.}
+\caption{Wykresy zmian liczby komórek badanych populacji -- komórek nowotworowych $T(t)$, komórek NK $N(t)$, limfocytów $T_{CD8+}$ $L(t)$ i~limfocytów kr¹¿¹cych $C(t)$.}
 \label{zmiany_liczby_kom_4_populacji}
 \end{figure}
 
 \newpage
-Zmiany wielkoœci nowotworu po czasie t = 120 dni w zale¿noœci od pocz¹tkowej wartoœci $T(0)$ przedstawiono na wykresie (Rys. \ref{wykres_bez_lecz_t120_t0}).
+Zmiany wielkoœci nowotworu po czasie t = 120 dni w~zale¿noœci od~pocz¹tkowej wartoœci $T(0)$ przedstawiono na~wykresie (Rys. \ref{wykres_bez_lecz_t120_t0}).
 
 \begin{figure}[!htb]
 	\centering
 	\includegraphics[width=1\textwidth]{wykres_bez_lecz_t120_t0}
-	\caption{Liczba komórek nowotworu po czasie symulacji t = 120 dni w zale¿noœci od pocz¹tkowej liczby komórek nowotworowych $T(0)$ \cite{7}.}\label{wykres_bez_lecz_t120_t0} 
+	\caption{Liczba komórek nowotworu po czasie symulacji t = 120 dni w~zale¿noœci od~pocz¹tkowej liczby komórek nowotworowych $T(0)$ \cite{7}.}\label{wykres_bez_lecz_t120_t0} 
 \end{figure}
 
 Wnioski:
 \begin{itemize}
-\item zdrowy uk³ad immunologiczny jest w stanie zniszczyæ komórki nowotworowe przy wykorzystaniu wy³¹cznie komórek wystêpuj¹cych naturalnie w organizmie -- komórek NK, limfocytów $T_{CD8+}$, limfocytów kr¹¿¹cych -- bez ingerencji dodatkowych czynników (np. leczenia),
-\item jeœli nowotwór rozwija siê zbyt szybko -- równoznaczne z liczb¹ komórek nowotworu równ¹ oko³o $T(0) = 1.8 \cdot 10^{7}$ w chwili t = 0 podczas symulacji -- uk³ad immunologiczny nie jest w stanie samoistnie pozbyæ siê nowotworu.
+\item zdrowy uk³ad immunologiczny jest w~stanie zniszczyæ komórki nowotworowe przy~wykorzystaniu wy³¹cznie komórek wystêpuj¹cych naturalnie w~organizmie -- komórek NK, limfocytów $T_{CD8+}$, limfocytów kr¹¿¹cych -- bez ingerencji dodatkowych czynników (np. leczenia);
+\item jeœli nowotwór rozwija siê zbyt szybko, co jest równoznaczne z~pocz¹tkow¹ liczb¹ komórek nowotworu $T(0) = 1,8 \cdot 10^{7}$ w~chwili t = 0 podczas symulacji, uk³ad immunologiczny nie jest w~stanie samoistnie pozbyæ siê nowotworu.
 \end{itemize}
 
+\newpage
 \subsection{Scenariusz II}
-Analiza zmian odpowiedzi uk³adu immunologicznego -- wielkoœci nowotworu po zadanym czasie symulacji -- w zale¿noœci od  pocz¹tkowej liczby kr¹¿¹cych limfocytów $C(0)$ (badanie stanu uk³adu immunologicznego). Czas symulacji wynosi³ t = 120 dni. Warunki pocz¹tkowe -- wielkoœæ (liczbê komórek) nowotworu $T(0)$, liczbê komórek NK $N(0)$, liczbê limfocytów $T_{CD8+}$, liczbê limfocytów kr¹¿¹cych $C(0)$ dobrano jak w tabeli \ref{parametry_modelu_bez_lecz_lit}, a nastêpnie doœwiadczalnie zmieniano wartoœæ pocz¹tkowej liczby limfocytów kr¹¿¹cych $C(0)$.
-W tabeli \ref{zmiany_poczatkowej_wartosci_C} przedstawiono wartoœci przyjmowane przez $C(0)$ podczas symulacji, liczbê komórek nowotworu oraz szacowan¹ objêtoœæ nowotworu w chwili t = 120.
+Analiza zmian odpowiedzi uk³adu immunologicznego -- wielkoœci nowotworu po zadanym czasie symulacji -- w~zale¿noœci od~ pocz¹tkowej liczby kr¹¿¹cych limfocytów $C(0)$ (badanie stanu uk³adu immunologicznego). Czas symulacji wynosi³ t = 120 dni. Warunki pocz¹tkowe -- wielkoœæ (liczbê komórek) nowotworu $T(0)$, liczbê komórek NK $N(0)$, liczbê limfocytów $T_{CD8+}$, liczbê limfocytów kr¹¿¹cych $C(0)$ dobrano jak~w~tabeli \ref{parametry_modelu_bez_lecz_lit}, a~nastêpnie doœwiadczalnie zmieniano wartoœæ pocz¹tkowej liczby limfocytów kr¹¿¹cych $C(0)$.
+W tabeli \ref{zmiany_poczatkowej_wartosci_C} przedstawiono wartoœci przyjmowane przez $C(0)$ podczas symulacji, liczbê komórek nowotworu oraz~szacowan¹ objêtoœæ nowotworu w~chwili t = 120.
 
 \begin{table}[!htb]
-\caption{Zmiany wartoœci $C(0)$, $T(120)$ i szacowanej objêtoœci nowotworu podczas symulacji.}\label{zmiany_poczatkowej_wartosci_C}
+\caption{Zmiany wartoœci $C(0)$, $T(120)$ i~szacowanej objêtoœci nowotworu podczas symulacji.}\label{zmiany_poczatkowej_wartosci_C}
 	\centering
 \begin{tabular}{|c|c|c|p{0.47\linewidth}|} \hline
 		$C(0)$ [liczba komórek] & $T(120)$ [liczba komórek] & Objêtoœæ nowotworu [$cm^{3}$] \\ \hline
@@ -443,65 +449,65 @@ W tabeli \ref{zmiany_poczatkowej_wartosci_C} przedstawiono wartoœci przyjmowane 
 		$3 \cdot 10^{10}$ & $1,69 \cdot 10^{-7}$ & $1,69 \cdot 10^{-16}$ \\ \hline
 		$1 \cdot 10^{10}$ & $3,09 \cdot 10^{-8}$ & $1,33 \cdot 10^{-17}$ \\ \hline
 		$6 \cdot 10^{9}$ & $4,79 \cdot 10^{-8}$ & $4,79 \cdot 10^{-17}$ \\ \hline
+		$4 \cdot 10^{9}$ & $5,72 \cdot 10^{-8}$ & $5,72 \cdot 10^{-17}$ \\ \hline
+		$3,5 \cdot 10^{9}$ & $9,8 \cdot 10^{8}$ & $9,8 \cdot 10^{-1}$ \\ \hline
 		$3 \cdot 10^{9}$ & $9,8 \cdot 10^{8}$ & $9,8 \cdot 10^{-1}$ \\ \hline
 		$1 \cdot 10^{9}$ & $9,8 \cdot 10^{8}$ & $9,8 \cdot 10^{-1}$ \\ \hline
-		$6 \cdot 10^{8}$ & & \\ \hline
-		$3 \cdot 10^{8}$ & &\\ \hline
-		$1 \cdot 10^{8}$ & &\\ \hline
-		$6 \cdot 10^{7}$ & &\\ \hline
+		$6 \cdot 10^{8}$ & $9,8 \cdot 10^{8}$ & $9,8 \cdot 10^{-1}$ \\ \hline
+		$3 \cdot 10^{8}$ & $9,8 \cdot 10^{8}$ & $9,8 \cdot 10^{-1}$ \\ \hline
 		\end{tabular}
 \end{table}
 
-Przyk³adowe zmiany liczby komórek ka¿dej z czterech badanych populacji - $T(t)$ komórek nowotworowych, $N(t)$ komórek NK, $L(t)$ limfocytów $T_{CD8+}$ i $C(t)$ limfocytów kr¹¿¹cych. przedstawiono na poni¿szych wykresach (Rys. \ref{zmiany_liczby_kom_4_populacji}). Na pierwszym wykresie (Rys. \ref{bez_lecz_stlumienie}) przedstawiono sytuacjê, gdy nowotwór zostaje st³umiony przez system immunologiczny -- liczba komórek nowotworowych stabilizuje siê na poziomie bliskim 0. Wykres drugi (Rys. \ref{bez_lecz_brak_stlumienia}) obrazuje przypadek, w którym uk³ad immunologiczny nie jest w stanie pokonaæ nowotworu -- liczba jego komórek stabilizuje siê oko³o wartoœci $9,8 \cdot 10^{8}$.
+Zmiany liczby komórek badanych populacji - komórek nowotworowych $T(t)$, komórek NK $N(t)$, limfocytów $T_{CD8+}$ $L(t)$ i~limfocytów kr¹¿¹cych $C(t)$ przedstawiono na~wykresach (Rys. \ref{zmiany_liczby_kom_4_populacjiC}). Na~pierwszym z~nich (Rys. \ref{bez_lecz_stlumienieC}) nowotwór zostaje st³umiony przez odpowiednio silny system immunologiczny -- liczba komórek nowotworowych stabilizuje siê oko³o wartoœci 0. Na~drugim wykresie (Rys. \ref{bez_lecz_brak_stlumieniaC}) liczba komórek nowotworowych stabilizuje siê oko³o wartoœci $9,8 \cdot 10^{8}$. Uk³ad immunologiczny ze wzglêdu na~zmniejszon¹ liczbê kr¹¿¹cych limfocytów jest zbyt s³aby, by zniszczyæ komórki nowotworu.
 
 \begin{figure}
 \centering
-\subfloat[Zmiany liczby komórek badanych populacji dla wartoœci pocz¹tkowej $T(0) = 1 \cdot 10^{6}$. Stabilizacja liczby komórek nowotworowych oko³o wartoœci 0.]{\label{bez_lecz_stlumienie}
+\subfloat[Zmiany liczby komórek badanych populacji dla wartoœci pocz¹tkowej $C(0) = 6 \cdot 10^{6}$. Stabilizacja liczby komórek nowotworowych oko³o wartoœci 0.]{\label{bez_lecz_stlumienieC}
 \includegraphics[width=0.85\textwidth]{bez_lecz1m}}
 \quad
-\subfloat[Zmiany liczby komórek badanych populacji dla wartoœci pocz¹tkowej $T(0) = 1.8 \cdot 10^{7}$. Stabilizacja liczby komórek nowotworowych oko³o wartoœci $9,8 \cdot 10^{8}$.]{\label{bez_lecz_brak_stlumienia}
-\includegraphics[width=0.85\textwidth]{bez_lecz3m}}
-\caption{Wykresy zmian liczby komórek badanych populacji -- $T(t)$ komórek nowotworowych, $N(t)$ komórek NK, $L(t)$ limfocytów $T_{CD8+}$ i $C(t)$ limfocytów kr¹¿¹cych.}
-\label{zmiany_liczby_kom_4_populacji}
+\subfloat[Zmiany liczby komórek badanych populacji dla wartoœci pocz¹tkowej $C(0) = 3,5 \cdot 10^{9}$. Stabilizacja liczby komórek nowotworowych oko³o wartoœci $9,8 \cdot 10^{8}$.]{\label{bez_lecz_brak_stlumieniaC}
+\includegraphics[width=0.85\textwidth]{bez_leczCm}}
+\caption{Wykresy zmian liczby komórek badanych populacji -- komórek nowotworowych $T(t)$, komórek NK $N(t)$, limfocytów $T_{CD8+}$ $L(t)$ i~limfocytów kr¹¿¹cych $C(t)$.}
+\label{zmiany_liczby_kom_4_populacjiC}
 \end{figure}
 
 \newpage
-Zmiany wielkoœci nowotworu po czasie t = 120 dni w zale¿noœci od pocz¹tkowej wartoœci $T(0)$ przedstawiono na wykresie (Rys. \ref{wykres_bez_lecz_t120_t0}).
+Zmiany wielkoœci nowotworu po czasie t = 120 dni w~zale¿noœci od~pocz¹tkowej liczby kr¹¿¹cych limfocytów $C(0)$ przedstawiono na~wykresie (Rys. \ref{wykres_bez_lecz_t120_c0}).
 
 \begin{figure}[!htb]
 	\centering
-	\includegraphics[width=1\textwidth]{wykres_bez_lecz_t120_t0}
-	\caption{Liczba komórek nowotworu po czasie symulacji t = 120 dni w zale¿noœci od pocz¹tkowej liczby komórek nowotworowych $T(0)$ \cite{7}.}\label{wykres_bez_lecz_t120_t0} 
+	\includegraphics[width=1\textwidth]{wykres_bez_lecz_t120_c0}
+	\caption{Liczba komórek nowotworu po czasie symulacji t = 120 dni w~zale¿noœci od~pocz¹tkowej liczby kr¹¿¹cych limfocytów $C(0)$ \cite{7}.}\label{wykres_bez_lecz_t120_c0} 
 \end{figure}
 
 Wnioski:
 \begin{itemize}
-\item zdrowy uk³ad immunologiczny jest w stanie zniszczyæ komórki nowotworowe przy wykorzystaniu wy³¹cznie komórek wystêpuj¹cych naturalnie w organizmie -- komórek NK, limfocytów $T_{CD8+}$, limfocytów kr¹¿¹cych -- bez ingerencji dodatkowych czynników (np. leczenia),
-\item jeœli nowotwór rozwija siê zbyt szybko -- równoznaczne z liczb¹ komórek nowotworu równ¹ oko³o $T(0) = 1.8 \cdot 10^{7}$ w chwili t = 0 podczas symulacji -- uk³ad immunologiczny nie jest w stanie samoistnie pozbyæ siê nowotworu.
-\end{itemize}
+\item przy~odpowiednio du¿ej liczbie kr¹¿¹cych limfocytów -- oko³o $4 \cdot 10^{9}$, uk³ad immunologiczny jest w~stanie zniszczyæ komórki nowotworowe bez ingerencji zewnêtrznych czynników (np. leczenia),
+\item przy~zbyt ma³ej liczbie kr¹¿¹cych limfocytów (z³y stan uk³adu immunologicznego) organizm nie jest w~stanie zniszczyæ komórek nowotworowych.
+\end{itemize} 
 
 \section{Leczenie metod¹ chemioterapii}
 \section{Leczenie metod¹ immunoterapii}
-\section{Po³¹czenie metod chemioterapii i immunoterapii}
+\section{Po³¹czenie metod chemioterapii i~immunoterapii}
 
 \chapter{Rezultaty}
 \chapter{Analiza wyników}
 \chapter{Podsumowanie}
 
 \begin{thebibliography}{9}
-\bibitem{1} Mustafa Mamat, Subiyanto i Agus Kartono, ,,Mathematical Model of Cancer Treatments Using Immunotherapy, Chemotherapy and Biochemotherapy",
+\bibitem{1} Mustafa Mamat, Subiyanto i~Agus Kartono, ,,Mathematical Model of Cancer Treatments Using Immunotherapy, Chemotherapy and Biochemotherapy",
 \bibitem{2} R. Tadeusiewicz, ,,Biocybernetyka. Metodologiczne podstawy dla in¿ynierii biomedycznej.”, PWN, 2013
-\bibitem{3} Redaktor naukowy dr n. med. Janusz Meder, ,,Podstawy onkologii klinicznej", Centrum Medyczne Kszta³cenia Podyplomowego w Warszawie, 2011
-\bibitem{4} Ewelina Dymarska, ,,Czynniki moduluj¹ce uk³ad immunologiczny cz³owieka", Uniwersytet Ekonomiczny we Wroc³awiu, Zeszyty Naukowe Pañstwowej Wy¿szej Szko³y Zawodowej im. Witelona w Legnicy nr 19(2)/2016
+\bibitem{3} Redaktor naukowy dr n. med. Janusz Meder, ,,Podstawy onkologii klinicznej", Centrum Medyczne Kszta³cenia Podyplomowego w~Warszawie, 2011
+\bibitem{4} Ewelina Dymarska, ,,Czynniki moduluj¹ce uk³ad immunologiczny cz³owieka", Uniwersytet Ekonomiczny we Wroc³awiu, Zeszyty Naukowe Pañstwowej Wy¿szej Szko³y Zawodowej im. Witelona w~Legnicy nr 19(2)/2016
 \bibitem{5} Nadzieja Drela, ,,Immunologiczna teoria starzenia", Wydzia³ Biologii Uniwersytetu Warszawskiego, Instytut Zoologii, Zak³ad Immunologii, Warszawa, 23 kwietnia 2014
-\bibitem{6} Marta Sochocka, Zofia B³ach-Olszewska, ,,Mechanizmy wrodzonej odpornoœci", Laboratorium Wirusologii Instytutu Immunologii i Terapii Doœwiadczalnej Polskiej Akademii Nauk im L. Hirszfelda we Wroc³awiu, Postêpy Hig Med Doœw., 59: 250-258, 2005
-\bibitem{7} Emilia Kolarzyk, ,,Wybrane problemy higieny i ekologii cz³owieka", Wydawnictwo Uniwersytetu Jagielloñskiego, Kraków, 2008, wyd.1
-\bibitem{8} Beata Tokarz-Deptu³a, Tymoteusz Miller, Wies³aw Deptu³a, ,,Cytokiny z rodziny interleukiny-1", Katedra Mikrobiologii i Immunologii, Wydzia³ Nauk Przyrodniczych, Uniwersytet Szczeciñski
-\bibitem{9} ,,Chemioterapia, Immunoterapia i Terapia Celowana Informacje dla Pacjenta", Centrum Onkologii Ziemi Lubelskiej im. œw. Jana z Dukli, Lublin, 2011
-\bibitem{10} Jacek Mackiewicz, Andrzej Mackiewicz, ,,Immunoterapia nowotworów i perspektywy jej rozwoju", Zak³ad Immunologii Nowotworów, Katedra Biotechnologii Medycznej, Uniwersytet Medyczny im. Karola Marcinkowskiego w Poznaniu, Wielkopolskie Centrum Onkologii w Poznaniu
-\bibitem{11} Anna Œwieboda-Sadlej, ,,Skojarzone leczenie nowotworów — wspó³praca chirurga i onkologa klinicznego w zakresie leczenia raka piersi, jelita grubego i p³uca", Klinika Hematologii, Onkologii i Chorób Wewnêtrznych WUM
-\bibitem{12} Ewa Sikora, ,,Cykl komórkowy i apoptoza: œmieræ starej komórki'', Polskie Towarzystwo Biochemiczne, ,,Postêpy biochemii'', tom 42, nr 2, 1996
-\bibitem{13} Izabela Klaska, Jerzy Z. Nowak, ,,Rola uk³adu dope³niacza w fizjologii i patologii'', £ódŸ, 2007
+\bibitem{6} Marta Sochocka, Zofia B³ach-Olszewska, ,,Mechanizmy wrodzonej odpornoœci", Laboratorium Wirusologii Instytutu Immunologii i~Terapii Doœwiadczalnej Polskiej Akademii Nauk im L. Hirszfelda we Wroc³awiu, Postêpy Hig Med Doœw., 59: 250-258, 2005
+\bibitem{7} Emilia Kolarzyk, ,,Wybrane problemy higieny i~ekologii cz³owieka", Wydawnictwo Uniwersytetu Jagielloñskiego, Kraków, 2008, wyd.1
+\bibitem{8} Beata Tokarz-Deptu³a, Tymoteusz Miller, Wies³aw Deptu³a, ,,Cytokiny z~rodziny interleukiny-1", Katedra Mikrobiologii i~Immunologii, Wydzia³ Nauk Przyrodniczych, Uniwersytet Szczeciñski
+\bibitem{9} ,,Chemioterapia, Immunoterapia i~Terapia Celowana Informacje dla Pacjenta", Centrum Onkologii Ziemi Lubelskiej im. œw. Jana z~Dukli, Lublin, 2011
+\bibitem{10} Jacek Mackiewicz, Andrzej Mackiewicz, ,,Immunoterapia nowotworów i~perspektywy jej rozwoju", Zak³ad Immunologii Nowotworów, Katedra Biotechnologii Medycznej, Uniwersytet Medyczny im. Karola Marcinkowskiego w~Poznaniu, Wielkopolskie Centrum Onkologii w~Poznaniu
+\bibitem{11} Anna Œwieboda-Sadlej, ,,Skojarzone leczenie nowotworów — wspó³praca chirurga i~onkologa klinicznego w~zakresie leczenia raka piersi, jelita grubego i~p³uca", Klinika Hematologii, Onkologii i~Chorób Wewnêtrznych WUM
+\bibitem{12} Ewa Sikora, ,,Cykl komórkowy i~apoptoza: œmieræ starej komórki'', Polskie Towarzystwo Biochemiczne, ,,Postêpy biochemii'', tom 42, nr 2, 1996
+\bibitem{13} Izabela Klaska, Jerzy Z. Nowak, ,,Rola uk³adu dope³niacza w~fizjologii i~patologii'', £ódŸ, 2007
 \bibitem{14} dr hab. Krzysztof Bryniarski, ,,Immunologia'', 2017
-\bibitem{15} W³odzimierz Maœliñski, Ewa Kontny, ,,Podstawy immunologii dla reumatologów'', Narodowy Instytut Geriatrii, Reumatologii i Rehabilitacji, Warszawa, 2015
+\bibitem{15} W³odzimierz Maœliñski, Ewa Kontny, ,,Podstawy immunologii dla reumatologów'', Narodowy Instytut Geriatrii, Reumatologii i~Rehabilitacji, Warszawa, 2015
 \end{thebibliography}
