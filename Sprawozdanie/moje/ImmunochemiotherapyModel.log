@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6500) (preloaded format=pdflatex 2017.12.11)  7 FEB 2020 11:36
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6500) (preloaded format=pdflatex 2017.12.11)  7 FEB 2020 12:19
 entering extended mode
 **./ImmunochemiotherapyModel.tex
 (ImmunochemiotherapyModel.tex
@@ -569,26 +569,33 @@ Package pdftex.def Info: ./rysunki/bez_lecz3m.jpg  used on input line 413.
 
 LaTeX Warning: Float too large for page by 21.98657pt on input line 416.
 
-[18] [19 <./rysunki/bez_lecz1m.jpg> <./rysunki/bez_lecz3m.jpg>] [20]
+[18] [19 <./rysunki/bez_lecz1m.jpg> <./rysunki/bez_lecz3m.jpg>]
+<./rysunki/wykres_bez_lecz_t120_t0.jpg, id=93, 478.78876pt x 296.60812pt>
+File: ./rysunki/wykres_bez_lecz_t120_t0.jpg Graphic file (type jpg)
+<use ./rysunki/wykres_bez_lecz_t120_t0.jpg>
+Package pdftex.def Info: ./rysunki/wykres_bez_lecz_t120_t0.jpg  used on input l
+ine 423.
+(pdftex.def)             Requested size: 441.01773pt x 273.20863pt.
+ [20 <./rysunki/wykres_bez_lecz_t120_t0.jpg>] [21]
 Rozdzia\PlPrIeC {\l } 5.
-[21
-
-]
-Rozdzia\PlPrIeC {\l } 6.
 [22
 
 ]
-Rozdzia\PlPrIeC {\l } 7.
+Rozdzia\PlPrIeC {\l } 6.
 [23
 
-] [24
+]
+Rozdzia\PlPrIeC {\l } 7.
+[24
 
-]) [25] (ImmunochemiotherapyModel.aux) ) 
+] [25
+
+]) [26] (ImmunochemiotherapyModel.aux) ) 
 Here is how much of TeX's memory you used:
- 5810 strings out of 493312
- 86584 string characters out of 3136354
+ 5816 strings out of 493312
+ 86803 string characters out of 3136354
  173257 words of memory out of 3000000
- 9208 multiletter control sequences out of 15000+200000
+ 9213 multiletter control sequences out of 15000+200000
  21566 words of font info for 65 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  46i,12n,49p,1509b,407s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -612,9 +619,9 @@ public/pl/plsl10.pfb><C:/Users/Ania/AppData/Roaming/MiKTeX/2.9/fonts/type1/publ
 ic/pl/plsl12.pfb><C:/Users/Ania/AppData/Roaming/MiKTeX/2.9/fonts/type1/public/p
 l/plsy10.pfb><C:/Users/Ania/AppData/Roaming/MiKTeX/2.9/fonts/type1/public/pl/pl
 sy8.pfb>
-Output written on ImmunochemiotherapyModel.pdf (29 pages, 304400 bytes).
+Output written on ImmunochemiotherapyModel.pdf (30 pages, 340835 bytes).
 PDF statistics:
- 166 PDF objects out of 1000 (max. 8388607)
+ 170 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 16 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 21 words of extra memory for PDF output out of 10000 (max. 10000000)
 
