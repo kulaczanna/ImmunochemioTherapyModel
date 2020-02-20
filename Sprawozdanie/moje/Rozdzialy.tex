@@ -1,8 +1,8 @@
 \chapter{Wprowadzenie}
 % \setlength{\parindent}{50pt} tak siê robi wciêcia
 \section{Streszczenie}
-W~pracy przedstawiono model opisuj¹cy odpowiedŸ uk³adu immunologicznego na~rozwijaj¹cy siê w~organizmie nowotwór. Model ten oparty jest na~modelu de Pillis'a oraz~modelu Isaeva i~Osiopov'a \cite{1}. Obejmuje on rozwój komórek nowotworowych w~organizmie oraz~odpowiedŸ uk³adu immunologicznego -- w~tym limfocytów naciekaj¹cych nowotwór (ang. Tumor Infiltrating Lymphocytes (TIL)), komórek NK (ang. Natural Killer cells - naturalni zabójcy), limfocytów $T_{CD8+}$. 
-Nastêpnie model zosta³ poddany modyfikacji -- uwzglêdnia dodatkowo proces leczenia nowotworu skojarzonymi metodami chemioterapii i~immunoterapii z~u¿yciem cytokin: interleukin-2 (IL-2) i~interferonów alfa (INF-$\alpha$).
+W~pracy przedstawiono model opisuj¹cy odpowiedŸ uk³adu immunologicznego na~rozwijaj¹cy siê w~organizmie nowotwór. Model ten oparty jest na~modelu de Pillis'a oraz~modelu Isaeva i~Osiopov'a \cite{1}. Obejmuje on rozwój komórek nowotworowych w~organizmie oraz~odpowiedŸ uk³adu immunologicznego -- w~tym limfocytów naciekaj¹cych nowotwór (TIL, ang. Tumor Infiltrating Lymphocytes), tak zwanych ,,naturalnych zabójców'' (komórek NK, ang. Natural Killer cells) oraz limfocytów $T_{CD8+}$. 
+Nastêpnie model zosta³ poddany modyfikacji polegaj¹cej na~ uwzglêdnieniu procesu leczenia nowotworu skojarzonymi metodami chemioterapii i~immunoterapii z~u¿yciem cytokin: interleukin-2 (IL-2) i~interferonów alfa (INF-$\alpha$).
 
 \section{Abstract}
 \section{Cel pracy}
@@ -28,7 +28,8 @@ Praca sk³ada siê z~nastêpuj¹cych czêœci:
 
 \chapter{Wstêp}
 \section{Procesy nowotworowe}
-Nowotworem okreœla siê nieprawid³owe komórki w~organizmie, których wzrost odbywa siê w~sposób niekontrolowany \cite{1, 2}. w~zdrowym organizmie wystêpuje równowaga pomiêdzy tempem podzia³ów komórkowych a~utrat¹ komórek. w~przypadku nowotworu ginie mniej komórek ni¿ przybywa \cite{3}. W~efekcie ich spontanicznego mno¿enia siê struktura, która siê z~nich sk³ada zaczyna niszczyæ narz¹d, w~którym wyst¹pi³ proces nowotworowy. Niektóre z~tych komórek mog¹ oderwaæ siê od~pozosta³ych, przedostaæ do~naczyñ krwionoœnych i~limfatycznych, a~w~konsekwencji dawaæ przerzuty do~innych narz¹dów \cite {2}. Powstawanie nowotworu wi¹¿e siê z~wieloma zmianami materia³u genetycznego. Rozpoczêcie tego procesu zale¿y zarówno od~wagi, jak~i~miejsca, w~którym dana zmiana wyst¹pi³a. Warto zwróciæ uwagê na~zmiany systemów naprawy DNA oraz~systemów reguluj¹cych podstawowe procesy komórek (na przyk³ad wzrost, ró¿nicowanie, apoptoza\footnote{Œmieræ programowana, œmieræ samobójcza komórki zachodz¹ca w~warunkach fizjologicznych \cite{12}.}). Na~skutek zmian systemów naprawczych dochodzi do~szybkiej i~du¿ej niestabilnoœci genomu, natomiast w~przypadku zmian w~systemach reguluj¹cych proces zaburzenia homeostazy komórki jest powolny, a~niestabilnoœæ narasta stopniowo. Choroby nowotworowe w~wiêkszoœci rozwijaj¹ siê zgodnie z~powolnym mechanizmem, dlatego od~pojawienia siê pocz¹tkowej zmiany do~klinicznego ujawnienia guza mija zazwyczaj wiele lat \cite{3}.
+Nowotworem okreœla siê nieprawid³owe komórki w~organizmie, których wzrost odbywa siê w~sposób niekontrolowany \cite{1, 2}. W~zdrowym organizmie wystêpuje równowaga pomiêdzy tempem podzia³ów komórkowych a~utrat¹ komórek. W~przypadku nowotworu ginie mniej komórek ni¿ przybywa \cite{3}. W~efekcie spontanicznej proliferacji komórek nowotworowych sk³adaj¹ca siê z nich struktura zaczyna niszczyæ narz¹d, w~którym wyst¹pi³ proces nowotworowy. Niektóre z~tych komórek mog¹ oderwaæ siê od~pozosta³ych, przedostaæ do~naczyñ krwionoœnych i~limfatycznych, a~w~konsekwencji dawaæ przerzuty do~innych narz¹dów \cite {2}. Powstawanie nowotworu wi¹¿e siê z~wieloma zmianami materia³u genetycznego. Rozpoczêcie tego procesu zale¿y zarówno od~wagi, jak~i~miejsca, w~którym dana zmiana wyst¹pi³a. 
+\newline Warto tak¿e zwróciæ uwagê na~zmiany systemów naprawy DNA oraz~zmiany systemów reguluj¹cych podstawowe procesy komórkowe (na przyk³ad wzrost, ró¿nicowanie, apoptozê\footnote{Œmieræ programowana, œmieræ samobójcza komórki zachodz¹ca w~warunkach fizjologicznych \cite{12}.}). Na~skutek zmian systemów naprawczych dochodzi do~szybkiej i~du¿ej niestabilnoœci genomu. Zmiany w~systemach reguluj¹cych powoduj¹ natomiast powolny proces zaburzenia homeostazy komórki oraz stopniowo narastaj¹c¹ niestabilnoœæ genomu. Choroby nowotworowe w~wiêkszoœci rozwijaj¹ siê w tym drugim przypadku, dlatego od~pojawienia siê pocz¹tkowej zmiany do~klinicznego wykrycia guza mija zazwyczaj wiele lat \cite{3}.
 
 \section{Budowa uk³adu immunologicznego i~jego znaczenie w~procesie leczenia nowotworów}
 Na uk³ad immunologiczny sk³adaj¹ siê mechanizmy odpornoœci swoistej (nabytej) i~nieswoistej (wrodzonej) \cite{4,5}. Podzia³ tych mechanizmów przedstawiono w~Tab. \ref{ró¿nice_miêdzy_nab_a_wrodz}. 
@@ -40,11 +41,11 @@ Do mechanizmów swoistej odpornoœci nale¿¹ \cite{6}:
 \begin{itemize}
 \item aktywnoœæ cytokin i~chemokin,
 \item cytokinozale¿na wrodzona opornoœæ leukocytów i~innych komórek,
-\item zabijanie zaka¿onych lub~nowotworowych komórek przez komórki NK, komplement aktywowany lektynami lub~drog¹ alternatywn¹,
+\item zabijanie zaka¿onych lub~nowotworowych komórek przez komórki NK, komplement\footnote{Uk³ad dope³niacza, system kaskadowo aktywowanych bia³ek pe³ni¹cych znacz¹c¹ rolê w~walce przeciwko czynnikom patogennym, w~utrzymywaniu stanu homeostazy oraz~wzbudzaniu stanu zapalnego\cite{17}.} aktywowany lektynami lub~drog¹ alternatywn¹,
 \item opsonizacja i~fagocytoza\footnote{Usuwanie kompleksów immunologicznych i~uszkodzonych komórek (u³atwienie fagocytozy immunologicznej). Efektywne niszczenie drobnoustrojów przez fagocyty \cite{13, 14}.}.
 \end{itemize}
 
-Odpornoœæ swoista rozpoznaje antygeny bardzo precyzyjnie. Jej wa¿nymi elementami s¹ limfocyty T, limfocyty B, cytokiny, przeciwcia³a. Komórki tego typu s¹ zdolne do~wytwarzania nieograniczonej liczby receptorów. Dodatkowo, jeœli dojdzie do~ich kontaktu z~antygenem wytwarza siê pamiêæ immunologiczna, dziêki której przy~ponownym zetkniêciu komórki danego typu z~odpowiednim antygenem wytwarzana jest odpowiedŸ immunologiczna. W~przypadku limfocytów T, typ odpowiedzi swoistej okreœlany jest jako komórkowy, natomiast dla limfocytów B -- humoralny.
+Odpornoœæ swoista rozpoznaje antygeny bardzo precyzyjnie. Jej wa¿nymi elementami s¹ limfocyty typu T, limfocyty typu B, cytokiny oraz przeciwcia³a. Komórki te s¹ zdolne do~wytwarzania nieograniczonej liczby receptorów. Dodatkowo, jeœli dojdzie do~ich kontaktu z~antygenem wytwarza siê pamiêæ immunologiczna, dziêki której przy~ponownym zetkniêciu komórki danego typu z~odpowiednim antygenem wytwarzana jest odpowiedŸ immunologiczna. W~przypadku limfocytów T, typ odpowiedzi swoistej okreœlany jest jako komórkowy, natomiast dla limfocytów B -- humoralny.
 Pomimo bardzo du¿ego znaczenia uk³adu immunologicznego dla organizmu, wiele mechanizmów jego dzia³ania pozostaje jeszcze niewyjaœnionych \cite{4}.
 
 \begin{table}[!htb]
@@ -67,7 +68,7 @@ Pomimo bardzo du¿ego znaczenia uk³adu immunologicznego dla organizmu, wiele mech
 \end{table}
 
 \newpage
-Znacz¹c¹ rolê w~oddzia³ywaniu uk³adu immunologicznego na~rozwijaj¹cy siê nowotwór maj¹ takie jego elementy, jak:
+Znacz¹c¹ rolê w~oddzia³ywaniu uk³adu immunologicznego na~rozwijaj¹cy siê nowotwór pe³ni¹:
 
 \begin{itemize}
 \item limfocyty $T_{CD8+}$,
@@ -76,15 +77,15 @@ Znacz¹c¹ rolê w~oddzia³ywaniu uk³adu immunologicznego na~rozwijaj¹cy siê nowotwó
 \item interleukiny.
 \end{itemize}
 
-W~zwi¹zku z~tym, ich funkcjê w~organizmie ujêto w~opisywanym modelu, a~ich znaczenie opisano w~dalszej czêœci pracy.
+W~zwi¹zku z~wa¿n¹ funkcj¹ wy¿ej wymienionych komórek, ujêto je~w~opisywanym modelu, natomiast ich~znaczenie opisano w~dalszej czêœci pracy.
 
 % glikoproteiny MHC (Major Histocompatibility Complex)
 
-\subsection{Limfocyty $T_{CD8+}$}
-Limfocyty T wytwarzane s¹ w~szpiku kostnym, natomiast dojrzewaj¹ w~grasicy. Te~oznaczane jako CD8+ dziel¹ siê na~limfocyty:
+\subsection{Limfocyty typu T}
+Limfocyty typu T wytwarzane s¹ w~szpiku kostnym, natomiast dojrzewaj¹ w~grasicy. Limfocyty typu T oznaczane jako CD8+ dziel¹ siê na~limfocyty \cite{7}:
 \begin{itemize}
-\item $T_{c}$ -- cytotoksyczne -- odpowiadaj¹ce za~niszczenie komórek i~odrzucanie przeszczepów,
-\item $T_{s}$ -- supresyjne -- odpowiadaj¹ce za~hamowanie dzia³ania innych limfocytów, reakcji alergicznych i~utrzymanie tolerancji immunologicznej na~w³asne antygeny \cite{7}.
+\item cytotoksyczne $T_{c}$, które odpowiadaj¹ za~niszczenie komórek i~odrzucanie przeszczepów,
+\item supresyjne $T_{s}$, które odpowiadaj¹ za~hamowanie dzia³ania innych limfocytów, reakcji alergicznych i~utrzymanie tolerancji immunologicznej na~w³asne antygeny.
 \end{itemize}
 Podzia³ limfocytów T przedstawiono na~Rys. \ref{limfocyty_T_cd8+}.
 
@@ -95,24 +96,24 @@ Podzia³ limfocytów T przedstawiono na~Rys. \ref{limfocyty_T_cd8+}.
 \end{figure}
 
 \newpage
-OdpowiedŸ immunologiczna swoista typu komórkowego, w~któr¹ zaanga¿owane s¹ subpopulacje limfocytów T polega na~wywo³aniu reakcji zwalczania antygenu. Mo¿liwe s¹ dwa typy tej reakcji. W~pierwszym z~nich funkcjê efektorów pe³ni¹ limfocyty CD4+, a~makrofagi s¹ komórkami pomocniczymi. Drugi typ reakcji zak³ada, ¿e limfocyt cytotoksyczny CD8+ jest komórk¹ efektorow¹, a~limfocyt CD4+ pomocnicz¹.
-Odpornoœæ komórkowa ma za~zadanie, przede wszystkim walczyæ z~zaka¿eniami bêd¹cymi efektem namna¿aj¹cych siê drobnoustrojów, ale równie¿ spe³nia wa¿n¹ rolê w~reakcji kontaktowej ze zwi¹zkami chemicznymi, odrzuceniu przeszczepu czy~tkanek zmienionych nowotworowo i~w niektórych reakcjach autoimmunologicznych \cite{4}.
+OdpowiedŸ immunologiczna swoista typu komórkowego, w~któr¹ zaanga¿owane s¹ subpopulacje limfocytów typu T, polega na~wywo³aniu reakcji zwalczania antygenu. Mo¿liwe s¹ dwa typy tej reakcji. W~pierwszym z~nich funkcjê efektorów pe³ni¹ limfocyty CD4+, a~makrofagi s¹ komórkami pomocniczymi. Drugi typ reakcji zak³ada, ¿e limfocyt cytotoksyczny CD8+ jest komórk¹ efektorow¹, a~limfocyt CD4+ pomocnicz¹.
+Odpornoœæ komórkowa ma za~zadanie, przede wszystkim walczyæ z~zaka¿eniami, ale równie¿ spe³nia wa¿n¹ rolê w~reakcji kontaktowej ze zwi¹zkami chemicznymi, w~ odrzuceniu przeszczepu czy~tkanek zmienionych nowotworowo i~w niektórych reakcjach autoimmunologicznych \cite{4}.
 Miêdzy 5 a~6 dekad¹ ¿ycia ustaje czynnoœæ grasicy, czego skutkiem s¹ zmiany w~subpopulacjach limfocytów T. Z~wiekiem g³ównie wzrasta liczba limfocytów CD4+, natomiast zmniejsza siê liczba limfocytów supresorowych i~cytotoksycznych CD8+ \cite{4}.
 
 \subsection{Komórki NK}
 Swoj¹ rolê w~odpowiedzi immunologicznej maj¹ tak¿e komórki NK, które pochodz¹ z~prekursorów dojrzewaj¹cych w~szpiku kostnym \cite{7}.
-Stanowi¹ one 10-15\% limfocytów obecnych w~krwi. Ich zadaniem jest niszczenie komórek nowotworowych i~zainfekowanych wirusami \cite{5}. Charakterystyczny jest dla nich brak posiadania markerów czy~receptorów antygenowych na~powierzchni. Ich dzia³anie wp³ywa na~cytotoksyczne uszkodzenie, miêdzy innymi komórek nowotworowych. Jest to mo¿liwe dziêki rozpoznawaniu przez receptor pektynowy reszt cukrowych, co wp³ywa na~gotowoœæ komórek NK do~zabicia komórki docelowej. Z~kolei receptor KIR (Killer Cell Inhibitory Receptor) zmniejsza aktywnoœæ komórek NK, jeœli rozpoznaj¹ one prawid³owe komórki organizmu \cite{4}.
-Z wiekiem aktywnoœæ komórek NK spada (ze wzglêdu na~zwiêkszon¹ liczbê receptorów KIR \cite{5}), co zwiêksza ryzyko umieralnoœci z~powodu ciê¿kich infekcji. Niekorzystnymi czynnikami maj¹cymi wp³yw na~komórki NK s¹: stres, niska aktywnoœæ fizyczna oraz~dieta wysokot³uszczowa \cite{4}. Silna aktywnoœæ cytotoksyczna komórek NK mo¿e byæ uznana za~oznakê dobrego zdrowia \cite{5}.
+Kómórki NK stanowi¹ 10-15\% limfocytów obecnych w~krwi \cite{5}. Ich zadaniem jest niszczenie komórek nowotworowych i~zainfekowanych wirusami \cite{5}. Charakterystyczn¹ cech¹ komórek NK jest brak posiadania markerów czy~receptorów antygenowych na~powierzchni. Dzia³anie komórek NK opiera siê na rozpoznawaniu przez receptor pektynowy reszt cukrowych, co umo¿liwia im~cytotoksyczne zniszczenie komórki docelowej, miêdzy innymi nowotworowej. Z~kolei receptor KIR (ang. Killer Cell Inhibitory Receptor) zmniejsza aktywnoœæ komórek NK, jeœli rozpoznaj¹ one prawid³owe komórki organizmu \cite{4}.
+Z wiekiem aktywnoœæ komórek NK spada (ze wzglêdu na~zwiêkszon¹ liczbê receptorów KIR \cite{5}), co zwiêksza ryzyko œmierci spowodowanej ciê¿k¹ infekcj¹. Niekorzystnymi czynnikami maj¹cymi wp³yw na~uk³ad komórek NK s¹: stres, niska aktywnoœæ fizyczna oraz~dieta wysokot³uszczowa \cite{4}. Silna aktywnoœæ cytotoksyczna komórek NK mo¿e byæ uznana za~oznakê dobrego zdrowia \cite{5}.
 
 \subsection{Interferony}
 Interferony nale¿¹ do~humoralnych mechanizmów obronnych odpornoœci nieswoistej. Ich funkcj¹ jest, miêdzy innymi hamowanie replikacji wirusów w~komórce i~proliferacji komórek (w szczególnoœci nowotworowych), aktywowanie syntezy enzymów (rybonukleazy, syntetazy, kinazy bia³kowej) i~cytotoksycznoœci makrofagów oraz~limfocytów T, a~tak¿e wzmo¿enie aktywnoœci komórek cytotoksycznych \cite{7}.
 
 \subsection{Interleukiny}
-Interleukiny s¹ jedn¹ z~grup cytokin, która s³u¿y, miêdzy innymi do~komunikacji pomiêdzy komórkami uk³adu odpornoœciowego, stanowi¹cymi elementy odpornoœci wrodzonej i~nabytej. Maj¹ one charakter bia³kowy i~s¹ produkowane g³ównie przez leukocyty. Ze wzglêdu na~cechy biologiczne, w~tym ró¿nice w~budowie molekularnej i~strukturze, interleukiny zosta³y zgrupowane w~trzy rodziny:
+Interleukiny s¹ jedn¹ z~grup cytokin\footnote{Bia³ka o niskiej masie cz¹steczkowej bior¹ce udzia³ w przekazywaniu informacji pomiêdzy komórkami; odgrywaj¹ istotn¹ rolê w odpowiedzi zapalnej, apoptozie, wzroœcie i ró¿nicowaniu komórek \cite{16}.}, która s³u¿y, miêdzy innymi do~komunikacji pomiêdzy komórkami uk³adu odpornoœciowego. Komórki te dotycz¹ zarówno odpornoœci wrodzonej, jak~i~nabytej. Interleukiny to bia³ka produkowane g³ównie przez leukocyty. Ze wzglêdu na~cechy biologiczne, w~tym ró¿nice w~budowie molekularnej i~strukturze, interleukiny zosta³y zgrupowane w~trzy rodziny \cite{8}:
 \begin{itemize}
 \item pierwsz¹ -- podzielon¹ na~podrodzinê interleukiny-2 i~podrodzinê interferonów (reprezentowan¹ przez interferon-$\alpha$ i~interferon-$\beta$),
 \item drug¹ -- rodzinê interleukiny-1,
-\item trzeci¹ -- zawieraj¹c¹ interleukinê 17A, B, C, D, F oraz~IL-8, 25 i~27, a~tak¿e IL-31, 32 i~33 \cite{8}. 
+\item trzeci¹ -- zawieraj¹c¹ interleukinê 17A, B, C, D, F oraz~IL-8, 25 i~27, a~tak¿e IL-31, 32 i~33. 
 \end{itemize}
 
 \section{Sposoby leczenia nowotworów}
@@ -120,7 +121,7 @@ Interleukiny s¹ jedn¹ z~grup cytokin, która s³u¿y, miêdzy innymi do~komunikacji 
 Podczas immunoterapii dochodzi do~ingerencji w~uk³ad odpornoœciowy, co ma na~celu wzmocnienie lub~modyfikacjê mechanizmów obronnych walcz¹cych z~nowotworem. Immunoterapiê mo¿na podzieliæ na~biern¹ i~czynn¹ o~charakterze swoistym albo nieswoistym \cite{10}.
 
 \subsubsection{Nieswoista bierna immunoterapia}
-Immunoterapia tego typu ma za~zadanie wywo³aæ nieswoist¹ aktywacjê uk³adu immunologicznego, a~w~konsekwencji dzia³anie przeciwnowotworowe na~skutek podawania czynników lub~aktywowanych komórek efektorowych. Wykorzystuje siê tu, na~przyk³ad cytokiny czy~komórki LAK (ang. Lymphokine Activated Killers).
+Nieswoista bierna immunoterapia ma za~zadanie wywo³aæ nieswoist¹ aktywacjê uk³adu immunologicznego, a~w~konsekwencji dzia³anie przeciwnowotworowe na~skutek podawania czynników lub~aktywowanych komórek efektorowych. Wykorzystuje siê tu, na~przyk³ad cytokiny czy~komórki LAK (ang. Lymphokine Activated Killers).
 Aby wywo³aæ efekt biologiczny konieczne jest po³¹czenie cytokiny ze swoistym receptorem na~komórkach docelowych (limfocyty T i~B, komórki NK, monocyty, makrofagi i~granulocyty). Efektami przeciwnowotworowymi cytokin s¹:
 \begin{itemize}
 \item bezpoœredni efekt cytotoksyczny,
@@ -510,4 +511,6 @@ Wnioski:
 \bibitem{13} Izabela Klaska, Jerzy Z. Nowak, ,,Rola uk³adu dope³niacza w~fizjologii i~patologii'', £ódŸ, 2007
 \bibitem{14} dr hab. Krzysztof Bryniarski, ,,Immunologia'', 2017
 \bibitem{15} W³odzimierz Maœliñski, Ewa Kontny, ,,Podstawy immunologii dla reumatologów'', Narodowy Instytut Geriatrii, Reumatologii i~Rehabilitacji, Warszawa, 2015
+\bibitem{16} Aleksandra E. Tokarz, Iwona Szuœcik, Agnieszka ¯y³ka, Ewa Stêpieñ, ,,Wykorzystanie mikromacierzy w ocenie prozapalnych i proangiogennych cytokin w patomechanizmie retinopatii cukrzycowej'', 2014
+\bibitem{17} K. Morka, G. Bugla-P³oskoñska, ''Medycyna doœwiadczalna i mikrobiologia'', 2017
 \end{thebibliography}

@@ -6,7 +6,7 @@
 \contentsline {chapter}{\numberline {2.}Wst\k ep}{3}
 \contentsline {section}{\numberline {2.1}Procesy nowotworowe}{3}
 \contentsline {section}{\numberline {2.2}Budowa uk\IeC {\l }adu immunologicznego i\nobreakspace {}jego znaczenie w\nobreakspace {}procesie leczenia nowotwor\'ow}{3}
-\contentsline {subsection}{\numberline {2.2.1}Limfocyty $T_{CD8+}$}{5}
+\contentsline {subsection}{\numberline {2.2.1}Limfocyty typu T}{5}
 \contentsline {subsection}{\numberline {2.2.2}Kom\'orki NK}{6}
 \contentsline {subsection}{\numberline {2.2.3}Interferony}{6}
 \contentsline {subsection}{\numberline {2.2.4}Interleukiny}{6}
