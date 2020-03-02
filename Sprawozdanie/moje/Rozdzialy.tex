@@ -1,7 +1,7 @@
 \chapter{Wprowadzenie}
 % \setlength{\parindent}{50pt} tak siê robi wciêcia
 \section{Streszczenie}
-W~pracy przedstawiono model opisuj¹cy odpowiedŸ uk³adu immunologicznego na~rozwijaj¹cy siê w~organizmie nowotwór. Model ten oparty jest na~modelu de Pillis'a oraz~modelu Isaeva i~Osiopov'a \cite{1}. Obejmuje on rozwój komórek nowotworowych w~organizmie oraz~odpowiedŸ uk³adu immunologicznego -- w~tym limfocytów naciekaj¹cych nowotwór (TIL, ang. Tumor Infiltrating Lymphocytes), tak zwanych ,,naturalnych zabójców'' (komórek NK, ang. Natural Killer cells) oraz limfocytów $T_{CD8+}$. 
+W~pracy przedstawiono model opisuj¹cy odpowiedŸ uk³adu immunologicznego na~rozwijaj¹cy siê w~organizmie nowotwór. Model ten oparty jest na~modelu de Pillis'a oraz~modelu Isaeva i~Osiopov'a \cite{1}. Obejmuje on rozwój komórek nowotworowych w~organizmie oraz~odpowiedŸ uk³adu immunologicznego -- w~tym limfocytów naciekaj¹cych nowotwór TIL (ang. Tumor Infiltrating Lymphocytes), tak zwanych ,,naturalnych zabójców'', czyli komórek NK (ang. Natural Killer cells) oraz limfocytów $T_{CD8+}$. 
 Nastêpnie model zosta³ poddany modyfikacji polegaj¹cej na~ uwzglêdnieniu procesu leczenia nowotworu skojarzonymi metodami chemioterapii i~immunoterapii z~u¿yciem cytokin: interleukin-2 (IL-2) i~interferonów alfa (INF-$\alpha$).
 
 \section{Abstract}
@@ -45,13 +45,13 @@ Do mechanizmów swoistej odpornoœci nale¿¹ \cite{6}:
 \item opsonizacja i~fagocytoza\footnote{Usuwanie kompleksów immunologicznych i~uszkodzonych komórek (u³atwienie fagocytozy immunologicznej). Efektywne niszczenie drobnoustrojów przez fagocyty \cite{13, 14}.}.
 \end{itemize}
 
-Odpornoœæ swoista rozpoznaje antygeny bardzo precyzyjnie. Jej wa¿nymi elementami s¹ limfocyty typu T, limfocyty typu B, cytokiny oraz przeciwcia³a. Komórki te s¹ zdolne do~wytwarzania nieograniczonej liczby receptorów. Dodatkowo, jeœli dojdzie do~ich kontaktu z~antygenem wytwarza siê pamiêæ immunologiczna, dziêki której przy~ponownym zetkniêciu komórki danego typu z~odpowiednim antygenem wytwarzana jest odpowiedŸ immunologiczna. W~przypadku limfocytów typu T, typ odpowiedzi swoistej okreœlany jest jako komórkowy, natomiast dla limfocytów typu B -- humoralny.
+Odpornoœæ swoista rozpoznaje antygeny\footnote{Zwi¹zki wywo³uj¹ce reakcje uk³adu immunologicznego; najczêœciej substancje wielkocz¹steczkowe, rozpoznawane swoiœcie poprzez powierzchniowe receptory limfocytów \cite{20}.} bardzo precyzyjnie. Jej wa¿nymi elementami s¹ limfocyty typu T, limfocyty typu B, cytokiny oraz przeciwcia³a. Komórki te s¹ zdolne do~wytwarzania nieograniczonej liczby receptorów. Dodatkowo, jeœli dojdzie do~ich kontaktu z~antygenem wytwarza siê pamiêæ immunologiczna, dziêki której przy~ponownym zetkniêciu komórki danego typu z~odpowiednim antygenem wytwarzana jest odpowiedŸ immunologiczna. W~przypadku limfocytów typu T, typ odpowiedzi swoistej okreœlany jest jako komórkowy, natomiast dla limfocytów typu B -- humoralny.
 Pomimo bardzo du¿ego znaczenia uk³adu immunologicznego dla organizmu, wiele mechanizmów jego dzia³ania pozostaje jeszcze niewyjaœnionych \cite{4}.
 
 \begin{table}[!htb]
 \caption{Podzia³ mechanizmów obronnych odpornoœci nieswoistej i~swoistej \cite{7}.}\label{ró¿nice_miêdzy_nab_a_wrodz}
 	\centering
-	\begin{tabular}{|c|l|l|p{0.47\linewidth}|} \hline
+	\begin{tabular}{|c|l|l|p{0.47\linewidth}|} \hline \hline
 		\multicolumn{3}{|c|}{Odpornoœæ} \\ \hline
 		Odpornoœæ & Nieswoista (wrodzona) & Swoista (nabyta) \\ \hline
 		Humoralna & Lizozym & Immunoglobuliny \\
@@ -102,7 +102,7 @@ Miêdzy 5 a~6 dekad¹ ¿ycia ustaje czynnoœæ grasicy, czego skutkiem s¹ zmiany w~su
 
 \subsection{Komórki NK}
 Swoj¹ rolê w~odpowiedzi immunologicznej maj¹ tak¿e komórki NK, stanowi¹ce populacjê odrêbn¹ od~limfocytów typu B~i~T. \cite{7}.
-Kómórki NK stanowi¹ 10-15\% limfocytów obecnych w~krwi \cite{5}. Ich zadaniem jest niszczenie komórek nowotworowych i~zainfekowanych wirusami \cite{5}. Charakterystyczn¹ cech¹ komórek NK jest brak posiadania markerów czy~receptorów antygenowych na~powierzchni. Dzia³anie komórek NK opiera siê na rozpoznawaniu przez receptor pektynowy reszt cukrowych, co umo¿liwia im~cytotoksyczne zniszczenie komórki docelowej, miêdzy innymi nowotworowej. Z~kolei receptor KIR (ang. Killer Cell Inhibitory Receptor) zmniejsza aktywnoœæ komórek NK, jeœli rozpoznaj¹ one prawid³owe komórki organizmu \cite{4}.
+Kómórki NK stanowi¹ 10-15\% limfocytów obecnych w~krwi \cite{5}. Ich zadaniem jest niszczenie komórek nowotworowych i~zainfekowanych wirusami \cite{5}. Charakterystyczn¹ cech¹ komórek NK jest brak posiadania markerów czy~receptorów antygenowych na~powierzchni. Dzia³anie komórek NK opiera siê na rozpoznawaniu przez receptor pektynowy reszt cukrowych, co umo¿liwia im~cytotoksyczne zniszczenie komórki docelowej, miêdzy innymi nowotworowej. Z~kolei receptor hamuj¹cy komórki typu ,,zabójcy'' KIR (ang. Killer cells Inhibitory Receptor) zmniejsza aktywnoœæ komórek NK, jeœli rozpoznaj¹ one prawid³owe komórki organizmu \cite{4}.
 Z wiekiem aktywnoœæ komórek NK spada (ze wzglêdu na~zwiêkszon¹ liczbê receptorów KIR \cite{5}), co zwiêksza ryzyko œmierci spowodowanej ciê¿k¹ infekcj¹. Niekorzystnymi czynnikami maj¹cymi wp³yw na~uk³ad komórek NK s¹: stres, niska aktywnoœæ fizyczna oraz~dieta wysokot³uszczowa \cite{4}. Silna aktywnoœæ cytotoksyczna komórek NK mo¿e byæ uznana za~oznakê dobrego zdrowia \cite{5}.
 
 \subsection{Interferony}
@@ -213,19 +213,19 @@ gdzie: $D=d\dfrac{(\frac{L}{T})^{l}}{s+(\frac{L}{T})^{l}}$.
 \label{równania_modelu_pillis_i_isaeva_z_leczeniem}
 \left\{ \begin{array}{ll}
 \dfrac{dT}{dt}=aT(1-bT)-cNT-DT,\\\\
-\dfrac{dN}{dt}=eC-fN+g\dfrac{T^{2}}{h+T^{2}}N-pNT-K_{N}(1-e^{-M})N,\\\\
-\dfrac{dL}{dt}=-mL+j\dfrac{D^{2}T^{2}}{k+D^{2}T^{2}}L-qLT+(r_{1}N+r_{2}C)T-uNL^{2}-K_{L}(1-e^{-M})L+\dfrac{p_{i}LI}{g_{i}}+ \nu_{L}(t),\\\\
-\dfrac{dC}{dt}=\alpha-\beta C-K_{C}(1-e^{-M})C,\\\\
-\dfrac{dM}{dt}=-\gamma M+\nu_{M}(t),\\\\
-\dfrac{dI}{dt}=-\mu_{i}L-j'LI-k'TI+\nu_{I}(t),\\\\
-\dfrac{dI_{\alpha}}{dt}=V_{\alpha}(t)-gI_{\alpha},\\\\
+\dfrac{dN}{dt}=eC-fN+g\dfrac{T^{2}}{h+T^{2}}N-pNT \textcolor{red}{-K_{N}(1-e^{-M})N},\\\\
+\dfrac{dL}{dt}=-mL+j\dfrac{D^{2}T^{2}}{k+D^{2}T^{2}}L-qLT+(r_{1}N+r_{2}C)T-uNL^{2} \textcolor{red}{-K_{L}(1-e^{-M})L+\dfrac{p_{i}LI}{g_{i}}+ \nu_{L}(t)},\\\\
+\dfrac{dC}{dt}=\alpha-\beta C \textcolor{red}{-K_{C}(1-e^{-M})C},\\\\
+\textcolor{red}{ \dfrac{dM}{dt}=-\gamma M+\nu_{M}(t)},\\\\
+\textcolor{red}{ \dfrac{dI}{dt}=-\mu_{i}L-j'LI-k'TI+\nu_{I}(t)},\\\\
+\textcolor{red}{ \dfrac{dI_{\alpha}}{dt}=V_{\alpha}(t)-gI_{\alpha}},\\\\
 \end{array} \right.
 \end{equation}
 
-gdzie: $D=d\dfrac{(\frac{L}{T})^{l}}{s+(\frac{L}{T})^{l}}$ i~$c'=c_{CTL}(2-e^{\frac{I_{\alpha}}{I_{\alpha 0}}})$.
+gdzie: $D=d\dfrac{(\frac{L}{T})^{l}}{s+(\frac{L}{T})^{l}}$ i~ \textcolor{red}{$c'=c_{CTL}(2-e^{\frac{I_{\alpha}}{I_{\alpha 0}}})$}.
 
 \section{Opis modelu}
-Model matematyczny wykorzystany w~pracy to~model de Pillis'a oraz~model Isaeva i~Osiopov'a opisany w~literaturze \cite{1, 18, 19}. W~pierwszym etapie model (\ref{równania_modelu_pillis_i_isaeva_bez_leczenia}) obejmuje tempo rozwoju czterech populacji komórek:
+Model matematyczny wykorzystany w~pracy to~model de Pillis'a oraz~model Isaeva i~ Osiopov'a opisany w~literaturze \cite{1, 18, 19}. W~pierwszym etapie model (\ref{równania_modelu_pillis_i_isaeva_bez_leczenia}) obejmuje tempo rozwoju czterech populacji komórek:
 \begin{itemize}
 \item T(t) -- liczba komórek nowotworowych w~chwili czasowej t,
 \item N(t) -- liczba komórek NK w~chwili czasowej t,
@@ -321,7 +321,7 @@ W celu przeprowadzenia symulacji wykorzystano wartoœci parametrów (Tab. \ref{par
 \begin{table}[!htb]
 \caption{Parametry modelu odpowiedzi immunologicznej na~rozwijaj¹cy siê nowotwór bez i~z uwzglêdnieniem procesu leczenia.}\label{parametry_modelu}
 	\centering
-	\begin{tabular}{|c|c|c|p{0.47\linewidth}|} \hline
+	\begin{tabular}{|c|c|c|p{0.47\linewidth}|} \hline \hline
 		Nazwa & Wartoœæ & Jednostka & Opis  \\ \hline
 		a & $4,31 \cdot 10^{-1}$ & dzieñ$^{-1}$ & Tempo wzrostu nowotworu \\ \hline
 		b & $1,02 \cdot 10^{-9}$ & komórka$^{-1}$ & Odwrotnoœæ pojemnoœci œrodowiska \\ \hline
@@ -374,7 +374,7 @@ Warunki pocz¹tkowe (Tab. \ref{parametry_modelu_bez_lecz_lit}) dla modelu \ref{ró
 \begin{table}[!htb]
 \caption{Warunki pocz¹tkowe dla modelu odpowiedzi immunologicznej na~rozwijaj¹cy siê nowotwór bez uwzglêdnienia procesu leczenia.}\label{parametry_modelu_bez_lecz_lit}
 	\centering
-	\begin{tabular}{|c|c|p{0.8\linewidth}|} \hline
+	\begin{tabular}{|c|c|p{0.8\linewidth}|} \hline \hline
 		Wartoœæ [liczba komórek] & Rodzaj komórek  \\ \hline
 		$T(0) = 1 \cdot 10^{6}$ & Komórki nowotworowe \\ \hline
 		$N(0) = 1 \cdot 10^{5}$  & Komórki NK \\ \hline
@@ -394,7 +394,7 @@ W tabeli \ref{zmiany_poczatkowej_wartosci_T} przedstawiono wartoœci przyjmowane 
 \begin{table}[!htb]
 \caption{Zmiany wartoœci $T(0)$, $T(120)$ i~szacowanej objêtoœci nowotworu podczas symulacji.}\label{zmiany_poczatkowej_wartosci_T}
 	\centering
-\begin{tabular}{|c|c|c|p{0.47\linewidth}|} \hline
+\begin{tabular}{|c|c|c|p{0.47\linewidth}|} \hline \hline
 		$T(0)$ [liczba komórek] & $T(120)$ [liczba komórek] & Objêtoœæ nowotworu [$cm^{3}$] \\ \hline
 		$1 \cdot 10^{6}$ & $6,76 \cdot 10^{-8}$ & $6,76 \cdot 10^{-17}$ \\ \hline
 		$2 \cdot 10^{6}$ & $8,15 \cdot 10^{-8}$ & $8,15 \cdot 10^{-17}$ \\ \hline
@@ -445,7 +445,7 @@ W tabeli \ref{zmiany_poczatkowej_wartosci_C} przedstawiono wartoœci przyjmowane 
 \begin{table}[!htb]
 \caption{Zmiany wartoœci $C(0)$, $T(120)$ i~szacowanej objêtoœci nowotworu podczas symulacji.}\label{zmiany_poczatkowej_wartosci_C}
 	\centering
-\begin{tabular}{|c|c|c|p{0.47\linewidth}|} \hline
+\begin{tabular}{|c|c|c|p{0.47\linewidth}|} \hline \hline
 		$C(0)$ [liczba komórek] & $T(120)$ [liczba komórek] & Objêtoœæ nowotworu [$cm^{3}$] \\ \hline
 		$6 \cdot 10^{10}$ & $6,76 \cdot 10^{-8}$ & $6,76 \cdot 10^{-17}$ \\ \hline
 		$3 \cdot 10^{10}$ & $1,69 \cdot 10^{-7}$ & $1,69 \cdot 10^{-16}$ \\ \hline
@@ -518,4 +518,5 @@ Wnioski:
 \bibitem{18} O.G. Isaeva and V.A. Osipov, ,,Different strategies for cancer treatment: Mathematical modelling'', 2009
 \bibitem{19} L.G. de Pillisa, W. Gu, A.E. Radunskayb, ,,Mixed immunotherapy and chemotherapy of tumors: modeling,
 applications and biological interpretations'', 2005
+\bibitem{20} Krzysztof Wiktorowicz, Krzysztof Kaszkowiak, ,,Budowa i funkcja ludzkich antygenów zgodnoœci tkankowej. Czêœæ 1. Kodowanie i budowa'', Katedra Biologii i Ochrony Œrodowiska, Uniwersytet Medyczny im. Karola Marcinkowskiego w Poznaniu, 2018
 \end{thebibliography}

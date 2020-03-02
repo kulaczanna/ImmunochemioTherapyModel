@@ -43,3 +43,5 @@
 \contentsline {chapter}{\numberline {6.}Rezultaty}{26}
 \contentsline {chapter}{\numberline {7.}Analiza wynik\'ow}{27}
 \contentsline {chapter}{\numberline {8.}Podsumowanie}{28}
+\contentsline {chapter}{\numberline {9.}Dodatek}{31}
+\contentsline {section}{\numberline {9.1}Tabela skr\'ot\'ow}{31}
