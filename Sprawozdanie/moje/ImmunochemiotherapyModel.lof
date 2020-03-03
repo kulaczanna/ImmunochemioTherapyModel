@@ -1,17 +1,17 @@
 \addvspace {10pt}
 \addvspace {10pt}
-\contentsline {figure}{\numberline {2.1}{\ignorespaces Podzia\IeC {\l } limfocyt\'ow typu T \cite {7}.\relax }}{5}
+\contentsline {figure}{\numberline {2.1}{\ignorespaces Podzia\IeC {\l } limfocyt\'ow typu T \cite {7}.\relax }}{6}
 \addvspace {10pt}
 \addvspace {10pt}
 \addvspace {10pt}
 \contentsline {figure}{\numberline {5.1}{\ignorespaces Wykresy zmian liczby kom\'orek badanych populacji -- kom\'orek nowotworowych $T(t)$, kom\'orek NK $N(t)$, limfocyt\'ow $T_{CD8+}$ $L(t)$ i\nobreakspace {}limfocyt\'ow kr\k a\.z\k acych $C(t)$.\relax }}{20}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Zmiany liczby kom\'orek badanych populacji dla warto\'sci pocz\k atkowej $T(0) = 1 \cdot 10^{6}$. Stabilizacja liczby kom\'orek nowotworowych oko\IeC {\l }o warto\'sci 0.}}}{20}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Zmiany liczby kom\'orek badanych populacji dla warto\'sci pocz\k atkowej $T(0) = 1 \cdot 10^{6}$. Regresja nowotworu po czasie T $\approx $ 7 dni.}}}{20}
 \contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Zmiany liczby kom\'orek badanych populacji dla warto\'sci pocz\k atkowej $T(0) = 1.8 \cdot 10^{7}$. Stabilizacja liczby kom\'orek nowotworowych oko\IeC {\l }o warto\'sci $9,8 \cdot 10^{8}$.}}}{20}
-\contentsline {figure}{\numberline {5.2}{\ignorespaces Liczba kom\'orek nowotworu po czasie symulacji t = 120 dni w\nobreakspace {}zale\.zno\'sci od\nobreakspace {}pocz\k atkowej liczby kom\'orek nowotworowych $T(0)$ \cite {7}.\relax }}{21}
+\contentsline {figure}{\numberline {5.2}{\ignorespaces Liczba kom\'orek nowotworu po czasie symulacji t = 120 dni w\nobreakspace {}zale\.zno\'sci od\nobreakspace {}pocz\k atkowej liczby kom\'orek nowotworowych $T(0)$.\relax }}{21}
 \contentsline {figure}{\numberline {5.3}{\ignorespaces Wykresy zmian liczby kom\'orek badanych populacji -- kom\'orek nowotworowych $T(t)$, kom\'orek NK $N(t)$, limfocyt\'ow $T_{CD8+}$ $L(t)$ i\nobreakspace {}limfocyt\'ow kr\k a\.z\k acych $C(t)$.\relax }}{23}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Zmiany liczby kom\'orek badanych populacji dla warto\'sci pocz\k atkowej $C(0) = 6 \cdot 10^{6}$. Stabilizacja liczby kom\'orek nowotworowych oko\IeC {\l }o warto\'sci 0.}}}{23}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Zmiany liczby kom\'orek badanych populacji dla warto\'sci pocz\k atkowej $C(0) = 3,5 \cdot 10^{9}$. Stabilizacja liczby kom\'orek nowotworowych oko\IeC {\l }o warto\'sci $9,8 \cdot 10^{8}$.}}}{23}
-\contentsline {figure}{\numberline {5.4}{\ignorespaces Liczba kom\'orek nowotworu po czasie symulacji t = 120 dni w\nobreakspace {}zale\.zno\'sci od\nobreakspace {}pocz\k atkowej liczby kr\k a\.z\k acych limfocyt\'ow $C(0)$ \cite {7}.\relax }}{24}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Zmiany liczby kom\'orek badanych populacji dla warto\'sci pocz\k atkowej $C(0) = 6 \cdot 10^{6}$. Regresja nowotworu po czasie T $\approx $ 7 dni.}}}{23}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Zmiany liczby kom\'orek badanych populacji dla warto\'sci pocz\k atkowej $C(0) = 3,5 \cdot 10^{9}$. Stabilizacja liczby kom\'orek nowotworowych oko\IeC {\l }o wartosci $9,8 \cdot 10^{8}$.}}}{23}
+\contentsline {figure}{\numberline {5.4}{\ignorespaces Liczba kom\'orek nowotworu po czasie symulacji t = 120 dni w\nobreakspace {}zale\.zno\'sci od\nobreakspace {}pocz\k atkowej liczby kr\k a\.z\k acych limfocyt\'ow $C(0)$.\relax }}{24}
 \addvspace {10pt}
 \addvspace {10pt}
 \addvspace {10pt}

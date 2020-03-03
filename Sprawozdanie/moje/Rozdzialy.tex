@@ -1,7 +1,7 @@
 \chapter{Wprowadzenie}
 % \setlength{\parindent}{50pt} tak siê robi wciêcia
 \section{Streszczenie}
-W~pracy przedstawiono model opisuj¹cy odpowiedŸ uk³adu immunologicznego na~rozwijaj¹cy siê w~organizmie nowotwór. Model ten oparty jest na~modelu de Pillis'a oraz~modelu Isaeva i~Osiopov'a \cite{1}. Obejmuje on rozwój komórek nowotworowych w~organizmie oraz~odpowiedŸ uk³adu immunologicznego -- w~tym limfocytów naciekaj¹cych nowotwór TIL (ang. Tumor Infiltrating Lymphocytes), tak zwanych ,,naturalnych zabójców'', czyli komórek NK (ang. Natural Killer cells) oraz limfocytów $T_{CD8+}$. 
+W~pracy przedstawiono model opisuj¹cy odpowiedŸ uk³adu immunologicznego na~rozwijaj¹cy siê w~organizmie nowotwór. Model ten oparty jest na~modelu de Pillis'a oraz~modelu Isaeva i~Osiopov'a \cite{1}. Obejmuje on rozwój komórek nowotworowych w~organizmie oraz~odpowiedŸ uk³adu immunologicznego -- w~tym limfocytów naciekaj¹cych nowotwór TIL (ang. Tumor Infiltrating Lymphocytes), tak zwanych ,,naturalnych zabójców'', czyli komórek NK (ang. Natural Killer cells) oraz limfocytów $T_{CD8+}$.
 Nastêpnie model zosta³ poddany modyfikacji polegaj¹cej na~ uwzglêdnieniu procesu leczenia nowotworu skojarzonymi metodami chemioterapii i~immunoterapii z~u¿yciem cytokin: interleukin-2 (IL-2) i~interferonów alfa (INF-$\alpha$).
 
 \section{Abstract}
@@ -45,29 +45,32 @@ Do mechanizmów swoistej odpornoœci nale¿¹ \cite{6}:
 \item opsonizacja i~fagocytoza\footnote{Usuwanie kompleksów immunologicznych i~uszkodzonych komórek (u³atwienie fagocytozy immunologicznej). Efektywne niszczenie drobnoustrojów przez fagocyty \cite{13, 14}.}.
 \end{itemize}
 
-Odpornoœæ swoista rozpoznaje antygeny\footnote{Zwi¹zki wywo³uj¹ce reakcje uk³adu immunologicznego; najczêœciej substancje wielkocz¹steczkowe, rozpoznawane swoiœcie poprzez powierzchniowe receptory limfocytów \cite{20}.} bardzo precyzyjnie. Jej wa¿nymi elementami s¹ limfocyty typu T, limfocyty typu B, cytokiny oraz przeciwcia³a. Komórki te s¹ zdolne do~wytwarzania nieograniczonej liczby receptorów. Dodatkowo, jeœli dojdzie do~ich kontaktu z~antygenem wytwarza siê pamiêæ immunologiczna, dziêki której przy~ponownym zetkniêciu komórki danego typu z~odpowiednim antygenem wytwarzana jest odpowiedŸ immunologiczna. W~przypadku limfocytów typu T, typ odpowiedzi swoistej okreœlany jest jako komórkowy, natomiast dla limfocytów typu B -- humoralny.
-Pomimo bardzo du¿ego znaczenia uk³adu immunologicznego dla organizmu, wiele mechanizmów jego dzia³ania pozostaje jeszcze niewyjaœnionych \cite{4}.
-
 \begin{table}[!htb]
-\caption{Podzia³ mechanizmów obronnych odpornoœci nieswoistej i~swoistej \cite{7}.}\label{ró¿nice_miêdzy_nab_a_wrodz}
+\caption{Mechanizmy obronne odpornoœci nieswoistej i~swoistej \cite{7}.}\label{ró¿nice_miêdzy_nab_a_wrodz}
 	\centering
-	\begin{tabular}{|c|l|l|p{0.47\linewidth}|} \hline \hline
-		\multicolumn{3}{|c|}{Odpornoœæ} \\ \hline
-		Odpornoœæ & Nieswoista (wrodzona) & Swoista (nabyta) \\ \hline
-		Humoralna & Lizozym & Immunoglobuliny \\
-		& Laktoferyna & Limfocyty typu B \\
-		& Transferyna & \\
-		& Bia³ka ostrej fazy & \\
-		& Uk³ad dope³niacza & \\
-		& Interferony & \\ \hline
-		Komórkowa & Fagocyty & Limfocyty typu T \\
-		& Eozynofile & \\
-		& Komórki K & \\
-		& Komórki NK & \\ \hline
+	\begin{tabular}{|l|l|l|p{0.47\linewidth}|} \cline{1-2} \cline{4-4} 
+		\multicolumn{2}{|c|}{Odpornoœæ} & & Dzia³anie obronne \\ \hline
+		\multirow{2}{1cm}{Nieswoista (wrodzona)} & Humoralna & Lizozym & Bakterioliza bakterii Gram dodatnich, liza bakterii Gram-ujemnych po usuniêciu warstwy liposacharydowej\\ \cline{3-4}
+		& & Laktoferyna & Pozbawienie bakterii dostêpu do ¿elaza poprzez wi¹zanie go \\ \cline{3-4}
+		& & Transferyna & Pozbawienie bakterii dostêpu do ¿elaza poprzez wi¹zanie go \\ \cline{3-4}
+		& & Bia³ka ostrej fazy & Aktywacja limfocytów, makrofagów, dope³niacza na drodze klasycznej \\ \cline{3-4}
+		& & Dope³niacz & Uaktywnienie uk³adu dope³niacza\\ \cline{3-4}
+		& & Interferony & Hamowanie transformacji limfocytów pod wp³ywem mitogenów \\
+		\cline{2-4}
+		& Komórkowa & Fagocyty & Fagocytoza\\ \cline{3-4}
+		& & Eozynofile & Produkcja prostoglandyn PGE1 i PGE2, które hamuj¹ uwalnianie mediatorów przez komórki tuczne i bazofile \\ \cline{3-4}
+		& & Komórki K & Cytotoksycznoœæ zale¿na od przeciwcia³\\ \cline{3-4}
+		& & Komórki NK & Spontaniczne niszczenie komórek zaka¿onych wirusem\\ \hline \cline{3-4}
+		\multirow{2}{3cm}{Swoista (nabyta)} & Humoralna & Immunoglobuliny \\ \cline{3-3}
+		& & Limfocyty typu B \\
+		\cline{2-3}
+		& Komórkowa & Limfocyty typu T \\ \cline{1-3}
 		\end{tabular}
 \end{table}
 
-\newpage
+Odpornoœæ swoista rozpoznaje antygeny\footnote{Zwi¹zki wywo³uj¹ce reakcje uk³adu immunologicznego; najczêœciej substancje wielkocz¹steczkowe, rozpoznawane swoiœcie poprzez powierzchniowe receptory limfocytów \cite{20}.} bardzo precyzyjnie. Jej wa¿nymi elementami s¹ limfocyty typu T, limfocyty typu B, cytokiny oraz przeciwcia³a. Komórki te s¹ zdolne do~wytwarzania nieograniczonej liczby receptorów. Dodatkowo, jeœli dojdzie do~ich kontaktu z~antygenem wytwarza siê pamiêæ immunologiczna, dziêki której przy~ponownym zetkniêciu komórki danego typu z~odpowiednim antygenem wytwarzana jest odpowiedŸ immunologiczna. W~przypadku limfocytów typu T, typ odpowiedzi swoistej okreœlany jest jako komórkowy, natomiast dla limfocytów typu B -- humoralny.
+Pomimo bardzo du¿ego znaczenia uk³adu immunologicznego dla organizmu, wiele mechanizmów jego dzia³ania pozostaje jeszcze niewyjaœnionych \cite{4}.
+
 Znacz¹c¹ rolê w~oddzia³ywaniu uk³adu immunologicznego na~rozwijaj¹cy siê nowotwór pe³ni¹:
 
 \begin{itemize}
@@ -87,19 +90,20 @@ Limfocyty typu T wytwarzane s¹ w~szpiku kostnym, natomiast dojrzewaj¹ w~grasicy.
 \item cytotoksyczne $T_{c}$, które odpowiadaj¹ za~niszczenie komórek i~odrzucanie przeszczepów,
 \item supresyjne $T_{s}$, które odpowiadaj¹ za~hamowanie dzia³ania innych limfocytów, reakcji alergicznych i~utrzymanie tolerancji immunologicznej na~w³asne antygeny.
 \end{itemize}
-Podzia³ limfocytów typu T przedstawiono na~Rys. \ref{limfocyty_T_cd8+}.
 
-\begin{figure}[!htb]
+Na Rys. \ref{limfocyty_T_cd8+}, na~pomarañczowych, niebieskich i~ró¿owych polach przedstawiono kolejne podzia³y limfocytów typu T wystêpuj¹cych w~organizmie. Dodatkowo, na~polach szarych krótko opisano funkcjê, jak¹ one~pe³ni¹ lub wymieniono ich~charakterystyczne cechy.
+
+\begin{figure}[!h]
 	\centering
-	\includegraphics[width=1\textwidth]{Limf_TT}
+	\includegraphics[width=0.7\textwidth]{Limf_TT2}
 	\caption{Podzia³ limfocytów typu T \cite{7}.}\label{limfocyty_T_cd8+} 
 \end{figure}
 
-\newpage
 OdpowiedŸ immunologiczna swoista typu komórkowego, w~któr¹ zaanga¿owane s¹ subpopulacje limfocytów typu T, polega na~wywo³aniu reakcji zwalczania antygenu. Mo¿liwe s¹ dwa typy tej reakcji. W~pierwszym z~nich funkcjê efektorów pe³ni¹ limfocyty CD4+, a~makrofagi s¹ komórkami pomocniczymi. Drugi typ reakcji zak³ada, ¿e limfocyt cytotoksyczny CD8+ jest komórk¹ efektorow¹, a~limfocyt CD4+ pomocnicz¹.
 Odpornoœæ komórkowa ma za~zadanie, przede wszystkim walczyæ z~zaka¿eniami, ale równie¿ spe³nia wa¿n¹ rolê w~reakcji kontaktowej ze zwi¹zkami chemicznymi, w~ odrzuceniu przeszczepu czy~tkanek zmienionych nowotworowo i~w niektórych reakcjach autoimmunologicznych \cite{4}.
 Miêdzy 5 a~6 dekad¹ ¿ycia ustaje czynnoœæ grasicy, czego skutkiem s¹ zmiany w~subpopulacjach limfocytów typu T. Z~wiekiem g³ównie wzrasta liczba limfocytów CD4+, natomiast zmniejsza siê liczba limfocytów supresorowych i~cytotoksycznych CD8+ \cite{4}.
 
+\newpage
 \subsection{Komórki NK}
 Swoj¹ rolê w~odpowiedzi immunologicznej maj¹ tak¿e komórki NK, stanowi¹ce populacjê odrêbn¹ od~limfocytów typu B~i~T. \cite{7}.
 Kómórki NK stanowi¹ 10-15\% limfocytów obecnych w~krwi \cite{5}. Ich zadaniem jest niszczenie komórek nowotworowych i~zainfekowanych wirusami \cite{5}. Charakterystyczn¹ cech¹ komórek NK jest brak posiadania markerów czy~receptorów antygenowych na~powierzchni. Dzia³anie komórek NK opiera siê na rozpoznawaniu przez receptor pektynowy reszt cukrowych, co umo¿liwia im~cytotoksyczne zniszczenie komórki docelowej, miêdzy innymi nowotworowej. Z~kolei receptor hamuj¹cy komórki typu ,,zabójcy'' KIR (ang. Killer cells Inhibitory Receptor) zmniejsza aktywnoœæ komórek NK, jeœli rozpoznaj¹ one prawid³owe komórki organizmu \cite{4}.
@@ -225,12 +229,12 @@ gdzie: $D=d\dfrac{(\frac{L}{T})^{l}}{s+(\frac{L}{T})^{l}}$.
 gdzie: $D=d\dfrac{(\frac{L}{T})^{l}}{s+(\frac{L}{T})^{l}}$ i~ \textcolor{red}{$c'=c_{CTL}(2-e^{\frac{I_{\alpha}}{I_{\alpha 0}}})$}.
 
 \section{Opis modelu}
-Model matematyczny wykorzystany w~pracy to~model de Pillis'a oraz~model Isaeva i~ Osiopov'a opisany w~literaturze \cite{1, 18, 19}. W~pierwszym etapie model (\ref{równania_modelu_pillis_i_isaeva_bez_leczenia}) obejmuje tempo rozwoju czterech populacji komórek:
+Model matematyczny wykorzystany w~pracy to~model de Pillis'a oraz~model Isaeva i~ Osiopov'a opisany w~literaturze \cite{1, 18, 19}. W~pierwszym etapie model (\ref{równania_modelu_pillis_i_isaeva_bez_leczenia}) obejmuje cztery populacje:
 \begin{itemize}
-\item T(t) -- liczba komórek nowotworowych w~chwili czasowej t,
-\item N(t) -- liczba komórek NK w~chwili czasowej t,
-\item L(t) -- liczba limfocytów $T_{CD8+}$ w~chwili czasowej t,
-\item C(t) -- liczba limfocytów kr¹¿¹cych w~chwili czasowej t,
+\item $\mathcal{T}$ -- komórki nowotworowe,
+\item $\mathcal{N}$ -- komórki NK,
+\item $\mathcal{L}$ -- limfocyty $T_{CD8+}$,
+\item $\mathcal{C}$ -- limfocyty kr¹¿¹ce,
 \end{itemize}
 gdzie jednostk¹ czasu jest dzieñ. \newline
 
@@ -314,6 +318,7 @@ W równaniach modelu uwzglêdniono takie czynniki, jak:
 \item $-gI_{\alpha}$ -- spadek stê¿enia INF-$\alpha$ na~skutek jego rozpadu;
 \end{itemize}
 
+\newpage
 \section{Parametry modelu}
 
 W celu przeprowadzenia symulacji wykorzystano wartoœci parametrów (Tab. \ref{parametry_modelu}) dla~modelu opisanego w literaturze \cite{1}.
@@ -395,25 +400,27 @@ W tabeli \ref{zmiany_poczatkowej_wartosci_T} przedstawiono wartoœci przyjmowane 
 \caption{Zmiany wartoœci $T(0)$, $T(120)$ i~szacowanej objêtoœci nowotworu podczas symulacji.}\label{zmiany_poczatkowej_wartosci_T}
 	\centering
 \begin{tabular}{|c|c|c|p{0.47\linewidth}|} \hline \hline
-		$T(0)$ [liczba komórek] & $T(120)$ [liczba komórek] & Objêtoœæ nowotworu [$cm^{3}$] \\ \hline
-		$1 \cdot 10^{6}$ & $6,76 \cdot 10^{-8}$ & $6,76 \cdot 10^{-17}$ \\ \hline
-		$2 \cdot 10^{6}$ & $8,15 \cdot 10^{-8}$ & $8,15 \cdot 10^{-17}$ \\ \hline
-		$5 \cdot 10^{6}$ & $2,69 \cdot 10^{-8}$ & $2,69 \cdot 10^{-17}$ \\ \hline
-		$1 \cdot 10^{7}$ & $3,44 \cdot 10^{-8}$ & $3,44 \cdot 10^{-17}$ \\ \hline
-		$1,5 \cdot 10^{7}$ & $4,41 \cdot 10^{-8}$ & $4,41 \cdot 10^{-17}$ \\ \hline
-		$1,7 \cdot 10^{7}$ & $2,96 \cdot 10^{-8}$ & $2,96 \cdot 10^{-17}$ \\ \hline
-		$1,75 \cdot 10^{7}$ & $3,67 \cdot 10^{-8}$ & $3,67 \cdot 10^{-17}$ \\ \hline
-		$1,8 \cdot 10^{7}$ & $9,8 \cdot 10^{8}$ & $9,8 \cdot 10^{-1}$ \\ \hline
-		$2 \cdot 10^{7}$ & $9,8 \cdot 10^{8}$ & $9,8 \cdot 10^{-1}$ \\ \hline
-		$5 \cdot 10^{7}$ & $9,8 \cdot 10^{8}$ & $9,8 \cdot 10^{-1}$ \\ \hline
+		$T(0)$ [liczba komórek] & $T(120)$ [liczba komórek] & Objêtoœæ nowotworu [$mm^{3}$] \\ \hline
+		$1 \cdot 10^{6}$ & $6,76 \cdot 10^{-8}$ & $6,76 \cdot 10^{-14}$ \\ \hline
+		$2 \cdot 10^{6}$ & $8,15 \cdot 10^{-8}$ & $8,15 \cdot 10^{-14}$ \\ \hline
+		$5 \cdot 10^{6}$ & $2,69 \cdot 10^{-8}$ & $2,69 \cdot 10^{-14}$ \\ \hline
+		$1 \cdot 10^{7}$ & $3,44 \cdot 10^{-8}$ & $3,44 \cdot 10^{-14}$ \\ \hline
+		$1,5 \cdot 10^{7}$ & $4,41 \cdot 10^{-8}$ & $4,41 \cdot 10^{-14}$ \\ \hline
+		$1,7 \cdot 10^{7}$ & $2,96 \cdot 10^{-8}$ & $2,96 \cdot 10^{-14}$ \\ \hline
+		$1,75 \cdot 10^{7}$ & $3,67 \cdot 10^{-8}$ & $3,67 \cdot 10^{-14}$ \\ \hline
+		$1,8 \cdot 10^{7}$ & $9,8 \cdot 10^{8}$ & $980$ \\ \hline
+		$2 \cdot 10^{7}$ & $9,8 \cdot 10^{8}$ & $980$ \\ \hline
+		$5 \cdot 10^{7}$ & $9,8 \cdot 10^{8}$ & $980$ \\ \hline
 		\end{tabular}
 \end{table}
 
-Przyk³adowe zmiany liczby komórek ka¿dej z~czterech badanych populacji - komórek nowotworowych $T(t)$, komórek NK $N(t)$, limfocytów $T_{CD8+}$ $L(t)$ i~limfocytów kr¹¿¹cych $C(t)$ przedstawiono na~poni¿szych wykresach (Rys. \ref{zmiany_liczby_kom_4_populacji}). Na~pierwszym wykresie (Rys. \ref{bez_lecz_stlumienie}) przedstawiono sytuacjê, gdy nowotwór zostaje st³umiony przez uk³ad immunologiczny -- liczba komórek nowotworowych stabilizuje siê na~poziomie bliskim 0. Wykres drugi (Rys. \ref{bez_lecz_brak_stlumienia}) obrazuje przypadek, w~którym uk³ad immunologiczny nie jest w~stanie pokonaæ nowotworu -- liczba jego komórek stabilizuje siê oko³o wartoœci $9,8 \cdot 10^{8}$.
+Przyk³adowe zmiany liczby komórek ka¿dej z~czterech badanych populacji - komórek nowotworowych $T(t)$, komórek NK $N(t)$, limfocytów $T_{CD8+}$ $L(t)$ i~limfocytów kr¹¿¹cych $C(t)$ przedstawiono na~poni¿szych wykresach (Rys. \ref{zmiany_liczby_kom_4_populacji}). Na~pierwszym wykresie (Rys. \ref{bez_lecz_stlumienie}) przedstawiono sytuacjê, gdy nowotwór zostaje st³umiony przez uk³ad immunologiczny.
+%-- regresja nowotworu nastêpuje po czasie.
+Wykres drugi (Rys. \ref{bez_lecz_brak_stlumienia}) obrazuje przypadek, w~którym uk³ad immunologiczny nie jest w~stanie pokonaæ nowotworu -- liczba jego komórek stabilizuje siê oko³o wartoœci $9,8 \cdot 10^{8}$.
 
 \begin{figure}
 \centering
-\subfloat[Zmiany liczby komórek badanych populacji dla wartoœci pocz¹tkowej $T(0) = 1 \cdot 10^{6}$. Stabilizacja liczby komórek nowotworowych oko³o wartoœci 0.]{\label{bez_lecz_stlumienie}
+\subfloat[Zmiany liczby komórek badanych populacji dla wartoœci pocz¹tkowej $T(0) = 1 \cdot 10^{6}$. Regresja nowotworu po czasie T $\approx$ 7 dni.]{\label{bez_lecz_stlumienie}
 \includegraphics[width=0.85\textwidth]{bez_lecz1m}}
 \quad
 \subfloat[Zmiany liczby komórek badanych populacji dla wartoœci pocz¹tkowej $T(0) = 1.8 \cdot 10^{7}$. Stabilizacja liczby komórek nowotworowych oko³o wartoœci $9,8 \cdot 10^{8}$.]{\label{bez_lecz_brak_stlumienia}
@@ -428,7 +435,7 @@ Zmiany wielkoœci nowotworu po czasie t = 120 dni w~zale¿noœci od~pocz¹tkowej war
 \begin{figure}[!htb]
 	\centering
 	\includegraphics[width=1\textwidth]{wykres_bez_lecz_t120_t0}
-	\caption{Liczba komórek nowotworu po czasie symulacji t = 120 dni w~zale¿noœci od~pocz¹tkowej liczby komórek nowotworowych $T(0)$ \cite{7}.}\label{wykres_bez_lecz_t120_t0} 
+	\caption{Liczba komórek nowotworu po czasie symulacji t = 120 dni w~zale¿noœci od~pocz¹tkowej liczby komórek nowotworowych $T(0)$.}\label{wykres_bez_lecz_t120_t0} 
 \end{figure}
 
 Wnioski:
@@ -446,28 +453,28 @@ W tabeli \ref{zmiany_poczatkowej_wartosci_C} przedstawiono wartoœci przyjmowane 
 \caption{Zmiany wartoœci $C(0)$, $T(120)$ i~szacowanej objêtoœci nowotworu podczas symulacji.}\label{zmiany_poczatkowej_wartosci_C}
 	\centering
 \begin{tabular}{|c|c|c|p{0.47\linewidth}|} \hline \hline
-		$C(0)$ [liczba komórek] & $T(120)$ [liczba komórek] & Objêtoœæ nowotworu [$cm^{3}$] \\ \hline
-		$6 \cdot 10^{10}$ & $6,76 \cdot 10^{-8}$ & $6,76 \cdot 10^{-17}$ \\ \hline
-		$3 \cdot 10^{10}$ & $1,69 \cdot 10^{-7}$ & $1,69 \cdot 10^{-16}$ \\ \hline
-		$1 \cdot 10^{10}$ & $3,09 \cdot 10^{-8}$ & $1,33 \cdot 10^{-17}$ \\ \hline
-		$6 \cdot 10^{9}$ & $4,79 \cdot 10^{-8}$ & $4,79 \cdot 10^{-17}$ \\ \hline
-		$4 \cdot 10^{9}$ & $5,72 \cdot 10^{-8}$ & $5,72 \cdot 10^{-17}$ \\ \hline
-		$3,5 \cdot 10^{9}$ & $9,8 \cdot 10^{8}$ & $9,8 \cdot 10^{-1}$ \\ \hline
-		$3 \cdot 10^{9}$ & $9,8 \cdot 10^{8}$ & $9,8 \cdot 10^{-1}$ \\ \hline
-		$1 \cdot 10^{9}$ & $9,8 \cdot 10^{8}$ & $9,8 \cdot 10^{-1}$ \\ \hline
-		$6 \cdot 10^{8}$ & $9,8 \cdot 10^{8}$ & $9,8 \cdot 10^{-1}$ \\ \hline
-		$3 \cdot 10^{8}$ & $9,8 \cdot 10^{8}$ & $9,8 \cdot 10^{-1}$ \\ \hline
+		$C(0)$ [liczba komórek] & $T(120)$ [liczba komórek] & Objêtoœæ nowotworu [$mm^{3}$] \\ \hline
+		$6 \cdot 10^{10}$ & $6,76 \cdot 10^{-8}$ & $6,76 \cdot 10^{-14}$ \\ \hline
+		$3 \cdot 10^{10}$ & $1,69 \cdot 10^{-7}$ & $1,69 \cdot 10^{-13}$ \\ \hline
+		$1 \cdot 10^{10}$ & $3,09 \cdot 10^{-8}$ & $1,33 \cdot 10^{-14}$ \\ \hline
+		$6 \cdot 10^{9}$ & $4,79 \cdot 10^{-8}$ & $4,79 \cdot 10^{-14}$ \\ \hline
+		$4 \cdot 10^{9}$ & $5,72 \cdot 10^{-8}$ & $5,72 \cdot 10^{-14}$ \\ \hline
+		$3,5 \cdot 10^{9}$ & $9,8 \cdot 10^{8}$ & $980$ \\ \hline
+		$3 \cdot 10^{9}$ & $9,8 \cdot 10^{8}$ & $980$ \\ \hline
+		$1 \cdot 10^{9}$ & $9,8 \cdot 10^{8}$ & $980$ \\ \hline
+		$6 \cdot 10^{8}$ & $9,8 \cdot 10^{8}$ & $980$ \\ \hline
+		$3 \cdot 10^{8}$ & $9,8 \cdot 10^{8}$ & $980$ \\ \hline
 		\end{tabular}
 \end{table}
 
-Zmiany liczby komórek badanych populacji - komórek nowotworowych $T(t)$, komórek NK $N(t)$, limfocytów $T_{CD8+}$ $L(t)$ i~limfocytów kr¹¿¹cych $C(t)$ przedstawiono na~wykresach (Rys. \ref{zmiany_liczby_kom_4_populacjiC}). Na~pierwszym z~nich (Rys. \ref{bez_lecz_stlumienieC}) nowotwór zostaje st³umiony przez odpowiednio silny system immunologiczny -- liczba komórek nowotworowych stabilizuje siê oko³o wartoœci 0. Na~drugim wykresie (Rys. \ref{bez_lecz_brak_stlumieniaC}) liczba komórek nowotworowych stabilizuje siê oko³o wartoœci $9,8 \cdot 10^{8}$. Uk³ad immunologiczny ze wzglêdu na~zmniejszon¹ liczbê kr¹¿¹cych limfocytów jest zbyt s³aby, by zniszczyæ komórki nowotworu.
+Zmiany liczby komórek badanych populacji - komórek nowotworowych $T(t)$, komórek NK $N(t)$, limfocytów $T_{CD8+}$ $L(t)$ i~limfocytów kr¹¿¹cych $C(t)$ przedstawiono na~wykresach (Rys. \ref{zmiany_liczby_kom_4_populacjiC}). Na~pierwszym z~nich (Rys. \ref{bez_lecz_stlumienieC}) nowotwór zostaje st³umiony przez odpowiednio silny system immunologiczny. Na~drugim wykresie (Rys. \ref{bez_lecz_brak_stlumieniaC}) liczba komórek nowotworowych stabilizuje siê oko³o wartoœci $9,8 \cdot 10^{8}$. Uk³ad immunologiczny ze wzglêdu na~zmniejszon¹ liczbê kr¹¿¹cych limfocytów jest zbyt s³aby, by zniszczyæ komórki nowotworu.
 
 \begin{figure}
 \centering
-\subfloat[Zmiany liczby komórek badanych populacji dla wartoœci pocz¹tkowej $C(0) = 6 \cdot 10^{6}$. Stabilizacja liczby komórek nowotworowych oko³o wartoœci 0.]{\label{bez_lecz_stlumienieC}
+\subfloat[Zmiany liczby komórek badanych populacji dla wartoœci pocz¹tkowej $C(0) = 6 \cdot 10^{6}$. Regresja nowotworu po czasie T $\approx$ 7 dni.]{\label{bez_lecz_stlumienieC}
 \includegraphics[width=0.85\textwidth]{bez_lecz1m}}
 \quad
-\subfloat[Zmiany liczby komórek badanych populacji dla wartoœci pocz¹tkowej $C(0) = 3,5 \cdot 10^{9}$. Stabilizacja liczby komórek nowotworowych oko³o wartoœci $9,8 \cdot 10^{8}$.]{\label{bez_lecz_brak_stlumieniaC}
+\subfloat[Zmiany liczby komórek badanych populacji dla wartoœci pocz¹tkowej $C(0) = 3,5 \cdot 10^{9}$. Stabilizacja liczby komórek nowotworowych oko³o wartosci $9,8 \cdot 10^{8}$.]{\label{bez_lecz_brak_stlumieniaC}
 \includegraphics[width=0.85\textwidth]{bez_leczCm}}
 \caption{Wykresy zmian liczby komórek badanych populacji -- komórek nowotworowych $T(t)$, komórek NK $N(t)$, limfocytów $T_{CD8+}$ $L(t)$ i~limfocytów kr¹¿¹cych $C(t)$.}
 \label{zmiany_liczby_kom_4_populacjiC}
@@ -479,7 +486,7 @@ Zmiany wielkoœci nowotworu po czasie t = 120 dni w~zale¿noœci od~pocz¹tkowej lic
 \begin{figure}[!htb]
 	\centering
 	\includegraphics[width=1\textwidth]{wykres_bez_lecz_t120_c0}
-	\caption{Liczba komórek nowotworu po czasie symulacji t = 120 dni w~zale¿noœci od~pocz¹tkowej liczby kr¹¿¹cych limfocytów $C(0)$ \cite{7}.}\label{wykres_bez_lecz_t120_c0} 
+	\caption{Liczba komórek nowotworu po czasie symulacji t = 120 dni w~zale¿noœci od~pocz¹tkowej liczby kr¹¿¹cych limfocytów $C(0)$.}\label{wykres_bez_lecz_t120_c0} 
 \end{figure}
 
 Wnioski:
