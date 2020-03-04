@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6500) (preloaded format=pdflatex 2017.12.11)  4 MAR 2020 18:46
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6500) (preloaded format=pdflatex 2017.12.11)  4 MAR 2020 23:24
 entering extended mode
 **./ImmunochemiotherapyModel.tex
 (ImmunochemiotherapyModel.tex
@@ -552,24 +552,18 @@ LaTeX Warning: Text page 6 contains only floats.
 Overfull \vbox (3.2086pt too high) has occurred while \output is active []
 
 
-[6 <./rysunki/Limf_TT2.jpg>]
-Overfull \hbox (3.71098pt too wide) in paragraph at lines 121--123
-[]\OT4/cmr/m/n/12 Interferon jest sub-stan-cj¡ o wy-ra¹-nym po-wi-no-wac-twie d
-o ko-mó-rek ner-wo-wych i w du-
- []
-
-[7] [8]
+[6 <./rysunki/Limf_TT2.jpg>] [7] [8]
 Rozdzia\PlPrIeC {\l } 3.
 [9
 
 ]
-Overfull \hbox (4.5596pt too wide) in paragraph at lines 180--181
+Overfull \hbox (4.5596pt too wide) in paragraph at lines 175--176
 []\OT4/cmr/m/n/12 W nie-swo-istej czyn-nej im-mu-no-te-ra-pii po-bu-dza-ny jest
  ukªad od-por-no-±cio-wy, a zwªasz-
  []
 
 [10]
-Overfull \hbox (5.1512pt too wide) in paragraph at lines 200--201
+Overfull \hbox (5.1512pt too wide) in paragraph at lines 195--196
 \OT4/cmr/m/n/12 sze-nie ma-sy gu-za u cho-rych z miej-sco-wo za-awan-so-wa-nym 
 no-wo-two-rem i umo»-
  []
@@ -579,46 +573,46 @@ Rozdzia\PlPrIeC {\l } 4.
 [12
 
 ]
-Overfull \hbox (55.01906pt too wide) detected at line 259
+Overfull \hbox (55.01906pt too wide) detected at line 254
 []
  []
 
 [13]
-Underfull \hbox (badness 10000) in paragraph at lines 271--272
+Underfull \hbox (badness 10000) in paragraph at lines 266--267
 
  []
 
 LaTeX Font Info:    External font `plex10' loaded for size
-(Font)              <14.4> on input line 290.
+(Font)              <14.4> on input line 285.
 [14] [15] [16]
-Underfull \hbox (badness 1577) in paragraph at lines 368--368
+Underfull \hbox (badness 1577) in paragraph at lines 363--363
 []\OT4/cmr/m/n/12 Wspóªczynnik ska-lo-wa-nia si-ªy ukªa-du
  []
 
 
-Overfull \hbox (7.2629pt too wide) in paragraph at lines 361--379
+Overfull \hbox (7.2629pt too wide) in paragraph at lines 356--374
  [][] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 393--393
+Underfull \hbox (badness 10000) in paragraph at lines 388--388
 []\OT4/cmr/m/n/12 Tempo roz-pa-du te-ra-peu-tycz-ne-go
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 395--395
+Underfull \hbox (badness 10000) in paragraph at lines 390--390
 []\OT4/cmr/m/n/12 Dezaktywacja mo-le-kuª interleukiny-2
  []
 
 
-Overfull \hbox (5.3349pt too wide) in paragraph at lines 382--398
+Overfull \hbox (5.3349pt too wide) in paragraph at lines 377--393
  [][] 
  []
 
 [17] [18]
 Rozdzia\PlPrIeC {\l } 5.
 
-Overfull \hbox (4.19926pt too wide) in paragraph at lines 401--402
+Overfull \hbox (4.19926pt too wide) in paragraph at lines 396--397
 []\OT4/cmr/m/n/12 W pra-cy prze-pro-wa-dzo-no mo-de-lo-wa-nie od-po-wie-dzi ukª
 a-du im-mu-no-lo-gicz-ne-go na roz-
  []
@@ -627,48 +621,48 @@ a-du im-mu-no-lo-gicz-ne-go na roz-
 
 ]
 LaTeX Font Info:    External font `plex10' loaded for size
-(Font)              <10.95> on input line 432.
+(Font)              <10.95> on input line 427.
 <./rysunki/bez_lecz1m.jpg, id=90, 562.1pt x 421.575pt>
 File: ./rysunki/bez_lecz1m.jpg Graphic file (type jpg)
 <use ./rysunki/bez_lecz1m.jpg>
-Package pdftex.def Info: ./rysunki/bez_lecz1m.jpg  used on input line 456.
+Package pdftex.def Info: ./rysunki/bez_lecz1m.jpg  used on input line 451.
 (pdftex.def)             Requested size: 374.86775pt x 281.14793pt.
 <./rysunki/bez_lecz3m.jpg, id=91, 562.1pt x 421.575pt>
 File: ./rysunki/bez_lecz3m.jpg Graphic file (type jpg)
 <use ./rysunki/bez_lecz3m.jpg>
-Package pdftex.def Info: ./rysunki/bez_lecz3m.jpg  used on input line 459.
+Package pdftex.def Info: ./rysunki/bez_lecz3m.jpg  used on input line 454.
 (pdftex.def)             Requested size: 374.86775pt x 281.14793pt.
 
 
-LaTeX Warning: Float too large for page by 21.98657pt on input line 462.
+LaTeX Warning: Float too large for page by 21.98657pt on input line 457.
 
 [20] [21 <./rysunki/bez_lecz1m.jpg> <./rysunki/bez_lecz3m.jpg>]
 <./rysunki/wykres_bez_lecz_t120_t0.jpg, id=100, 478.78876pt x 296.60812pt>
 File: ./rysunki/wykres_bez_lecz_t120_t0.jpg Graphic file (type jpg)
 <use ./rysunki/wykres_bez_lecz_t120_t0.jpg>
 Package pdftex.def Info: ./rysunki/wykres_bez_lecz_t120_t0.jpg  used on input l
-ine 469.
+ine 464.
 (pdftex.def)             Requested size: 441.01773pt x 273.20863pt.
  [22 <./rysunki/wykres_bez_lecz_t120_t0.jpg>]
 File: ./rysunki/bez_lecz1m.jpg Graphic file (type jpg)
 <use ./rysunki/bez_lecz1m.jpg>
-Package pdftex.def Info: ./rysunki/bez_lecz1m.jpg  used on input line 507.
+Package pdftex.def Info: ./rysunki/bez_lecz1m.jpg  used on input line 502.
 (pdftex.def)             Requested size: 374.86775pt x 281.14793pt.
 <./rysunki/bez_leczCm.jpg, id=104, 562.1pt x 421.575pt>
 File: ./rysunki/bez_leczCm.jpg Graphic file (type jpg)
 <use ./rysunki/bez_leczCm.jpg>
-Package pdftex.def Info: ./rysunki/bez_leczCm.jpg  used on input line 510.
+Package pdftex.def Info: ./rysunki/bez_leczCm.jpg  used on input line 505.
 (pdftex.def)             Requested size: 374.86775pt x 281.14793pt.
 
 
-LaTeX Warning: Float too large for page by 21.98657pt on input line 513.
+LaTeX Warning: Float too large for page by 21.98657pt on input line 508.
 
 [23] [24 <./rysunki/bez_leczCm.jpg>]
 <./rysunki/wykres_bez_lecz_t120_c0.jpg, id=111, 478.78876pt x 297.36093pt>
 File: ./rysunki/wykres_bez_lecz_t120_c0.jpg Graphic file (type jpg)
 <use ./rysunki/wykres_bez_lecz_t120_c0.jpg>
 Package pdftex.def Info: ./rysunki/wykres_bez_lecz_t120_c0.jpg  used on input l
-ine 520.
+ine 515.
 (pdftex.def)             Requested size: 441.01773pt x 273.90205pt.
  [25 <./rysunki/wykres_bez_lecz_t120_c0.jpg>] [26]
 Rozdzia\PlPrIeC {\l } 6.
@@ -687,7 +681,7 @@ Rozdzia\PlPrIeC {\l } 8.
 ]) (Dodatek.tex [31]
 Rozdzia\PlPrIeC {\l } 9.
 
-Overfull \hbox (3.37805pt too wide) in paragraph at lines 8--19
+Overfull \hbox (3.37805pt too wide) in paragraph at lines 8--21
  [][] 
  []
 
@@ -722,7 +716,7 @@ public/pl/plr8.pfb><C:/Users/Ania/AppData/Roaming/MiKTeX/2.9/fonts/type1/public
 plsl12.pfb><C:/Users/Ania/AppData/Roaming/MiKTeX/2.9/fonts/type1/public/pl/plsy
 10.pfb><C:/Users/Ania/AppData/Roaming/MiKTeX/2.9/fonts/type1/public/pl/plsy8.pf
 b>
-Output written on ImmunochemiotherapyModel.pdf (36 pages, 445901 bytes).
+Output written on ImmunochemiotherapyModel.pdf (36 pages, 446112 bytes).
 PDF statistics:
  191 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
