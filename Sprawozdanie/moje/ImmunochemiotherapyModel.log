@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6500) (preloaded format=pdflatex 2017.12.11)  20 MAR 2020 15:46
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6500) (preloaded format=pdflatex 2017.12.11)  21 MAR 2020 20:11
 entering extended mode
 **./ImmunochemiotherapyModel.tex
 (ImmunochemiotherapyModel.tex
@@ -628,7 +628,7 @@ Overfull \hbox (52.19843pt too wide) in paragraph at lines 51--69
  []
 
 [4]
-<./rysunki/Limf_TT2.jpg, id=318, 522.45187pt x 1002.74625pt>
+<./rysunki/Limf_TT2.jpg, id=321, 522.45187pt x 1002.74625pt>
 File: ./rysunki/Limf_TT2.jpg Graphic file (type jpg)
 <use ./rysunki/Limf_TT2.jpg>
 Package pdftex.def Info: ./rysunki/Limf_TT2.jpg  used on input line 98.
@@ -745,51 +745,65 @@ a-du im-mu-no-lo-gicz-ne-go na roz-
 [20
 
 ]
+Underfull \hbox (badness 10000) in paragraph at lines 414--415
+
+ []
+
 LaTeX Font Info:    External font `plex10' loaded for size
-(Font)              <10.95> on input line 411.
-<./rysunki/bez_lecz1m.jpg, id=482, 562.1pt x 421.575pt>
+(Font)              <10.95> on input line 417.
+<./rysunki/bez_lecz1m.jpg, id=484, 562.1pt x 421.575pt>
 File: ./rysunki/bez_lecz1m.jpg Graphic file (type jpg)
 <use ./rysunki/bez_lecz1m.jpg>
-Package pdftex.def Info: ./rysunki/bez_lecz1m.jpg  used on input line 435.
+Package pdftex.def Info: ./rysunki/bez_lecz1m.jpg  used on input line 440.
 (pdftex.def)             Requested size: 374.86775pt x 281.14793pt.
-<./rysunki/bez_lecz3m.jpg, id=483, 562.1pt x 421.575pt>
+<./rysunki/bez_lecz3m.jpg, id=485, 562.1pt x 421.575pt>
 File: ./rysunki/bez_lecz3m.jpg Graphic file (type jpg)
 <use ./rysunki/bez_lecz3m.jpg>
-Package pdftex.def Info: ./rysunki/bez_lecz3m.jpg  used on input line 438.
+Package pdftex.def Info: ./rysunki/bez_lecz3m.jpg  used on input line 443.
 (pdftex.def)             Requested size: 374.86775pt x 281.14793pt.
 
-
-LaTeX Warning: Float too large for page by 31.98657pt on input line 441.
+LaTeX Warning: Float too large for page by 59.18658pt on input line 446.
 
 [21] [22 <./rysunki/bez_lecz1m.jpg> <./rysunki/bez_lecz3m.jpg>]
-<./rysunki/wykres_bez_lecz_t120_t0.jpg, id=498, 478.78876pt x 296.60812pt>
+Underfull \hbox (badness 10000) in paragraph at lines 449--453
+
+ []
+
+<./rysunki/wykres_bez_lecz_t120_t0.jpg, id=502, 478.78876pt x 296.60812pt>
 File: ./rysunki/wykres_bez_lecz_t120_t0.jpg Graphic file (type jpg)
 <use ./rysunki/wykres_bez_lecz_t120_t0.jpg>
 Package pdftex.def Info: ./rysunki/wykres_bez_lecz_t120_t0.jpg  used on input l
-ine 448.
+ine 456.
 (pdftex.def)             Requested size: 441.01773pt x 273.20863pt.
- [23 <./rysunki/wykres_bez_lecz_t120_t0.jpg>]
+[23 <./rysunki/wykres_bez_lecz_t120_t0.jpg>]
+Underfull \hbox (badness 10000) in paragraph at lines 475--476
+
+ []
+
 File: ./rysunki/bez_lecz1m.jpg Graphic file (type jpg)
 <use ./rysunki/bez_lecz1m.jpg>
-Package pdftex.def Info: ./rysunki/bez_lecz1m.jpg  used on input line 486.
+Package pdftex.def Info: ./rysunki/bez_lecz1m.jpg  used on input line 501.
 (pdftex.def)             Requested size: 374.86775pt x 281.14793pt.
-<./rysunki/bez_leczCm.jpg, id=508, 562.1pt x 421.575pt>
+<./rysunki/bez_leczCm.jpg, id=511, 562.1pt x 421.575pt>
 File: ./rysunki/bez_leczCm.jpg Graphic file (type jpg)
 <use ./rysunki/bez_leczCm.jpg>
-Package pdftex.def Info: ./rysunki/bez_leczCm.jpg  used on input line 489.
+Package pdftex.def Info: ./rysunki/bez_leczCm.jpg  used on input line 504.
 (pdftex.def)             Requested size: 374.86775pt x 281.14793pt.
 
-
-LaTeX Warning: Float too large for page by 31.98657pt on input line 492.
+LaTeX Warning: Float too large for page by 59.18658pt on input line 507.
 
 [24] [25 <./rysunki/bez_leczCm.jpg>]
-<./rysunki/wykres_bez_lecz_t120_c0.jpg, id=520, 478.78876pt x 297.36093pt>
+Underfull \hbox (badness 10000) in paragraph at lines 510--512
+
+ []
+
+<./rysunki/wykres_bez_lecz_t120_c0.jpg, id=525, 478.78876pt x 297.36093pt>
 File: ./rysunki/wykres_bez_lecz_t120_c0.jpg Graphic file (type jpg)
 <use ./rysunki/wykres_bez_lecz_t120_c0.jpg>
 Package pdftex.def Info: ./rysunki/wykres_bez_lecz_t120_c0.jpg  used on input l
-ine 499.
+ine 515.
 (pdftex.def)             Requested size: 441.01773pt x 273.90205pt.
- [26 <./rysunki/wykres_bez_lecz_t120_c0.jpg>] [27]
+[26 <./rysunki/wykres_bez_lecz_t120_c0.jpg>] [27]
 Rozdzia\PlPrIeC {\l } 6.
 [28
 
@@ -820,13 +834,13 @@ Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 42.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 42.
 Package rerunfilecheck Info: File `ImmunochemiotherapyModel.out' has not change
 d.
-(rerunfilecheck)             Checksum: 88422656C7B89049299F05D96D398988;2655.
+(rerunfilecheck)             Checksum: 7EFB9A05C0C5E4B88A20B5671E48F56F;2684.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 42.
  ) 
 Here is how much of TeX's memory you used:
- 9522 strings out of 493312
- 143189 string characters out of 3136354
- 268583 words of memory out of 3000000
+ 9523 strings out of 493312
+ 143193 string characters out of 3136354
+ 269583 words of memory out of 3000000
  12755 multiletter control sequences out of 15000+200000
  20002 words of font info for 60 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -850,9 +864,9 @@ a/AppData/Roaming/MiKTeX/2.9/fonts/type1/public/pl/plsl10.pfb><C:/Users/Ania/Ap
 pData/Roaming/MiKTeX/2.9/fonts/type1/public/pl/plsl12.pfb><C:/Users/Ania/AppDat
 a/Roaming/MiKTeX/2.9/fonts/type1/public/pl/plsy10.pfb><C:/Users/Ania/AppData/Ro
 aming/MiKTeX/2.9/fonts/type1/public/pl/plsy8.pfb>
-Output written on ImmunochemiotherapyModel.pdf (37 pages, 508519 bytes).
+Output written on ImmunochemiotherapyModel.pdf (37 pages, 511675 bytes).
 PDF statistics:
- 642 PDF objects out of 1000 (max. 8388607)
- 137 named destinations out of 1000 (max. 500000)
+ 647 PDF objects out of 1000 (max. 8388607)
+ 138 named destinations out of 1000 (max. 500000)
  335 words of extra memory for PDF output out of 10000 (max. 10000000)
 

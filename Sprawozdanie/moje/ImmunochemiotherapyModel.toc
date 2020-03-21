@@ -25,7 +25,7 @@
 \contentsline {section}{\numberline {4.2}Model uwzgl\k edniaj\k acy proces leczenia}{15}{section.4.2}
 \contentsline {subsection}{\numberline {4.2.1}R\'ownania i opis modelu}{15}{subsection.4.2.1}
 \contentsline {chapter}{\numberline {5.}Symulacje}{20}{chapter.5}
-\contentsline {section}{\numberline {5.1}Odpowied\'z uk\IeC {\l }adu immunologicznego na\nobreakspace {}nowotw\'or -- brak leczenia}{21}{section.5.1}
+\contentsline {section}{\numberline {5.1}Odpowied\'z uk\IeC {\l }adu immunologicznego na\nobreakspace {}rozwijaj\k acy si\k e w\nobreakspace {}organizmie nowotw\'or -- brak leczenia}{21}{section.5.1}
 \contentsline {subsection}{\numberline {5.1.1}Scenariusz I}{21}{subsection.5.1.1}
 \contentsline {subsection}{\numberline {5.1.2}Scenariusz II}{24}{subsection.5.1.2}
 \contentsline {section}{\numberline {5.2}Leczenie metod\k a chemioterapii}{27}{section.5.2}
