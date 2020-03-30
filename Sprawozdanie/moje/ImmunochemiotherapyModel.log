@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6500) (preloaded format=pdflatex 2017.12.11)  28 MAR 2020 18:20
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6500) (preloaded format=pdflatex 2017.12.11)  30 MAR 2020 20:37
 entering extended mode
 **./ImmunochemiotherapyModel.tex
 (ImmunochemiotherapyModel.tex
@@ -765,19 +765,19 @@ Package pdftex.def Info: ./rysunki/bez_lecz3m.jpg  used on input line 442.
 LaTeX Warning: Float too large for page by 59.18658pt on input line 445.
 
 [21] [22] [23 <./rysunki/bez_lecz1m.jpg> <./rysunki/bez_lecz3m.jpg>]
-<./rysunki/wykres_bez_lecz_t120_t0.jpg, id=511, 632.3625pt x 383.18156pt>
+<./rysunki/wykres_bez_lecz_t120_t0.jpg, id=511, 630.10406pt x 382.42876pt>
 File: ./rysunki/wykres_bez_lecz_t120_t0.jpg Graphic file (type jpg)
 <use ./rysunki/wykres_bez_lecz_t120_t0.jpg>
 Package pdftex.def Info: ./rysunki/wykres_bez_lecz_t120_t0.jpg  used on input l
 ine 455.
-(pdftex.def)             Requested size: 441.01773pt x 267.24298pt.
+(pdftex.def)             Requested size: 441.01773pt x 267.66911pt.
  [24 <./rysunki/wykres_bez_lecz_t120_t0.jpg>]
-<./rysunki/wykres_bez_lecz_promien_t0.jpg, id=517, 749.80125pt x 430.60875pt>
+<./rysunki/wykres_bez_lecz_promien_t0.jpg, id=517, 629.35126pt x 384.6872pt>
 File: ./rysunki/wykres_bez_lecz_promien_t0.jpg Graphic file (type jpg)
 <use ./rysunki/wykres_bez_lecz_promien_t0.jpg>
 Package pdftex.def Info: ./rysunki/wykres_bez_lecz_promien_t0.jpg  used on inpu
 t line 464.
-(pdftex.def)             Requested size: 441.01773pt x 253.27505pt.
+(pdftex.def)             Requested size: 441.01773pt x 269.56682pt.
  [25 <./rysunki/wykres_bez_lecz_promien_t0.jpg>]
 Underfull \hbox (badness 10000) in paragraph at lines 483--484
 
@@ -800,19 +800,19 @@ Underfull \hbox (badness 10000) in paragraph at lines 518--520
 
  []
 
-<./rysunki/wykres_bez_lecz_t120_c0.jpg, id=541, 670.75594pt x 402.75468pt>
+<./rysunki/wykres_bez_lecz_t120_c0.jpg, id=541, 632.3625pt x 379.4175pt>
 File: ./rysunki/wykres_bez_lecz_t120_c0.jpg Graphic file (type jpg)
 <use ./rysunki/wykres_bez_lecz_t120_c0.jpg>
 Package pdftex.def Info: ./rysunki/wykres_bez_lecz_t120_c0.jpg  used on input l
 ine 523.
-(pdftex.def)             Requested size: 441.01773pt x 264.80489pt.
+(pdftex.def)             Requested size: 441.01773pt x 264.6178pt.
 [28 <./rysunki/wykres_bez_lecz_t120_c0.jpg>]
-<./rysunki/wykres_bez_lecz_promien_c0.jpg, id=547, 601.4972pt x 364.36125pt>
+<./rysunki/wykres_bez_lecz_promien_c0.jpg, id=547, 626.34pt x 381.67593pt>
 File: ./rysunki/wykres_bez_lecz_promien_c0.jpg Graphic file (type jpg)
 <use ./rysunki/wykres_bez_lecz_promien_c0.jpg>
 Package pdftex.def Info: ./rysunki/wykres_bez_lecz_promien_c0.jpg  used on inpu
 t line 532.
-(pdftex.def)             Requested size: 441.01773pt x 267.16014pt.
+(pdftex.def)             Requested size: 441.01773pt x 268.75543pt.
  [29 <./rysunki/wykres_bez_lecz_promien_c0.jpg>] [30]
 Rozdzia\PlPrIeC {\l } 6.
 [31
@@ -874,7 +874,7 @@ a/AppData/Roaming/MiKTeX/2.9/fonts/type1/public/pl/plsl10.pfb><C:/Users/Ania/Ap
 pData/Roaming/MiKTeX/2.9/fonts/type1/public/pl/plsl12.pfb><C:/Users/Ania/AppDat
 a/Roaming/MiKTeX/2.9/fonts/type1/public/pl/plsy10.pfb><C:/Users/Ania/AppData/Ro
 aming/MiKTeX/2.9/fonts/type1/public/pl/plsy8.pfb>
-Output written on ImmunochemiotherapyModel.pdf (40 pages, 626420 bytes).
+Output written on ImmunochemiotherapyModel.pdf (40 pages, 609804 bytes).
 PDF statistics:
  669 PDF objects out of 1000 (max. 8388607)
  141 named destinations out of 1000 (max. 500000)
