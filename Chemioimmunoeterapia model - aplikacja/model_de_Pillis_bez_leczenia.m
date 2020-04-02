@@ -8,27 +8,31 @@ C = x(4);
 % ustawienie parametrów
 a = 4.31e-1;
 b = 1.02e-9;
-c = 2.9077e-13;
+c = 6.41e-11;
 d = 2.34;
 e = 2.08e-7;
 l = 2.09;
-f = 1.25e-2;
-jj = 1.245e-2;
-k = 2.019e7;
-p = 2.794e-13;
-s = 3.8e-3;
-r1 = 2.9077e-11;
-r2 = 5.8467e-13;
+f = 4.12e-2;
+g = 1.25e-2;
+h = 2.02e7;
+jj = 2.49e-2;
+k = 3.66e7;
+m = 2.04e-1;
+q = 1.42e-6;
+p = 3.42e-6;
+s = 8.39e-2;
+r1 = 1.1e-7;
+r2 = 6.5e-11;
+u = 3e-10;
 alfa = 7.5e8;
-beta = 6.3e-3;
-q = 3.422e-10;
+beta = 1.2e-2;
 
 D = count_D(d, L, T, s, l);
 
 % równania modelu
 dTdt = (a * T *(1 - (b * T))) - (c * N * T) - (D * T);
-dNdt = (e * C) - (f * N) - (p * N * T);
-dLdt = (jj*(T/(k+T))*L) - (q * L * T) + (((r1 * N) + (r2 * C)) * T);
+dNdt = (e * C) - (f * N) + (g * ((T^2) / (h + (T^2))) * N) - (p * N * T);
+dLdt = ((-m) * L) + (jj * ((D^2 * T^2) / (k + (D^2 * T^2))) * L) - (q * L * T) + (((r1 * N) + (r2 * C)) * T) - (u * N * (L^2));
 dCdt = alfa - (beta * C);
 
 rownania = [dTdt; dNdt; dLdt; dCdt];

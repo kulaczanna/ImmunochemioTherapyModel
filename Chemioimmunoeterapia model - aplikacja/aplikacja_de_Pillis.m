@@ -2,7 +2,7 @@ clc; clear all
 close all
 format long
 
-n = 2; %
+n = 1; %
 
 switch n
     case 1

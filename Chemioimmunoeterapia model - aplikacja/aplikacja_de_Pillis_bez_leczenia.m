@@ -16,10 +16,11 @@ switch n
         L_0 = 1e1;% CD8+T cells L(t)
         C_0 = 6e8;% cell C(t)
 end
+       
 
 x = [T_0; N_0; L_0; C_0]; % parametry wejœciowe  uk³adu równañ bez sk³adowych leczenia
 
-[t,y] = ode45(@model_immuno_chemio_therapy_bez_leczenia, [0 120], x); % rozwi¹zanie uk³adu równañ ró¿niczkowych
+[t,y] = ode45(@model_de_Pillis_bez_leczenia, [0 120], x); % rozwi¹zanie uk³adu równañ ró¿niczkowych
 
 % wyœwietlenie wykresów
 figure

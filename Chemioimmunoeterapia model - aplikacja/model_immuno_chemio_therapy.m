@@ -1,4 +1,4 @@
-function rownania = model_immuno_chemio_therapy(t, x)
+function rownania = model_Immuno_Chemio_Therapy(t, x)
 
 K_T = 0;
 K_N = 0;
