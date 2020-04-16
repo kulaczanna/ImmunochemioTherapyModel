@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6500) (preloaded format=pdflatex 2017.12.11)  2 APR 2020 15:09
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6500) (preloaded format=pdflatex 2017.12.11)  17 APR 2020 00:47
 entering extended mode
 **./ImmunochemiotherapyModel.tex
 (ImmunochemiotherapyModel.tex
@@ -751,13 +751,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 413--414
 
 LaTeX Font Info:    External font `plex10' loaded for size
 (Font)              <10.95> on input line 416.
-<./rysunki/bez_lecz_sym1_regresja.jpg, id=489, 562.1pt x 421.575pt>
+<./rysunki/bez_lecz_sym1_regresja.jpg, id=491, 562.1pt x 421.575pt>
 File: ./rysunki/bez_lecz_sym1_regresja.jpg Graphic file (type jpg)
 <use ./rysunki/bez_lecz_sym1_regresja.jpg>
 Package pdftex.def Info: ./rysunki/bez_lecz_sym1_regresja.jpg  used on input li
 ne 439.
 (pdftex.def)             Requested size: 374.86775pt x 281.14793pt.
-<./rysunki/bez_lecz_sym1_progres.jpg, id=490, 562.1pt x 421.575pt>
+<./rysunki/bez_lecz_sym1_progres.jpg, id=492, 562.1pt x 421.575pt>
 File: ./rysunki/bez_lecz_sym1_progres.jpg Graphic file (type jpg)
 <use ./rysunki/bez_lecz_sym1_progres.jpg>
 Package pdftex.def Info: ./rysunki/bez_lecz_sym1_progres.jpg  used on input lin
@@ -768,14 +768,14 @@ LaTeX Warning: Float too large for page by 59.18658pt on input line 445.
 
 [21] [22] [23 <./rysunki/bez_lecz_sym1_regresja.jpg> <./rysunki/bez_lecz_sym1_p
 rogres.jpg>]
-<./rysunki/wykres_bez_lecz_t120_t0.jpg, id=511, 630.10406pt x 382.42876pt>
+<./rysunki/wykres_bez_lecz_t120_t0.jpg, id=513, 630.10406pt x 382.42876pt>
 File: ./rysunki/wykres_bez_lecz_t120_t0.jpg Graphic file (type jpg)
 <use ./rysunki/wykres_bez_lecz_t120_t0.jpg>
 Package pdftex.def Info: ./rysunki/wykres_bez_lecz_t120_t0.jpg  used on input l
 ine 455.
 (pdftex.def)             Requested size: 441.01773pt x 267.66911pt.
  [24 <./rysunki/wykres_bez_lecz_t120_t0.jpg>]
-<./rysunki/wykres_bez_lecz_promien_t0.jpg, id=517, 629.35126pt x 384.6872pt>
+<./rysunki/wykres_bez_lecz_promien_t0.jpg, id=519, 629.35126pt x 384.6872pt>
 File: ./rysunki/wykres_bez_lecz_promien_t0.jpg Graphic file (type jpg)
 <use ./rysunki/wykres_bez_lecz_promien_t0.jpg>
 Package pdftex.def Info: ./rysunki/wykres_bez_lecz_promien_t0.jpg  used on inpu
@@ -786,13 +786,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 483--484
 
  []
 
-<./rysunki/bez_lecz_sym2_regresja.jpg, id=526, 562.1pt x 421.575pt>
+<./rysunki/bez_lecz_sym2_regresja.jpg, id=528, 562.1pt x 421.575pt>
 File: ./rysunki/bez_lecz_sym2_regresja.jpg Graphic file (type jpg)
 <use ./rysunki/bez_lecz_sym2_regresja.jpg>
 Package pdftex.def Info: ./rysunki/bez_lecz_sym2_regresja.jpg  used on input li
 ne 509.
 (pdftex.def)             Requested size: 374.86775pt x 281.14793pt.
-<./rysunki/bez_lecz_sym2_progres.jpg, id=527, 562.1pt x 421.575pt>
+<./rysunki/bez_lecz_sym2_progres.jpg, id=529, 562.1pt x 421.575pt>
 File: ./rysunki/bez_lecz_sym2_progres.jpg Graphic file (type jpg)
 <use ./rysunki/bez_lecz_sym2_progres.jpg>
 Package pdftex.def Info: ./rysunki/bez_lecz_sym2_progres.jpg  used on input lin
@@ -807,14 +807,14 @@ Underfull \hbox (badness 10000) in paragraph at lines 518--520
 
  []
 
-<./rysunki/wykres_bez_lecz_t120_c0.jpg, id=542, 632.3625pt x 379.4175pt>
+<./rysunki/wykres_bez_lecz_t120_c0.jpg, id=544, 632.3625pt x 379.4175pt>
 File: ./rysunki/wykres_bez_lecz_t120_c0.jpg Graphic file (type jpg)
 <use ./rysunki/wykres_bez_lecz_t120_c0.jpg>
 Package pdftex.def Info: ./rysunki/wykres_bez_lecz_t120_c0.jpg  used on input l
 ine 523.
 (pdftex.def)             Requested size: 441.01773pt x 264.6178pt.
 [28 <./rysunki/wykres_bez_lecz_t120_c0.jpg>]
-<./rysunki/wykres_bez_lecz_promien_c0.jpg, id=548, 626.34pt x 381.67593pt>
+<./rysunki/wykres_bez_lecz_promien_c0.jpg, id=550, 626.34pt x 381.67593pt>
 File: ./rysunki/wykres_bez_lecz_promien_c0.jpg Graphic file (type jpg)
 <use ./rysunki/wykres_bez_lecz_promien_c0.jpg>
 Package pdftex.def Info: ./rysunki/wykres_bez_lecz_promien_c0.jpg  used on inpu
@@ -855,10 +855,10 @@ d.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 42.
  ) 
 Here is how much of TeX's memory you used:
- 9542 strings out of 493312
- 144046 string characters out of 3136354
+ 9544 strings out of 493312
+ 144057 string characters out of 3136354
  270583 words of memory out of 3000000
- 12768 multiletter control sequences out of 15000+200000
+ 12769 multiletter control sequences out of 15000+200000
  20002 words of font info for 60 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  46i,13n,49p,1178b,439s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -881,9 +881,9 @@ a/AppData/Roaming/MiKTeX/2.9/fonts/type1/public/pl/plsl10.pfb><C:/Users/Ania/Ap
 pData/Roaming/MiKTeX/2.9/fonts/type1/public/pl/plsl12.pfb><C:/Users/Ania/AppDat
 a/Roaming/MiKTeX/2.9/fonts/type1/public/pl/plsy10.pfb><C:/Users/Ania/AppData/Ro
 aming/MiKTeX/2.9/fonts/type1/public/pl/plsy8.pfb>
-Output written on ImmunochemiotherapyModel.pdf (40 pages, 630421 bytes).
+Output written on ImmunochemiotherapyModel.pdf (40 pages, 631103 bytes).
 PDF statistics:
- 670 PDF objects out of 1000 (max. 8388607)
- 141 named destinations out of 1000 (max. 500000)
+ 672 PDF objects out of 1000 (max. 8388607)
+ 142 named destinations out of 1000 (max. 500000)
  342 words of extra memory for PDF output out of 10000 (max. 10000000)
 
