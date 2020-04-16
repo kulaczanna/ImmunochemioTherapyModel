@@ -45,13 +45,10 @@ alfa = 7.5e8;
 beta = 6.3e-3;
 gamma = 5.199e-1;
 theta = 2.5036e-3;
-omega = 7.874e-2;
-Omega = 2.38405e-7;
-dzeta = 2.5036e3;
 q = 3.422e-10;
 p_I = 2.971;
 g_I = 2.5036e3;
-mi_I = 11.7427;
+mi_I = 1e1;
 
 D = count_D(d, L, T, s, l);
 
@@ -61,7 +58,7 @@ dNdt = (e * C) - (f * N) - (p * N * T) + ((p_N*N*I)/(g_N+I)) - (K_N * (1 - exp(-
 dLdt = ((theta*m*L)/(theta+I)) + (jj*(T/(k+T))*L) - (q * L * T) + (((r1 * N) + (r2 * C)) * T) - ((u*L^2*C*I)/(kappa+I)) - (K_L * (1 - exp(-delta_L*M)) * L) + ((p_I * L * I) / (g_I + I)) + v_L;
 dCdt = alfa - (beta * C) - (K_C * (1 - exp(-delta_C*M)) * C);
 dMdt = ((-gamma) * M) + v_M;
-dIdt = ((-mi_I) * I) + (Omega*C) + ((omega*L*I)/(dzeta+I)) + v_I;
+dIdt = ((-mi_I) * I) + v_I;
 
 rownania = [dTdt; dNdt; dLdt; dCdt; dMdt; dIdt; 0; 0; 0];
 

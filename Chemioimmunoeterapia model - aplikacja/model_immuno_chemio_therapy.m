@@ -58,8 +58,8 @@ dTdt = (a * T *(1 - (b * T))) - (c * N * T) - (D * T) - (K_T * (1 - (exp(-M))) *
 dNdt = (e * C) - (f * N) + (g * ((T^2) / (h + (T^2))) * N) - (p * N * T) - (K_N * (1 - exp(-M)) * N);
 dLdt = ((-m) * L) + (jj * ((D^2 * T^2) / (k + (D^2 * T^2))) * L) - (q * L * T) + (((r1 * N) + (r2 * C)) * T) - (u * N * (L^2)) - (K_L * (1 - exp(-M)) * L) + ((p_i * L * I) / (g_i)) + v_L;
 dCdt = alfa - (beta * C) - (K_C * (1 - exp(-M)) * C);
-dMdt = ((-gamma) * M) + v_M;
-dIdt = ((-mi_i) * L) - (j_prim * L * I) - (k_prim * T * I) + v_I;
+dMdt = ((-gamma) * M) + V_M;
+dIdt = ((-mi_I) * L) - (j_prim * L * I) - (k_prim * T * I) + V_I;
 dI_alfadt = v_alfa - (g * I_alfa);
 
 rownania = [dTdt; dNdt; dLdt; dCdt; dMdt; 0; 0]; 
