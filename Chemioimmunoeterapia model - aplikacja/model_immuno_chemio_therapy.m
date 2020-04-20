@@ -1,13 +1,9 @@
 function rownania = model_Immuno_Chemio_Therapy(t, x)
 
-K_T = 0;
-K_N = 0;
-K_L = 0;
-K_C = 0;
-V_L = 0;
-V_M = 0;
-V_I = 0;
-% V_alfa = 0;
+K_T = 9e-1;
+K_N = 6e-1;
+K_L = 6e-1;
+K_C = 6e-1;
 
 T = x(1);
 N = x(2);
@@ -15,8 +11,9 @@ L = x(3);
 C = x(4);
 M = x(5);
 I = x(6);
-% I_alfa = x(7);
-% I_alfa0 = x(8);
+I_alfa = x(7);
+I_alfa0 = 10;
+liczba_dni_w_cyklu = x(8);
 
 % ustawienie parametrów
 a = 4.31e-1;
@@ -50,8 +47,8 @@ k_prim = 1.8e-8;
 
 % D = d * (((L / T)^l) / (s + ((L / T)^l))); % tumor inactivation by CD8+T
 D = count_D(d, L, T, s, l);
-% c_prim = c_CTL * (2 - (exp((-I_alfa) / I_alfa0))); % I_alfa, CD8T, tumor interact - inactivation
-c_prim = c_CTL;
+c_prim = c_CTL * (2 - (exp((-I_alfa) / I_alfa0))); % I_alfa, CD8T, tumor interact - inactivation
+% c_prim = c_CTL;
 
 % dawkowanie TIL
  if(t >= 7 && t < 8)
@@ -68,7 +65,18 @@ c_prim = c_CTL;
  else
         V_I = 0;
  end
-
+ 
+ % I_alfa
+   if(t >= 0 && t <= 1 || t >= liczba_dni_w_cyklu && t <= liczba_dni_w_cyklu+1 ...
+            || t >= 2*liczba_dni_w_cyklu && t <= (2*liczba_dni_w_cyklu)+1 ...
+            || t >= 3*liczba_dni_w_cyklu && t <= (3*liczba_dni_w_cyklu)+1)
+        V_I_alfa = 5;
+    else
+        V_I_alfa = 0;
+   end
+ 
+   % chemioterapia
+   V_M = 0;
 
 % równania modelu
 dTdt = (a * T *(1 - (b * T))) - (c * N * T) - (D * T) - (K_T * (1 - (exp(-M))) * T) - (c_prim * T * L);
@@ -79,9 +87,9 @@ dLdt = ((-m) * L) + (jj * ((D^2 * T^2) / (k + (D^2 * T^2))) * L) - (q * L * T) +
 dCdt = alfa - (beta * C) - (K_C * (1 - exp(-M)) * C);
 dMdt = ((-gamma) * M) + V_M;
 dIdt = ((-mi_I) * L) - (j_prim * L * I) - (k_prim * T * I) + V_I;
-% dI_alfadt = v_alfa - (g_prim * I_alfa);
+dI_alfadt = V_I_alfa - (g_prim * I_alfa);
 
-rownania = [dTdt; dNdt; dLdt; dCdt; dMdt; 0]; 
+rownania = [dTdt; dNdt; dLdt; dCdt; dMdt; dIdt; dI_alfadt; 0]; 
 % rownania = [dTdt; dNdt; dLdt; dCdt; dMdt; dIdt; dI_alfadt]; % wektor równañ
 
 end
