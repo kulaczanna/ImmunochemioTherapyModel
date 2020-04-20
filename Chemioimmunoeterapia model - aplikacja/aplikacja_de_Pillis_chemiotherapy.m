@@ -1,7 +1,7 @@
 clc; clear all
 close all
 
-n = 1; % wybór przypadku
+n = 2; % wybór przypadku
 liczba_dni_w_cyklu = 5;
 
 switch n

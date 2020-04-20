@@ -44,7 +44,7 @@ switch n
         L_0 = 1e1;% CD8+T cells L(t)
         C_0 = 6e8;% cell C(t)
         M_0 = 0; % chemo concentration
-        I_0 = 0; % iL-2 concentration
+        I_0 = 0; % IL-2 concentration
         liczba_dni_w_cyklu = 10;
        
     case 6  % immuno nie dziala
@@ -53,16 +53,16 @@ switch n
         L_0 = 1e1;% CD8+T cells L(t)
         C_0 = 6e8;% cell C(t)
         M_0 = 0; % chemo concentration
-        I_0 = 0; % iL-2 concentration
+        I_0 = 0; % IL-2 concentration
         liczba_dni_w_cyklu = 10;
         
     case 7  % combination chemo i IL-2 V_M = 5 .. . . . 
-        T_0 = 2e7;% tumor cells population T(t)
+        T_0 = 1e7;% tumor cells population T(t)
         N_0 = 1e3;% natural killer cells N(t)
         L_0 = 1e1;% CD8+T cells L(t)
         C_0 = 6e8;% cell C(t)
         M_0 = 0; % chemo concentration
-        I_0 = 0; % iL-2 concentration
+        I_0 = 0; % IL-2 concentration
         liczba_dni_w_cyklu = 10;
 end
        
@@ -89,4 +89,10 @@ figure
 plot(t, y(:, 6), 'g');
 legend('IL-2 concentration')
 ylabel('Stê¿enie interleukiny-2')
+xlabel('Czas [dni]')
+
+figure
+plot(t, y(:, 5), 'g');
+legend('chemio concentration')
+ylabel('Stê¿enie cytostatyku')
 xlabel('Czas [dni]')

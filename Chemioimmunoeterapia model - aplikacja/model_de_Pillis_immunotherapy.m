@@ -40,6 +40,10 @@ K_N = 6e-1;
 K_L = 6e-1;
 K_C = 6e-1;
 
+% dawkowanie TIL i IL-2
+p_I = 1.25e-1;
+g_I = 2e7;
+
 % funkcja stê¿enia cytostatyku
     if(t >= 0 && t <= 1 || t >= liczba_dni_w_cyklu && t <= liczba_dni_w_cyklu+1 ...
             || t >= 2*liczba_dni_w_cyklu && t <= (2*liczba_dni_w_cyklu)+1 ...
@@ -53,23 +57,28 @@ K_C = 6e-1;
     else
         V_M = 0;
     end
-    
+
+% dawkowanie TIL
+ if(t >= 7 && t < 8)
+     V_L = 1e9;
+ else
+     V_L = 0;
+ end
 % funkcja stê¿enia interleukiny-2
-    if(t >= 7 && t < 8)
-        L = L + 1e9;
-        V_I = 0;
-    elseif(t >= 8 && t <= 8.45 || t >= 8.7 && t <= 9.15 ...
+ if(t >= 8 && t <= 8.45 || t >= 8.7 && t <= 9.15 ...
             || t >= 9.4 && t <= 9.85 || t >= 10.1 && t <= 10.55 ...
             || t >= 10.8 && t <= 11.25 || t >= 11.5 && t <= 11.85)
-        V_I = 5e5;
-    else
+        V_I = 5e6;
+ else
         V_I = 0;
-    end
+ end
 
 % równania modelu
 dTdt = (a * T *(1 - (b * T))) - (c * N * T) - (D * T) - (K_T * (1 - (exp(-M))) * T);
 dNdt = (e * C) - (f * N) + (g * ((T^2) / (h + (T^2))) * N) - (p * N * T) - (K_N * (1 - (exp(-M))) * N);
-dLdt = ((-m) * L) + (jj * ((D^2 * T^2) / (k + (D^2 * T^2))) * L) - (q * L * T) + (((r1 * N) + (r2 * C)) * T) - (u * N * (L^2)) - (K_L * (1 - (exp(-M))) * L);
+dLdt = ((-m) * L) + (jj * ((D^2 * T^2) / (k + (D^2 * T^2))) * L) - (q * L * T) + ...
+    (((r1 * N) + (r2 * C)) * T) - (u * N * (L^2)) - (K_L * (1 - (exp(-M))) * L) + ...
+    ((p_I * L * I) / (g_I + I)) + V_L;
 dCdt = alfa - (beta * C) - (K_C * (1 - (exp(-M))) * C);
 dMdt = -gamma * M + V_M;
 dIdt = -mi_I * I + V_I;
